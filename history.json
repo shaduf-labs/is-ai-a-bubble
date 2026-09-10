@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "20260910-190905-35c3f357",
+      "status": "completed",
+      "started_at": "2026-09-11T02:10:06.774+07:00",
+      "completed_at": "2026-09-10T19:37:11Z",
+      "report_path": "/p/is-ai-a-bubble/research/first-baseline/",
+      "entrypoint": "research/first-baseline/index.html",
+      "title": "Real profits do not settle the bubble question",
+      "summary": "A sourced baseline separating company results, funding and procurement, productivity designs and unresolved investment returns.",
+      "answer_change": "meaningful_change"
+    }
+  ]
+}

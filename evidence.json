@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "evidence:r01-msft-1",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "source_title": "Microsoft FY2026 Q4 results",
+      "claim": "Microsoft reports positive quarterly revenue and GAAP operating income.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Not AI-only profit, cash flow or return on newly invested capital."
+    },
+    {
+      "evidence_id": "evidence:r01-nvidia-1",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "source_title": "NVIDIA FY2027 Q2 results",
+      "claim": "NVIDIA reports positive quarterly revenue and GAAP operating income.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Supplier earnings do not establish the return earned by compute buyers."
+    },
+    {
+      "evidence_id": "evidence:r01-amazon-investment-1",
+      "source_url": "https://openai.com/index/amazon-partnership/",
+      "source_title": "OpenAI and Amazon announce strategic partnership",
+      "claim": "Amazon investment announcement splits an initial amount and a later conditional amount.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Initial and conditional are announcement descriptions, not confirmation of each cash transfer."
+    },
+    {
+      "evidence_id": "evidence:r01-aws-procurement-1",
+      "source_url": "https://openai.com/index/amazon-partnership/",
+      "source_title": "OpenAI and Amazon announce strategic partnership",
+      "claim": "OpenAI announces an incremental eight-year AWS purchase expansion, distinct from the investment leg.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Not annual revenue, cash paid, delivered compute or traced use of Amazon investment proceeds."
+    },
+    {
+      "evidence_id": "evidence:r01-round-close-1",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "source_title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "claim": "OpenAI reports a March 31 round close with $122 billion in committed capital and an $852 billion post-money valuation.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Replaces the February headline for this round, not another $122 billion to add; individual cash receipt schedule not verified. Valuation is a financing term, not intrinsic value."
+    },
+    {
+      "evidence_id": "evidence:r01-revolver-1",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "source_title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "claim": "OpenAI describes an approximately $4.7 billion revolving facility as undrawn at the March close.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Zero drawings is specific to the announced closing date, not a claim about current drawings; covenants, security and maturity remain unverified."
+    },
+    {
+      "evidence_id": "evidence:r01-financing-target-1",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "source_title": "NVIDIA partnerships for compute financing platforms",
+      "claim": "NVIDIA and six financial institutions announce memorandums aiming to mobilize more than $500 billion over time; final agreements remain required in that release.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Not a committed fund size, borrower debt balance, deployed capital or final lender terms."
+    },
+    {
+      "evidence_id": "evidence:r01-support-1",
+      "source_url": "https://arxiv.org/abs/2304.11771",
+      "source_title": "Generative AI at Work, version 2",
+      "claim": "A staggered support-tool rollout reports 15% more issues resolved per hour on average in a 5,172-agent study.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Not a universal productivity multiplier or directly observed monetary return; causal interpretation relies on rollout assumptions. Small randomized pilot is distinct from main sample."
+    },
+    {
+      "evidence_id": "evidence:r01-support-2",
+      "source_url": "https://arxiv.org/html/2304.11771v2",
+      "source_title": "Generative AI at Work, version 2 HTML",
+      "claim": "A staggered support-tool rollout reports 15% more issues resolved per hour on average in a 5,172-agent study.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Not a universal productivity multiplier or directly observed monetary return; causal interpretation relies on rollout assumptions. Small randomized pilot is distinct from main sample."
+    },
+    {
+      "evidence_id": "evidence:r01-developer-1",
+      "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "source_title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "claim": "A randomized study of experienced open-source developers using early-2025 tools found 19% longer task completion time with AI access.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Task duration is the denominator; not a 19% economy-wide productivity decline or a current-tool conclusion."
+    },
+    {
+      "evidence_id": "evidence:r01-developer-follow-up-1",
+      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "source_title": "We are Changing our Developer Productivity Experiment Design",
+      "claim": "METR's February update says selection and time-measurement problems make its newer speedup estimate unreliable.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Weakens extrapolation from either old or newer raw estimates; not a precise causal replacement estimate."
+    },
+    {
+      "evidence_id": "evidence:r01-survey-1",
+      "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "source_title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+      "claim": "A convenience survey of 349 technical workers reports medians of 1.4–2 times perceived work value across three questions.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "The range is across question wordings, not a confidence interval; not a randomized output effect, measured cash savings or representative workforce estimate."
+    },
+    {
+      "evidence_id": "evidence:r01-power-1",
+      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "source_title": "IEA Energy and AI: executive summary",
+      "claim": "IEA's April 2025 base case projects about 945 TWh of global data-centre electricity demand in 2030.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Forecast is not observed consumption or energized capacity; no claim this is the newest available forecast."
+    },
+    {
+      "evidence_id": "evidence:r01-power-2",
+      "source_url": "https://www.iea.org/reports/energy-and-ai",
+      "source_title": "IEA Energy and AI report metadata",
+      "claim": "IEA's April 2025 base case projects about 945 TWh of global data-centre electricity demand in 2030.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Forecast is not observed consumption or energized capacity; no claim this is the newest available forecast."
+    },
+    {
+      "evidence_id": "evidence:r01-assessment-1",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "source_title": "Microsoft FY2026 Q4 results",
+      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+    },
+    {
+      "evidence_id": "evidence:r01-assessment-2",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "source_title": "NVIDIA FY2027 Q2 results",
+      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+    },
+    {
+      "evidence_id": "evidence:r01-assessment-3",
+      "source_url": "https://arxiv.org/html/2304.11771v2",
+      "source_title": "Generative AI at Work, version 2 HTML",
+      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+    },
+    {
+      "evidence_id": "evidence:r01-assessment-4",
+      "source_url": "https://openai.com/index/amazon-partnership/",
+      "source_title": "OpenAI and Amazon announce strategic partnership",
+      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+    },
+    {
+      "evidence_id": "evidence:r01-assessment-5",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "source_title": "NVIDIA partnerships for compute financing platforms",
+      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "accessed_at": "2026-09-10",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+    }
+  ]
+}

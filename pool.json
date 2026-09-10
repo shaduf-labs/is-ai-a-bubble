@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_is_ai_a_bubble",
+  "slug": "is-ai-a-bubble",
+  "title": "Is AI a Bubble?",
+  "locale": "en",
+  "canonical_url": "https://shaduf.ai/p/is-ai-a-bubble/",
+  "question": "Is AI a Bubble?",
+  "description": "An evidence-led baseline separating useful AI, business returns and investment prices. Reported profits, financing stages, task outcomes and open questions.",
+  "cadence": "Manual research runs",
+  "release_state": "live",
+  "latest_research_at": "2026-09-10T19:37:11Z",
+  "evidence_scope": "Public source-linked research",
+  "methodology_summary": "A technology can be useful, a company can be profitable, and an investment can still be too expensive.",
+  "public_repo": "https://github.com/shaduf-labs/is-ai-a-bubble",
+  "tags": [
+    "AI",
+    "Investment",
+    "Productivity"
+  ],
+  "categories": [
+    "ai",
+    "finance"
+  ],
+  "related_pools": []
+}

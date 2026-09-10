@@ -1,0 +1,2 @@
+/* Approved shared palette, fonts, dimensions. Keep these values across renderers. */
+:root{--paper:#f9f9f7;--surface:#fff;--slot:#efefed;--ink:#131313;--muted:#7a7975;--secondary:#595953;--control-line:#d2d1ca;--line:#e6e5e1;--blue:#3866a2;--ui:Inter,"Noto Sans Thai",system-ui,sans-serif;--serif:"Source Serif 4","Noto Serif Thai",Georgia,serif;--mono:"IBM Plex Mono",monospace;--left:232px;--right:254px;--masthead:72px;--categories:42px;--header:calc(var(--masthead) + var(--categories));--speed:1}
