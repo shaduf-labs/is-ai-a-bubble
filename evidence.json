@@ -2,194 +2,314 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "evidence:r01-msft-1",
-      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
-      "source_title": "Microsoft FY2026 Q4 results",
-      "claim": "Microsoft reports positive quarterly revenue and GAAP operating income.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-10-1",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "source_title": "Microsoft FY2026 Form 10-K, official issuer mirror",
+      "claim": "Original filing; Original release",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Not AI-only profit, cash flow or return on newly invested capital."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-nvidia-1",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "source_title": "NVIDIA FY2027 Q2 results",
-      "claim": "NVIDIA reports positive quarterly revenue and GAAP operating income.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-10-2",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
+      "source_title": "Microsoft FY2026 Q2 earnings release",
+      "claim": "Original filing; Original release",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Supplier earnings do not establish the return earned by compute buyers."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-amazon-investment-1",
-      "source_url": "https://openai.com/index/amazon-partnership/",
-      "source_title": "OpenAI and Amazon announce strategic partnership",
-      "claim": "Amazon investment announcement splits an initial amount and a later conditional amount.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-13-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "source_title": "Alphabet Q2 2026 Form 10-Q",
+      "claim": "Original filing",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Initial and conditional are announcement descriptions, not confirmation of each cash transfer."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-aws-procurement-1",
-      "source_url": "https://openai.com/index/amazon-partnership/",
-      "source_title": "OpenAI and Amazon announce strategic partnership",
-      "claim": "OpenAI announces an incremental eight-year AWS purchase expansion, distinct from the investment leg.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-16-1",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "source_title": "Amazon Q2 2026 earnings release",
+      "claim": "Original release; Original filing",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Not annual revenue, cash paid, delivered compute or traced use of Amazon investment proceeds."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-round-close-1",
-      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
-      "source_title": "OpenAI raises $122 billion to accelerate the next phase of AI",
-      "claim": "OpenAI reports a March 31 round close with $122 billion in committed capital and an $852 billion post-money valuation.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-16-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "source_title": "Amazon Q2 2026 Form 10-Q",
+      "claim": "Original release; Original filing",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Replaces the February headline for this round, not another $122 billion to add; individual cash receipt schedule not verified. Valuation is a financing term, not intrinsic value."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-revolver-1",
-      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
-      "source_title": "OpenAI raises $122 billion to accelerate the next phase of AI",
-      "claim": "OpenAI describes an approximately $4.7 billion revolving facility as undrawn at the March close.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-19-1",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Q2 2026 earnings release",
+      "claim": "Original release; Original filing",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Zero drawings is specific to the announced closing date, not a claim about current drawings; covenants, security and maturity remain unverified."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-financing-target-1",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-      "source_title": "NVIDIA partnerships for compute financing platforms",
-      "claim": "NVIDIA and six financial institutions announce memorandums aiming to mobilize more than $500 billion over time; final agreements remain required in that release.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-19-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "source_title": "Meta Q2 2026 Form 10-Q",
+      "claim": "Original release; Original filing",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Not a committed fund size, borrower debt balance, deployed capital or final lender terms."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-support-1",
-      "source_url": "https://arxiv.org/abs/2304.11771",
-      "source_title": "Generative AI at Work, version 2",
-      "claim": "A staggered support-tool rollout reports 15% more issues resolved per hour on average in a 5,172-agent study.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-21-1",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "source_title": "Microsoft FY2026 Form 10-K, official issuer mirror",
+      "claim": "Microsoft cash purchases: 115,948 − 49,270 = 66,678 million dollars. Operating cash: 182,935 − 80,815 = 102,120 million. The first input is the year ended June 2026; the second is July–December 2025. The previous comparable half-year’s cash purchases are 64,551 − 30,727 = 33,824 million. Annual statement; December half-year statement",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Not a universal productivity multiplier or directly observed monetary return; causal interpretation relies on rollout assumptions. Small randomized pilot is distinct from main sample."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-support-2",
-      "source_url": "https://arxiv.org/html/2304.11771v2",
-      "source_title": "Generative AI at Work, version 2 HTML",
-      "claim": "A staggered support-tool rollout reports 15% more issues resolved per hour on average in a 5,172-agent study.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-21-2",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
+      "source_title": "Microsoft FY2026 Q2 earnings release",
+      "claim": "Microsoft cash purchases: 115,948 − 49,270 = 66,678 million dollars. Operating cash: 182,935 − 80,815 = 102,120 million. The first input is the year ended June 2026; the second is July–December 2025. The previous comparable half-year’s cash purchases are 64,551 − 30,727 = 33,824 million. Annual statement; December half-year statement",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Not a universal productivity multiplier or directly observed monetary return; causal interpretation relies on rollout assumptions. Small randomized pilot is distinct from main sample."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-developer-1",
-      "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "source_title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-      "claim": "A randomized study of experienced open-source developers using early-2025 tools found 19% longer task completion time with AI access.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-23-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "source_title": "Alphabet Q2 2026 Form 10-Q",
+      "claim": "In January–June, it reported $840 million of finance-lease principal paid and $902 million of assets obtained through finance leases. A further $835 million of prepayments for leases that had not started is disclosed separately. The cash-classification detail matters; we do not silently fold those prepayments into either column. Source and period",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Task duration is the denominator; not a 19% economy-wide productivity decline or a current-tool conclusion."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-developer-follow-up-1",
-      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
-      "source_title": "We are Changing our Developer Productivity Experiment Design",
-      "claim": "METR's February update says selection and time-measurement problems make its newer speedup estimate unreliable.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-24-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "source_title": "Amazon Q2 2026 Form 10-Q",
+      "claim": "In January–June, it reported $863 million of finance-lease principal and $2,128 million of noncash finance-lease equipment additions, the latter net of remeasurements and modifications. Another $174 million of principal on financing obligations is a different category. Source and period",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Weakens extrapolation from either old or newer raw estimates; not a precise causal replacement estimate."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-survey-1",
-      "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
-      "source_title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
-      "claim": "A convenience survey of 349 technical workers reports medians of 1.4–2 times perceived work value across three questions.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-25-1",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Q2 2026 earnings release",
+      "claim": "Its January–June capital-expenditure measure includes $1,805 million of finance-lease principal. The new noncash finance-lease addition flow was not separately recovered from the inspected interim disclosures. A change in the asset balance is not a substitute for that flow. Source and period",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "The range is across question wordings, not a confidence interval; not a randomized output effect, measured cash savings or representative workforce estimate."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-power-1",
-      "source_url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-      "source_title": "IEA Energy and AI: executive summary",
-      "claim": "IEA's April 2025 base case projects about 945 TWh of global data-centre electricity demand in 2030.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-26-1",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "source_title": "Microsoft FY2026 Form 10-K, official issuer mirror",
+      "claim": "For the full fiscal year July 2025–June 2026, it reported $3,101 million of finance-lease principal and $24,608 million of noncash finance-lease additions. The exact January–June equivalents were not recovered, so those annual amounts are not inserted into the half-year comparison. Source and period",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Forecast is not observed consumption or energized capacity; no claim this is the newest available forecast."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-power-2",
-      "source_url": "https://www.iea.org/reports/energy-and-ai",
-      "source_title": "IEA Energy and AI report metadata",
-      "claim": "IEA's April 2025 base case projects about 945 TWh of global data-centre electricity demand in 2030.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-27-1",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Q2 2026 earnings release",
+      "claim": "Meta: $64,088m operating cash − $49,113m cash property/equipment purchases − $1,805m lease principal = $13,170m for January–June. That matches its own free-cash-flow reconciliation. Meta reconciliation",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "Forecast is not observed consumption or energized capacity; no claim this is the newest available forecast."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-assessment-1",
-      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
-      "source_title": "Microsoft FY2026 Q4 results",
-      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-28-1",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "source_title": "Amazon Q2 2026 earnings release",
+      "claim": "Amazon: it nets $2,101m of property-sale proceeds and incentives against $98,411m of gross purchases, giving $96,310m of net purchases. $71,419m operating cash − $96,310m = −$24,891m for January–June. Using gross purchases gives −$26,992m instead. Neither half-year figure should be substituted for Amazon’s separately reported trailing-twelve-month free cash flow. Amazon cash-flow definition",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-assessment-2",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "source_title": "NVIDIA FY2027 Q2 results",
-      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-30-1",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "source_title": "Microsoft FY2026 Q4 earnings call",
+      "claim": "Microsoft’s July earnings call lowered its calendar-2026 capital-spending outlook from $190 billion to $175 billion. Management attributed the change to extending the estimated accounting life of buildings and data centers from 15 to 25 years, effective in fiscal 2027. More prospective leases would then be classified as operating rather than finance leases. It said the underlying investment expectation was unchanged excluding that effect. July 29 call",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-assessment-3",
-      "source_url": "https://arxiv.org/html/2304.11771v2",
-      "source_title": "Generative AI at Work, version 2 HTML",
-      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-31-1",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "source_title": "Microsoft FY2026 Q3 earnings call",
+      "claim": "That is not evidence of a $15 billion cash saving, a physical buildout cut or a 25-year GPU life. In the March quarter, management also explained why $31.9bn of reported capex, $4.7bn of finance leases and $30.9bn of cash equipment purchases did not add mechanically: receipt and payment timing differed. March-quarter timing explanation",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-assessment-4",
-      "source_url": "https://openai.com/index/amazon-partnership/",
-      "source_title": "OpenAI and Amazon announce strategic partnership",
-      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-34-1",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "source_title": "Microsoft FY2026 Form 10-K, official issuer mirror",
+      "claim": "Primarily data centers; expected to start in fiscal 2027–2033, with 1–20-year terms. Some arrangements have conditions. The larger $443.506bn lease-payment table already includes uncommenced leases, so adding this amount again would double count. Lease / commitment note",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     },
     {
-      "evidence_id": "evidence:r01-assessment-5",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-      "source_title": "NVIDIA partnerships for compute financing platforms",
-      "claim": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
-      "accessed_at": "2026-09-10",
+      "evidence_id": "r02-public-paragraph-36-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "source_title": "Alphabet Q2 2026 Form 10-Q",
+      "claim": "Expected to start in 2026–2031, with 1–26-year terms. It separately describes $5.8bn of short-term lease payments; the definitions must be checked before any aggregation. Lease / commitment note",
+      "accessed_at": "2026-09-11",
       "relation": "context",
       "publication_basis": "linked-summary",
-      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced."
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-38-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "source_title": "Amazon Q2 2026 Form 10-Q",
+      "claim": "Company-wide future lease payments, not just AI or data centers. Its separate $130.065bn unconditional purchase obligations also include energy, content, equipment and software. Lease / commitment note",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-40-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "source_title": "Meta Q2 2026 Form 10-Q",
+      "claim": "Expected to start from the remainder of 2026 through 2036, with terms of more than 1 to 30 years. A further $68bn entered in July is a later event, not part of a June-30 snapshot. Lease / commitment note",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-41-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "source_title": "Meta Q2 2026 Form 10-Q",
+      "claim": "Purchase commitments, lease payments, contingent maximums and spending already paid have different meanings. For example, Meta’s other non-cancellable commitments include third-party cloud and Reality Labs hardware, while some additional cloud exposure falls when other customers buy capacity. Those categories are not interchangeable “AI capex.” Meta commitment conditions",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-44-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "source_title": "Alphabet Q2 2026 Form 10-Q",
+      "claim": "Alphabet reported $122.814bn of assets not yet in service at June 30, versus $78.592bn at December 31. Meta reported $80.345bn of construction in progress, versus $50.521bn. These are unfinished asset stocks, not extra cash to add to spending and not proof of idle, completed AI capacity. Alphabet PP&E note; Meta PP&E note",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-44-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "source_title": "Meta Q2 2026 Form 10-Q",
+      "claim": "Alphabet reported $122.814bn of assets not yet in service at June 30, versus $78.592bn at December 31. Meta reported $80.345bn of construction in progress, versus $50.521bn. These are unfinished asset stocks, not extra cash to add to spending and not proof of idle, completed AI capacity. Alphabet PP&E note; Meta PP&E note",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-45-1",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "source_title": "Microsoft FY2026 Q4 earnings call",
+      "claim": "Microsoft says it added 1 GW of capacity and 31 data centers in its June quarter. That is issuer-reported delivery evidence. The inspected materials do not tie it to individual cash-investment cohorts, the share used for AI, or the share occupied by paying work. Microsoft capacity statement",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-46-1",
+      "source_url": "https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/",
+      "source_title": "PJM and Dominion review July 22 large-load transfer",
+      "claim": "There is also independent evidence that substantial data-center load is already active. PJM reported that approximately 3,800 MW shifted from its grid to backup generation on July 22 after a fault. It reported no significant system reliability impact and continued investigating the event. That is observed electrical demand—not a forecast—but it is not attributed here to these four companies, to AI alone or to profitable use. PJM event account",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Independent of the sampled issuers but operator-authored preliminary account; not AI-only, issuer-attributed, paid utilization or a national estimate."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-47-1",
+      "source_url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+      "source_title": "Texas governor directs interconnection data-center audit",
+      "claim": "Delivery is not automatic. Texas ordered a data-center interconnection audit on August 3. EIA’s September 9 outlook reduced its 2027 West South Central electricity-sales forecast to 790 billion kWh from 829 billion kWh in the prior forecast. The region and forecast must not be turned into a measured national AI-demand collapse. PJM’s September ride-through requirements remained proposals, not an enacted guarantee of reliability. Texas directive; EIA September forecast; PJM follow-up",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Government statement of directive, not a finding that every requested project is duplicative or uneconomic; no comprehensive implementation audit."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-47-2",
+      "source_url": "https://www.eia.gov/outlooks/steo/",
+      "source_title": "EIA September 2026 Short-Term Energy Outlook",
+      "claim": "Delivery is not automatic. Texas ordered a data-center interconnection audit on August 3. EIA’s September 9 outlook reduced its 2027 West South Central electricity-sales forecast to 790 billion kWh from 829 billion kWh in the prior forecast. The region and forecast must not be turned into a measured national AI-demand collapse. PJM’s September ride-through requirements remained proposals, not an enacted guarantee of reliability. Texas directive; EIA September forecast; PJM follow-up",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Forecast, not measured load; dynamic landing page may change. Region is not all US/AI. Revision is not entirely attributed to one causal component."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-47-3",
+      "source_url": "https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/",
+      "source_title": "PJM proposes large-load ride-through standards",
+      "claim": "Delivery is not automatic. Texas ordered a data-center interconnection audit on August 3. EIA’s September 9 outlook reduced its 2027 West South Central electricity-sales forecast to 790 billion kWh from 829 billion kWh in the prior forecast. The region and forecast must not be turned into a measured national AI-demand collapse. PJM’s September ride-through requirements remained proposals, not an enacted guarantee of reliability. Texas directive; EIA September forecast; PJM follow-up",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Proposal, not an enacted rule or evidence of completed connections."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-48-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "source_title": "Amazon Q2 2026 Form 10-Q",
+      "claim": "The first baseline left Amazon’s announced OpenAI funding unverified. Amazon’s June-quarter filing supplies a stronger record: $15bn invested in the first quarter, $13.7bn in the second and $21.3bn after June 30. That is $28.7bn through June and the full $50bn reported invested by the July 30 filing. The exact date of the final payment and recipient-side bank receipts were not reviewed. Amazon Note 2",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "evidence_id": "r02-public-paragraph-53-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "source_title": "Alphabet Q2 2026 Form 10-Q",
+      "claim": "A consistent project-by-project link between cash invested, equipment delivered, grid power and retained paid use; AI-only revenue and cash margins; economic replacement lives; and complete financing protections. Alphabet’s new TPU systems sales also mean cloud revenue is not a clean measure of hosted computing use. TPU revenue discussion",
+      "accessed_at": "2026-09-11",
+      "relation": "context",
+      "publication_basis": "linked-summary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
     }
   ]
 }

@@ -30,3 +30,9 @@ html{scroll-padding-top:calc(var(--header) + 20px)}
 .catalogue-active-filters{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding-top:12px}.catalogue-active-filters[hidden]{display:none}.catalogue-active-filters button{display:inline-flex;align-items:center;gap:9px;border:1px solid #c4d7e4;border-radius:7px;background:#e9f1f6;color:#35556b;padding:6px 10px;font:12px var(--ui)}.catalogue-active-filters button:hover{background:#dceaf3;border-color:#a8c3d5}.catalogue-active-filters button>span{font-size:17px;line-height:1}
 
 .pool-card-model{margin:12px 0 0;font:12px/1.5 var(--ui);color:var(--secondary);overflow-wrap:anywhere}.pool-card-model>span{color:var(--muted)}
+
+/* Research age and freshness share the catalogue metadata row. */
+.pool-card-footer{flex-wrap:wrap;gap:8px;font:12px/1.5 var(--ui)}
+.pool-card-footer>.research-age{margin-left:0;color:var(--ink)}
+.pool-card-footer>.age-freshness{margin-left:auto;color:var(--muted);white-space:nowrap}
+.pool-card-footer>a{flex:none}

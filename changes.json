@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "spending-to-capacity",
+      "changed_at": "2026-09-11T08:15:02Z",
+      "summary": "Same-period cash, distinct lease/commitment measures, current accounting and funding corrections, and independent grid evidence.",
+      "path": "/p/is-ai-a-bubble/research/spending-to-capacity/"
+    },
+    {
       "change_id": "first-baseline",
       "changed_at": "2026-09-10T19:37:11Z",
       "summary": "A sourced baseline separating company results, funding and procurement, productivity designs and unresolved investment returns.",

@@ -25,28 +25,34 @@
   const track=$('.ticker-track'), group=track?.firstElementChild
   if(group){const copy=group.cloneNode(true);copy.className='ticker-clone';copy.setAttribute('aria-hidden','true');copy.inert=true;for(const a of copy.querySelectorAll('a'))a.tabIndex=-1;track.append(copy)}
   $('[data-toggle-ticker]')?.addEventListener('click', event => {const paused=$('.activity-ticker')?.classList.contains('paused');event.currentTarget.setAttribute('aria-pressed',String(paused));event.currentTarget.setAttribute('aria-label',paused?'Resume activity ticker':'Pause activity ticker')})
-  let logoPlayback=null
-  const stop=()=>{if(logoPlayback)return;window.ShadufMotion?.stop();$('#transition-layer')?.classList.remove('is-loading')}
+  let aboutPlayback=null,loadingTimer=null
+  const stop=()=>{clearTimeout(loadingTimer);loadingTimer=null;if(aboutPlayback)return;window.ShadufMotion?.stop();$('#transition-layer')?.classList.remove('is-loading')}
   window.addEventListener('pageshow',stop)
+  window.addEventListener('pagehide',stop)
   document.addEventListener('click',event=>{
     const a=event.target.closest('a[href]')
     if(!a||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||a.target||a.hasAttribute('download'))return
-    if(logoPlayback){event.preventDefault();return}
-    if(!a.matches('.wordmark, .about-link, .explore-about-link')||!window.ShadufMotion?.playOnce)return
+    if(aboutPlayback){event.preventDefault();return}
+    if(!a.matches('.about-link')||!window.ShadufMotion?.playOnce)return
     event.preventDefault()
+    stop()
     const layer=$('#transition-layer'),destination=a.href
-    layer?.classList.add('is-loading','is-logo-playback')
-    logoPlayback=window.ShadufMotion.playOnce({slow:true,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches})
-    logoPlayback.then(()=>{logoPlayback=null;layer?.classList.remove('is-loading','is-logo-playback');location.assign(destination)})
+    layer?.classList.add('is-loading','is-about-playback')
+    aboutPlayback=window.ShadufMotion.playOnce({slow:true,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches})
+    aboutPlayback.then(()=>{aboutPlayback=null;layer?.classList.remove('is-loading','is-about-playback');location.assign(destination)})
   },true)
   document.addEventListener('click',event=>{
     const a=event.target.closest('a[href]')
     if(!a||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||a.target||a.hasAttribute('download'))return
     const url=new URL(a.href,location.href)
     if(url.origin!==location.origin||!['http:','https:'].includes(url.protocol)||url.pathname===location.pathname&&url.search===location.search)return
-    if(!(/^\/p\//.test(url.pathname)||['/','/explore/','/about/'].includes(url.pathname)))return
     if(matchMedia('(prefers-reduced-motion: reduce)').matches)return
-    $('#transition-layer')?.classList.add('is-loading');window.ShadufMotion?.start()
+    stop()
+    loadingTimer=setTimeout(()=>{
+      loadingTimer=null
+      if(event.defaultPrevented)return
+      $('#transition-layer')?.classList.add('is-loading');window.ShadufMotion?.start()
+    },500)
     // Never delay navigation to finish an animation.
   })
 })()

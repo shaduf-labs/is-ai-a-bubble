@@ -1,0 +1,580 @@
+{
+  "schema_version": "1.0.0",
+  "id": "dataset:spending-to-capacity",
+  "topic": "Is AI a Bubble?",
+  "question_revision": 1,
+  "question": "Is AI a Bubble?",
+  "run_id": "20260911-073452-a26c6409",
+  "checked_on": "2026-09-11",
+  "period_policy": "Common calendar January–June 2026 for cash comparison; dated balance, annual and guidance records are separate.",
+  "aggregation_policy": "No total named AI spending or AI demand is calculated. All-company samples are not industry consolidation.",
+  "companies": [
+    {
+      "id": "cash-bridge:microsoft:2026-h1",
+      "company": "Microsoft",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "currency": "USD",
+      "unit": "million",
+      "scope": "whole company, not AI-only",
+      "cash_from_operations": 102120,
+      "gross_cash_ppe": 66678,
+      "gross_cash_ppe_previous_h1": 33824,
+      "cash_after_gross_ppe": 35442,
+      "finance_lease_principal_paid": null,
+      "noncash_finance_lease_additions": null,
+      "source_ids": [
+        "source:msft-fy26-10k",
+        "source:msft-fy26q2"
+      ],
+      "source_locators": [
+        "Printed pp. 44, 53, 78; PDF indices 43, 52, 77",
+        "Cash Flows; six-month columns, net cash from operations and additions to PP&E"
+      ],
+      "notes": [
+        "Calendar H1 is full fiscal year ended June 30 minus six months ended December 31. Not a direct six-month disclosure.",
+        "H1 finance-lease principal and exact noncash additions not recovered; annual lease figures are supplied separately, not inserted into this half-year column.",
+        "Cash after gross PP&E is a limited comparison, not company-defined free cash flow or AI project return."
+      ],
+      "ppe_yoy_percent": "97.13",
+      "ppe_to_ocf_percent": "65.29"
+    },
+    {
+      "id": "cash-bridge:alphabet:2026-h1",
+      "company": "Alphabet",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "currency": "USD",
+      "unit": "million",
+      "scope": "whole company, not AI-only",
+      "cash_from_operations": 84859,
+      "gross_cash_ppe": 80598,
+      "gross_cash_ppe_previous_h1": 39643,
+      "cash_after_gross_ppe": 4261,
+      "finance_lease_principal_paid": 840,
+      "noncash_finance_lease_additions": 902,
+      "source_ids": [
+        "source:alphabet-q226-10q"
+      ],
+      "source_locators": [
+        "Cash flows; Note 3 PP&E; Note 5 leases; TPU systems discussion. PDF mirror printed pp. 10, 25 visually checked."
+      ],
+      "notes": [
+        "Lease principal excludes $835 million of prepayments on uncommenced leases disclosed separately.",
+        "Prepayments are not silently added to gross PP&E or principal; a complete cash-use classification remains unresolved.",
+        "Assets not yet in service are a stock, not additional period spending."
+      ],
+      "ppe_yoy_percent": "103.31",
+      "ppe_to_ocf_percent": "94.98"
+    },
+    {
+      "id": "cash-bridge:amazon:2026-h1",
+      "company": "Amazon",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "currency": "USD",
+      "unit": "million",
+      "scope": "whole company, not AI-only",
+      "cash_from_operations": 71419,
+      "gross_cash_ppe": 98411,
+      "gross_cash_ppe_previous_h1": 57202,
+      "cash_after_gross_ppe": -26992,
+      "finance_lease_principal_paid": 863,
+      "noncash_finance_lease_additions": 2128,
+      "source_ids": [
+        "source:amazon-q226-release",
+        "source:amazon-q226-10q"
+      ],
+      "source_locators": [
+        "Consolidated cash flows, supplemental free cash flow table, segment information",
+        "Notes 1 supplemental cash flows, 2 investments, 4 commitments, 8 segments"
+      ],
+      "notes": [
+        "Gross PP&E differs from company free-cash-flow definition, which nets proceeds from property sales and incentives.",
+        "Noncash finance-lease PP&E is net of remeasurements and modifications.",
+        "Retail, logistics and cloud are included; $174 million of financing-obligation principal is distinct from finance-lease principal."
+      ],
+      "ppe_yoy_percent": "72.04",
+      "ppe_to_ocf_percent": "137.79",
+      "asset_sale_and_incentive_proceeds": 2101,
+      "net_cash_ppe": 96310,
+      "cash_after_net_ppe": -24891,
+      "financing_obligation_principal_paid": 174
+    },
+    {
+      "id": "cash-bridge:meta:2026-h1",
+      "company": "Meta",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "currency": "USD",
+      "unit": "million",
+      "scope": "whole company, not AI-only",
+      "cash_from_operations": 64088,
+      "gross_cash_ppe": 49113,
+      "gross_cash_ppe_previous_h1": 29479,
+      "cash_after_gross_ppe": 14975,
+      "finance_lease_principal_paid": 1805,
+      "noncash_finance_lease_additions": null,
+      "source_ids": [
+        "source:meta-q226-release",
+        "source:meta-q226-10q"
+      ],
+      "source_locators": [
+        "Cash-flow statement and FCF/capital-expenditure reconciliation; CFO outlook",
+        "Notes 7 PP&E and 9 commitments; supplemental cash-flow disclosures"
+      ],
+      "notes": [
+        "Company-defined capex includes finance-lease principal; company FCF subtracts both gross PP&E and lease principal.",
+        "Interim note discloses finance-lease asset balances, not a separately recovered noncash-addition flow. Unknown is not zero.",
+        "Ads, other services and Reality Labs included; no independent AI-only revenue/cash-return account."
+      ],
+      "ppe_yoy_percent": "66.60",
+      "ppe_to_ocf_percent": "76.63",
+      "company_defined_capex": 50918,
+      "company_defined_fcf": 13170
+    }
+  ],
+  "annual_lease_context": [
+    {
+      "company": "Microsoft",
+      "period_start": "2025-07-01",
+      "period_end": "2026-06-30",
+      "unit": "USD million",
+      "finance_lease_principal_paid": 3101,
+      "noncash_finance_lease_additions": 24608,
+      "finance_lease_interest_operating_cash": 2547,
+      "operating_lease_cash": 6443,
+      "source_ids": [
+        "source:msft-fy26-10k"
+      ],
+      "not_comparable_to_h1": true
+    }
+  ],
+  "commitments": [
+    {
+      "company": "Microsoft",
+      "as_of": "2026-06-30",
+      "uncommenced_leases_usd_million": 329100,
+      "commencement": "Fiscal 2027–2033",
+      "terms": "1–20 years",
+      "conditions": "Some contracts subject to conditions; primarily data centers",
+      "other_obligations": [
+        {
+          "measure": "Construction commitments",
+          "amount_usd_million": 34566,
+          "basis": "Contractual cash requirements; not current-period cash PP&E"
+        },
+        {
+          "measure": "Purchase commitments",
+          "amount_usd_million": 194060,
+          "basis": "Includes open purchase orders / take-or-pay, primarily data centers; excludes construction category above"
+        }
+      ],
+      "no_add_rule": "The $443,506m aggregate operating/finance lease table already includes uncommenced leases. Do not add $329,100m to it. Do not add leases to current cash spending.",
+      "source_ids": [
+        "source:msft-fy26-10k"
+      ]
+    },
+    {
+      "company": "Alphabet",
+      "as_of": "2026-06-30",
+      "uncommenced_leases_usd_million": 85200,
+      "commencement": "2026–2031",
+      "terms": "1–26 years",
+      "conditions": "Lease obligations for future periods; not reported cash this half",
+      "other_obligations": [
+        {
+          "measure": "Separately described short-term lease payments",
+          "amount_usd_million": 5800,
+          "basis": "Expected to commence Q3; not blindly aggregated with long-term measure"
+        },
+        {
+          "measure": "Prepayments for uncommenced leases in H1",
+          "amount_usd_million": 835,
+          "basis": "Cash flow, not additional liability stock"
+        }
+      ],
+      "no_add_rule": "Distinguish stock of future payments, current principal, prepaid cash and noncash additions.",
+      "source_ids": [
+        "source:alphabet-q226-10q"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "as_of": "2026-06-30",
+      "uncommenced_leases_usd_million": 137214,
+      "commencement": null,
+      "terms": null,
+      "conditions": "Company-wide facilities/equipment; not all AI/data centers",
+      "other_obligations": [
+        {
+          "measure": "Unconditional purchase obligations",
+          "amount_usd_million": 130065,
+          "basis": "Includes energy, content, PP&E and software; contract minimums, excludes normal cancellable orders"
+        }
+      ],
+      "no_add_rule": "Future commitments are not June cash paid, AI-only capacity or recognized revenue.",
+      "source_ids": [
+        "source:amazon-q226-10q"
+      ]
+    },
+    {
+      "company": "Meta",
+      "as_of": "2026-06-30",
+      "uncommenced_leases_usd_million": 278990,
+      "commencement": "Remainder of 2026–2036",
+      "terms": "More than 1 to 30 years",
+      "conditions": "Primarily data centers, colocation and network infrastructure",
+      "other_obligations": [
+        {
+          "measure": "Other non-cancellable commitments",
+          "amount_usd_million": 349310,
+          "basis": "Third-party cloud, PP&E, Reality Labs hardware; not all AI capex"
+        },
+        {
+          "measure": "Additional lease commitments entered in July",
+          "amount_usd_million": 68000,
+          "basis": "Subsequent event, starts 2027/2028; 18–20-year terms, NOT a June 30 balance"
+        },
+        {
+          "measure": "Contingent cloud purchase exposure up to",
+          "amount_usd_million": 14720,
+          "basis": "Five years; reduced by purchases from other customers. Not unconditional"
+        }
+      ],
+      "no_add_rule": "No sum of June balances, July events and contingent maxima; categories, timing and possible overlaps differ.",
+      "source_ids": [
+        "source:meta-q226-10q"
+      ]
+    }
+  ],
+  "capacity": [
+    {
+      "id": "capacity:msft-q4",
+      "company": "Microsoft",
+      "stage": "issuer_reported_capacity_added",
+      "period": "Quarter ended 2026-06-30",
+      "observation": "Management reports 1 GW of capacity and 31 data centers added in the quarter.",
+      "quantity": 1,
+      "unit": "GW",
+      "issuer_attribution": true,
+      "ai_only": false,
+      "paid_utilization": null,
+      "limitations": "No facility-level tie-out, common capacity definition, cash cohort or retained-customer use supplied.",
+      "source_ids": [
+        "source:msft-fy26q4-call"
+      ]
+    },
+    {
+      "id": "capacity:alphabet-cip",
+      "company": "Alphabet",
+      "stage": "assets_not_yet_in_service",
+      "as_of": "2026-06-30",
+      "amount_usd_million": 122814,
+      "comparison_as_of": "2025-12-31",
+      "comparison_amount_usd_million": 78592,
+      "observation": "Primarily technical infrastructure still being prepared for intended use.",
+      "limitations": "Book stock, not current cash additions, installed power, empty completed facilities or paid utilization.",
+      "source_ids": [
+        "source:alphabet-q226-10q"
+      ]
+    },
+    {
+      "id": "capacity:meta-cip",
+      "company": "Meta",
+      "stage": "construction_in_progress",
+      "as_of": "2026-06-30",
+      "amount_usd_million": 80345,
+      "comparison_as_of": "2025-12-31",
+      "comparison_amount_usd_million": 50521,
+      "limitations": "Book stock, not another amount to add to current cash flow; not evidence of idle finished GPUs.",
+      "source_ids": [
+        "source:meta-q226-10q"
+      ]
+    },
+    {
+      "id": "capacity:amazon-unmapped",
+      "company": "Amazon",
+      "stage": "asset_cash_and_balance_disclosed_capacity_not_mapped",
+      "as_of": "2026-06-30",
+      "observation": "Cash and lease purchases are disclosed; no matched expenditure-cohort to energized capacity and paid use reconstructed.",
+      "paid_utilization": null,
+      "source_ids": [
+        "source:amazon-q226-10q",
+        "source:amazon-q226-release"
+      ]
+    },
+    {
+      "id": "capacity:pjm-load",
+      "company": null,
+      "stage": "independent_operator_observed_load",
+      "event_date": "2026-07-22",
+      "quantity_approx": 3800,
+      "unit": "MW",
+      "observation": "Data-center demand shifted off the grid onto backup generation after a fault.",
+      "ai_only": false,
+      "issuer_attribution": false,
+      "paid_utilization": null,
+      "limitations": "Preliminary event; actual electrical use is not proof of AI economic utilization or the sampled companies’ returns. No significant system reliability impact reported.",
+      "source_ids": [
+        "source:pjm-load-july2026",
+        "source:pjm-ride-through-sept2026"
+      ]
+    }
+  ],
+  "guidance": [
+    {
+      "company": "Microsoft",
+      "target_period": "calendar 2026",
+      "as_of": "2026-07-29",
+      "previous_usd_billion": 190,
+      "current_usd_billion": 175,
+      "stage": "management_outlook",
+      "definition": "Reported capex includes finance leases; classification changes prospectively in FY2027",
+      "explanation": "Management links reduction to extending buildings/data-center estimated life from 15 to 25 years and more leases qualifying as operating; underlying investment plan unchanged excluding this effect.",
+      "not_claimed": "Not a GPU life extension, measured $15bn cash saving, fraud finding or physical buildout cut.",
+      "source_ids": [
+        "source:msft-fy26q4-call"
+      ]
+    },
+    {
+      "company": "Alphabet",
+      "target_period": "calendar 2026",
+      "as_of": "2026-07-22",
+      "previous_range_usd_billion": [
+        180,
+        190
+      ],
+      "current_range_usd_billion": [
+        195,
+        205
+      ],
+      "stage": "management_outlook",
+      "definition": "CapEx outlook; do not blend with other issuers’ lease-inclusive measures",
+      "explanation": "Capacity delivery acceleration is management’s explanation, not independent site verification.",
+      "source_ids": [
+        "source:alphabet-q226-call"
+      ]
+    },
+    {
+      "company": "Meta",
+      "target_period": "calendar 2026",
+      "as_of": "2026-07-29",
+      "previous_range_usd_billion": [
+        125,
+        145
+      ],
+      "current_range_usd_billion": [
+        130,
+        145
+      ],
+      "stage": "management_outlook",
+      "definition": "Capital expenditures including principal payments on finance leases",
+      "source_ids": [
+        "source:meta-q226-release"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "target_period": "calendar 2026",
+      "as_of": "2026-09-11",
+      "current_range_usd_billion": null,
+      "stage": "not_admitted",
+      "definition": null,
+      "explanation": "A newer numerical outlook surfaced in secondary results; no original supporting call text recovered. Use verified historical cash data rather than present secondary guidance as checked primary fact.",
+      "source_ids": [
+        "source:amazon-q226-release"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:msft-fy26-10k",
+      "title": "Microsoft FY2026 Form 10-K, official issuer mirror",
+      "url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "published_at": "2026-07-29",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_filing",
+      "inspection_scope": "Cash flows, lease note and contractual obligations; table screenshots inspected",
+      "locator": "Printed pp. 44, 53, 78; PDF indices 43, 52, 77",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:msft-fy26q2",
+      "title": "Microsoft FY2026 Q2 earnings release",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
+      "published_at": "2026-01-28",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_release",
+      "inspection_scope": "Six months ended December 2025 and comparative cash-flow columns",
+      "locator": "Cash Flows; six-month columns, net cash from operations and additions to PP&E",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:msft-fy26q4-call",
+      "title": "Microsoft FY2026 Q4 earnings call",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "published_at": "2026-07-29",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_management_statement",
+      "inspection_scope": "Capex, finance leases, building life, calendar outlook and delivered-capacity assertions",
+      "locator": "CFO prepared remarks on capex/lives/outlook; CEO capacity remarks",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:msft-fy26q3-call",
+      "title": "Microsoft FY2026 Q3 earnings call",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "published_at": null,
+      "publication_date_precision": "unknown",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_management_statement",
+      "inspection_scope": "Cash versus goods-receipt timing; rounded capex and finance leases",
+      "locator": "CFO capital expenditure and cash-flow discussion for quarter ended March 31, 2026",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:alphabet-q226-10q",
+      "title": "Alphabet Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "published_at": null,
+      "publication_date_precision": "unknown",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_filing",
+      "inspection_scope": "Cash flow, PP&E, lease table, commitments and TPU revenue treatment",
+      "locator": "Cash flows; Note 3 PP&E; Note 5 leases; TPU systems discussion. PDF mirror printed pp. 10, 25 visually checked.",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:alphabet-q226-call",
+      "title": "Alphabet Q2 2026 earnings call",
+      "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "published_at": "2026-07-22",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_management_statement",
+      "inspection_scope": "Current capex outlook and third-party capacity/TPU mix",
+      "locator": "CFO 2026 CapEx guidance and capacity commentary",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:amazon-q226-release",
+      "title": "Amazon Q2 2026 earnings release",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "published_at": "2026-07-30",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_release",
+      "inspection_scope": "Cash flow by quarter, six months and trailing year; company FCF definition; AWS results",
+      "locator": "Consolidated cash flows, supplemental free cash flow table, segment information",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:amazon-q226-10q",
+      "title": "Amazon Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "published_at": "2026-07-30",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_filing",
+      "inspection_scope": "Lease cash/noncash additions, uncommenced and purchase obligations, OpenAI investments/subsequent payment, Anthropic facility",
+      "locator": "Notes 1 supplemental cash flows, 2 investments, 4 commitments, 8 segments",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:meta-q226-release",
+      "title": "Meta Q2 2026 earnings release",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "published_at": "2026-07-29",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_release",
+      "inspection_scope": "Six-month cash flows and FCF reconciliation; revised full-year guidance",
+      "locator": "Cash-flow statement and FCF/capital-expenditure reconciliation; CFO outlook",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:meta-q226-10q",
+      "title": "Meta Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "published_at": null,
+      "publication_date_precision": "unknown",
+      "accessed_on": "2026-09-11",
+      "source_type": "issuer_filing",
+      "inspection_scope": "PP&E construction balances, unpaid PP&E, uncommenced leases and subsequent commitments",
+      "locator": "Notes 7 PP&E and 9 commitments; supplemental cash-flow disclosures",
+      "limitations": "Issuer disclosure, not independent verification of economics or AI-only attribution."
+    },
+    {
+      "id": "source:pjm-load-july2026",
+      "title": "PJM and Dominion review July 22 large-load transfer",
+      "url": "https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/",
+      "published_at": "2026-08-11",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "grid_operator_observation",
+      "inspection_scope": "Actual approximately 3,800 MW data-center transfer to backup generation, consequences and investigation",
+      "locator": "July 22 event description and preliminary review",
+      "limitations": "Independent of the sampled issuers but operator-authored preliminary account; not AI-only, issuer-attributed, paid utilization or a national estimate."
+    },
+    {
+      "id": "source:pjm-ride-through-sept2026",
+      "title": "PJM proposes large-load ride-through standards",
+      "url": "https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/",
+      "published_at": "2026-09-10",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "grid_operator_proposal",
+      "inspection_scope": "Follow-up proposal after load-disconnection events",
+      "locator": "September 8 presentation; proposed standards and planned filing",
+      "limitations": "Proposal, not an enacted rule or evidence of completed connections."
+    },
+    {
+      "id": "source:pjm-connection-aug2026",
+      "title": "PJM proposes new large-load connection framework",
+      "url": "https://insidelines.pjm.com/pjm-proposes-framework-to-connect-data-centers-without-compromising-reliability-affordability/",
+      "published_at": "2026-08-13",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "grid_operator_proposal",
+      "inspection_scope": "Connection constraints, curtailment framework and demand forecast",
+      "locator": "IRAS proposal; 2024–2030 forecast discussion",
+      "limitations": "Proposal and forecast, not actual delivered AI capacity; no sector-wide extrapolation."
+    },
+    {
+      "id": "source:texas-data-audit",
+      "title": "Texas governor directs interconnection data-center audit",
+      "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+      "published_at": "2026-08-03",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "government_directive",
+      "inspection_scope": "Audit before data-center projects advance through ERCOT interconnection process",
+      "locator": "Press release dated August 3, main directive paragraphs",
+      "limitations": "Government statement of directive, not a finding that every requested project is duplicative or uneconomic; no comprehensive implementation audit."
+    },
+    {
+      "id": "source:eia-steo-sept2026",
+      "title": "EIA September 2026 Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "published_at": "2026-09-09",
+      "publication_date_precision": "day",
+      "accessed_on": "2026-09-11",
+      "source_type": "government_forecast",
+      "inspection_scope": "Electricity-sales forecast and West South Central revision; input cutoff September 3",
+      "locator": "Electricity discussion: 2027 regional sales 790 versus prior 829 billion kWh",
+      "limitations": "Forecast, not measured load; dynamic landing page may change. Region is not all US/AI. Revision is not entirely attributed to one causal component."
+    }
+  ],
+  "definitions": {
+    "gross_cash_ppe": "Cash purchases/additions to property and equipment in investing cash flow, shown positive for outflow. Does not count the initial noncash recognition of finance-leased assets.",
+    "cash_after_gross_ppe": "Cash from operations minus gross cash PP&E. A limited common subtraction, not a complete funding waterfall, AI profitability or universal FCF definition. Operating lease cash is already in OCF; do not subtract it twice.",
+    "finance_lease_principal_paid": "Current financing cash outflow paying a lease liability, not the value of new assets recognized. Lease interest is already in operating cash.",
+    "noncash_finance_lease_additions": "Assets recognized against future obligations, not all cash paid now; definitions and remeasurement treatment may vary.",
+    "uncommenced_leases": "Disclosed future lease commitments before commencement; not current cash, energized capacity or additive to lease totals already containing them.",
+    "unknown": "Null means unavailable or not recovered, never zero."
+  }
+}

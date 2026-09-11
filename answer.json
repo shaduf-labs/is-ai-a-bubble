@@ -1,23 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Selected evidence supports real economic activity and useful AI in particular tasks. It does not yet establish adequate returns across the AI investment chain or justify current asset prices. A useful technology and overvalued investments can coexist; this baseline does not diagnose a sector-wide bubble.",
+  "current_answer": "AI can be useful while some AI investments lose money. The evidence checked here shows real spending and working infrastructure, but not enough to establish returns across the investment chain or justify every price. That leaves the broad bubble question open.",
   "summary": [
-    "A sourced baseline separating company results, funding and procurement, productivity designs and unresolved investment returns."
+    "Same-period cash, distinct lease/commitment measures, current accounting and funding corrections, and independent grid evidence."
   ],
   "uncertainty": [
-    "Current participant payments and debt drawings",
-    "Collateral, maturity and covenants",
-    "Customer retention and unsubsidized demand",
-    "Comparable cash investment and returns on capital",
-    "Current valuation expectations",
-    "Latest forecast vintage and delivered physical capacity",
-    "Non-US competition and lower-cost substitutes"
+    "Stronger evidence of paying customers, high useful utilization and returns after replacement costs would support durable expansion. Persistent underuse, falling realized prices, losses on completed assets or dependence on refinancing would support a less favorable account. Those outcomes must be measured, not inferred from a promise to spend."
   ],
-  "meaningfully_updated_at": "2026-09-10T19:22:19Z",
-  "freshness_note": "Evidence checked 2026-09-11 (Asia/Bangkok).",
+  "checked_at": "2026-09-11T08:04:33Z",
+  "meaningfully_updated_at": "2026-09-11T08:04:33Z",
+  "freshness_note": "Evidence checked 2026-09-11.",
   "catalogue_card": {
     "question": "Is AI a Bubble?",
-    "text": "Profits at suppliers do not prove that their customers will earn the investment back."
+    "text": "The spending is real. Whether it earns enough back is still open."
   }
 }
