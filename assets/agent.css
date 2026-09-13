@@ -70,3 +70,57 @@
 [data-agent-document] .pool-center .illustration {padding:23px 26px;border:1px solid var(--line);background:#f1f4ed;}
 @media(max-width:700px) {[data-agent-document] .pool-center .cash-cards {grid-template-columns:1fr;} [data-agent-document] .pool-center .stages {grid-template-columns:1fr;gap:8px;} [data-agent-document] .pool-center .stages li {border-top:0;border-left:3px solid var(--accent);padding:8px 14px;} [data-agent-document] .pool-center .stages span {margin-top:4px;} [data-agent-document] .pool-center .cash-card {padding:18px;} }
 @media(max-width:360px) {[data-agent-document] .pool-center .numbers>div {grid-template-columns:1fr;gap:4px;} [data-agent-document] .pool-center .numbers dd {font-size:1.16rem;} [data-agent-document] .pool-center .illustration {padding:18px;} }
+
+/* Run 3: authored, static Center graphics. No scripts or shared-shell selectors. */
+[data-agent-document] .pool-center .funding-kicker{color:var(--accent);font-size:.76rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;margin:12px 0}
+[data-agent-document] .pool-center .funding-deck{font-size:clamp(1.18rem,2.6vw,1.5rem);line-height:1.5;max-width:760px}
+[data-agent-document] .pool-center .funding-figure{margin:32px 0;background:#fff;border:1px solid var(--line);padding:clamp(18px,3.4vw,34px);border-radius:4px;box-shadow:0 8px 26px #192b2a07}
+[data-agent-document] .pool-center .funding-figure h3{font-family:ui-serif,Georgia,serif;font-size:1.55rem;line-height:1.2;font-weight:500}
+[data-agent-document] .pool-center .figure-no{display:block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:750}
+[data-agent-document] .pool-center figcaption{font-size:.84rem;line-height:1.6;color:var(--muted);margin-top:23px;max-width:820px}
+[data-agent-document] .pool-center figcaption a{font-weight:600}
+[data-agent-document] .pool-center .tranche-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 18px}
+[data-agent-document] .pool-center .tranche{padding:20px 16px;background:#edf2e9;border-top:4px solid #275e4e;position:relative}
+[data-agent-document] .pool-center .tranche.future{background:#faf8f2;border:1px dashed #8d734b;border-top:4px dashed #8d734b}
+[data-agent-document] .pool-center .big-number{display:block;font-size:clamp(1.7rem,3.6vw,2.7rem);line-height:1.1;font-weight:650;letter-spacing:-.04em;font-variant-numeric:tabular-nums;margin:8px 0 12px}
+[data-agent-document] .pool-center .tranche time{display:block;font-weight:650;font-size:.9rem}
+[data-agent-document] .pool-center .status{display:inline-block;font-size:.69rem;font-weight:750;letter-spacing:.04em;text-transform:uppercase;line-height:1.4}
+[data-agent-document] .pool-center .figure-takeaway{border-left:3px solid var(--accent);padding:9px 0 9px 15px;font-weight:650;margin:16px 0 0}
+[data-agent-document] .pool-center .waterfall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,4vw,34px);margin-top:28px;align-items:start}
+[data-agent-document] .pool-center .water-col .water-value{font-size:1.55rem;line-height:1.2;font-weight:650;display:block;text-align:center;margin-bottom:10px;font-variant-numeric:tabular-nums}
+[data-agent-document] .pool-center .water-plot{height:164px;border-bottom:1px solid #8d9990;position:relative}
+[data-agent-document] .pool-center .water-bar{position:absolute;bottom:0;left:16%;right:16%;background:#275e4e;height:160px}
+[data-agent-document] .pool-center .water-bar.deduction{height:40px;bottom:120px;background:#a77d45}
+[data-agent-document] .pool-center .water-bar.remaining{height:120px;background:repeating-linear-gradient(135deg,#f0f3e9,#f0f3e9 7px,#dde6d5 7px,#dde6d5 9px);border:1px dashed #5e7456}
+[data-agent-document] .pool-center .water-label{font-size:.84rem;line-height:1.45;margin:12px 0 0;text-align:center;font-weight:600}
+[data-agent-document] .pool-center .water-caption{font-size:.8rem;color:var(--muted);margin-top:8px;text-align:center}
+[data-agent-document] .pool-center .case-rails{display:grid;gap:14px;margin:26px 0}
+[data-agent-document] .pool-center .case-rail{border:1px solid var(--line);display:grid;grid-template-columns:minmax(120px,.8fr) minmax(0,2fr);gap:22px;padding:22px;background:#fff}
+[data-agent-document] .pool-center .case-rail.conditional{border-style:dashed;background:#f8faf5}
+[data-agent-document] .pool-center .case-rail.procurement{background:#f8f5ee;border-color:#ded3c2}
+[data-agent-document] .pool-center .case-rail h3{font-size:1.05rem;font-family:inherit;font-weight:700;margin:0}
+[data-agent-document] .pool-center .case-rail p{margin:0}
+[data-agent-document] .pool-center .case-rail .rail-value{display:block;font-size:1.65rem;font-weight:650;line-height:1.3;font-variant-numeric:tabular-nums;margin:4px 0 9px}
+[data-agent-document] .pool-center .rail-direction{font-size:.8rem;display:block;color:var(--muted);margin-top:7px}
+[data-agent-document] .pool-center .gate-head{display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px;align-items:center;padding:10px 0 24px;border-bottom:1px solid var(--line)}
+[data-agent-document] .pool-center .gate-head .big-number{font-size:3rem;margin:0}
+[data-agent-document] .pool-center .gate-head p{margin:0;font-size:.94rem}
+[data-agent-document] .pool-center .gates{counter-reset:gate;list-style:none;padding:0;margin:24px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+[data-agent-document] .pool-center .gates li{counter-increment:gate;border-top:2px solid var(--accent);padding-top:12px}
+[data-agent-document] .pool-center .gates li:before{content:'0' counter(gate);display:block;font-size:.73rem;letter-spacing:.1em;color:var(--muted);margin-bottom:9px}
+[data-agent-document] .pool-center .gates strong{display:block;font-size:1rem;margin-bottom:8px}
+[data-agent-document] .pool-center .gates span{display:block;font-size:.87rem;line-height:1.5}
+[data-agent-document] .pool-center .reading-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}
+[data-agent-document] .pool-center .reading-pair>div{border-top:3px solid #809475;padding-top:16px}
+[data-agent-document] .pool-center .reading-pair>div:last-child{border-color:#aa8656}
+[data-agent-document] .pool-center .reading-pair p{font-size:.94rem}
+[data-agent-document] .pool-center .money-table{overflow-x:auto;margin:24px 0}
+[data-agent-document] .pool-center .money-table table{min-width:560px;table-layout:auto;font-size:.87rem}
+[data-agent-document] .pool-center .money-table td,[data-agent-document] .pool-center .money-table th{text-align:left;width:auto;line-height:1.5}
+[data-agent-document] .pool-center .money-table thead th{font-size:.75rem}
+[data-agent-document] .pool-center .funding-jump{display:flex;flex-wrap:wrap;gap:8px 25px;font-size:.88rem;margin:22px 0 0}
+[data-agent-document] .pool-center .fact-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:25px 0}
+[data-agent-document] .pool-center .fact-pair>div{border:1px solid var(--line);padding:20px;background:#fff}
+[data-agent-document] .pool-center .fact-pair strong{display:block;font-size:1.2rem;margin-bottom:6px}
+@media(max-width:620px){[data-agent-document] .pool-center .tranche-grid{grid-template-columns:1fr;gap:9px}[data-agent-document] .pool-center .tranche{display:grid;grid-template-columns:auto 1fr;gap:3px 20px;padding:17px}[data-agent-document] .pool-center .tranche .big-number{grid-row:1/4;align-self:center;margin:0}[data-agent-document] .pool-center .tranche time,[data-agent-document] .pool-center .tranche .status,[data-agent-document] .pool-center .tranche .small{grid-column:2}[data-agent-document] .pool-center .gates,[data-agent-document] .pool-center .reading-pair,[data-agent-document] .pool-center .fact-pair{grid-template-columns:1fr}[data-agent-document] .pool-center .gates{gap:18px}[data-agent-document] .pool-center .case-rail{grid-template-columns:1fr;gap:12px;padding:18px}[data-agent-document] .pool-center .gate-head{grid-template-columns:1fr;gap:12px}[data-agent-document] .pool-center .water-bar{left:12%;right:12%}[data-agent-document] .pool-center .water-label{font-size:.78rem}[data-agent-document] .pool-center .water-caption{font-size:.73rem}[data-agent-document] .pool-center .funding-figure{margin-left:0;margin-right:0}}
+@media print{[data-agent-document] .pool-center .funding-figure{box-shadow:none;break-inside:avoid}[data-agent-document] .pool-center .money-table{overflow:visible}}

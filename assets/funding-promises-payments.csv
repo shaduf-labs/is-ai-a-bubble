@@ -1,0 +1,19 @@
+arrangement,financial_measure,amount_USD_billions,period_or_date,stage,source_keys,qualification
+openai-march-round,committed capital,122,2026-03-31,issuer-reported closed round,OAI-MAR,Not aggregate cash receipt; do not add components again
+amazon-openai-investment,reported invested,50,by 2026-07-30 filing,investor-reported funding,AMZN-Q2,15 Q1 + 13.7 Q2 + 21.3 after June30; not recipient bank audit
+softbank-openai-2026,reported executed,20,April1 and July1 2026,investor-reported execution,SB-APR|SB-JUL,Third10 scheduled October1 and not verified paid
+softbank-openai-2026,third tranche scheduled,10,2026-10-01,future schedule,SB-JUL|SB-JUL-JA,Possible listing-related acceleration; do not plot as paid
+softbank-openai-bridge-2026,cumulative drawings,30,2026-09-09,debt not equity,SB-BRIDGE|SB-SEP,40 facility;25.9 outstanding intended repayment September15 not verified
+amazon-anthropic-series-g-2026,reported invested,5,Q2 2026,preferred equity,AMZN-Q2,Separate from SeriesH5
+amazon-anthropic-series-h-2026,reported invested,5,Q2 2026,preferred equity,AMZN-Q2|ANT-H,Included in round and reduces facility ceiling
+amazon-anthropic-capacity-facility,remaining ceiling,15,2026-06-30,conditional maximum,AMZN-Q2,20 minus5; availability zero at inception only
+amazon-anthropic-capacity-facility,current available,,not disclosed in inspected passages,unknown,AMZN-Q2,Blank is unknown not zero
+anthropic-series-h,reported raised,65,2026-05-28,round includes earlier commitments,ANT-H,15 prior hyperscaler commitments inside65 including Amazon5
+anthropic-aws-2026,purchase commitment lower bound exclusive,100,ten years from April2026 agreement,purchasing not revenue,ANT-AWS|AMZN-Q2,More than100; not invoice-level use of investment cash
+microsoft-openai-funding,reported cumulative funded,11.9,2026-06-30,investment funding,MSFT-FY,13 commitment;135 historical stake value is not another cheque
+openai-microsoft-commercial,recognized revenue,24.1,year ended2026-06-30,period revenue,MSFT-FY,6 ending receivable does not permit cash-collections subtraction
+openai-microsoft-commercial,ending receivable,6,2026-06-30,balance not cash flow,MSFT-FY|MSFT-APR,Opening balance and other movements needed; rate and cap undisclosed
+nvidia-openai-sb-energy-guarantee,reported initial cap,105,August17 disclosure and September4 forms,contingent guarantee,NV-GUAR|SBE-GUAR,Not investment cash or expected loss or verified all-in maximum
+nvidia-sbe-prepaid-forward,contract amount,1.5,agreement2026-08-17,filed payment obligation,SBE-FWD|SBE-INDEX,Within3businessdays; cash receipt not independently established
+nvidia-sbe-ipo-subscription,contract amount,1.5,agreement2026-08-17,IPO-conditional subscription,SBE-SUB|SBE-INDEX,At least1.5 primary IPO proceeds excluding shareholder sales; not3bn paid
+ports-pike-lease,nominal rent total,,form filed2026-09-04,unknown,SBE-LEASE|SBE-GUAR,Phase-delivery rent relief and default gates; redacted schedules
