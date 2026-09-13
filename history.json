@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "20260913-065727-3f88d54d",
+      "status": "completed",
+      "started_at": "2026-09-13T07:04:00+00:00",
+      "completed_at": "2026-09-13T09:16:51.483577+00:00",
+      "report_path": "/p/is-ai-a-bubble/research/debt-before-returns/",
+      "entrypoint": "research/debt-before-returns/index.html",
+      "title": "The loan runs for years. Repayments can start earlier.",
+      "summary": "A March principal timetable and contract case, extended by May parent-recourse terms and June unsecured issuance. Current June-quarter and August source gaps remain explicit.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260912-193329-6a99bd00",
       "status": "completed",
       "started_at": "2026-09-12T19:37:01.251Z",

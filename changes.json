@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "debt-before-returns",
+      "changed_at": "2026-09-13T09:16:51.483577+00:00",
+      "summary": "A March principal timetable and contract case, extended by May parent-recourse terms and June unsecured issuance. Current June-quarter and August source gaps remain explicit.",
+      "path": "/p/is-ai-a-bubble/research/debt-before-returns/"
+    },
+    {
       "change_id": "funding-promises-payments",
       "changed_at": "2026-09-13T04:45:21Z",
       "summary": "Investor-reported payments, conditional facilities, overlapping rounds and contractual guarantee gates; no mixed cash total.",

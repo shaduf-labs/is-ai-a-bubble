@@ -1,0 +1,95 @@
+/* Run04 authored Center-only graphics. No JavaScript, external service or shared-shell styling. */
+.pool-center .debt-kicker{font-size:.73rem;letter-spacing:.13em;text-transform:uppercase;font-weight:750;color:var(--accent);margin:12px 0}
+.pool-center .debt-deck{font-size:clamp(1.16rem,2.6vw,1.45rem);line-height:1.5;max-width:760px}
+.pool-center .debt-scope{border-left:3px solid #a27437;background:#f8f3e9;padding:17px 21px;font-size:.88rem;line-height:1.55;margin:24px 0}
+.pool-center .debt-scope p:last-child{margin:0}
+.pool-center .debt-jump{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:.87rem;margin:24px 0}
+.pool-center .debt-figure{padding:clamp(18px,3.6vw,34px);margin:30px 0;background:white;border:1px solid var(--line);border-radius:4px}
+.pool-center .debt-figure h3{font-family:ui-serif,Georgia,serif;font-size:clamp(1.4rem,2.8vw,1.8rem);font-weight:500;line-height:1.22;margin:0 0 13px}
+.pool-center .debt-figure figcaption{color:var(--muted);font-size:.84rem;line-height:1.6;margin-top:22px}
+.pool-center .debt-figure figcaption p:last-child{margin:0}
+.pool-center .debt-figure .figure-label{font-size:.69rem;letter-spacing:.1em;font-weight:750;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:12px}
+.pool-center .principal-header{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start}
+.pool-center .principal-insight{border-left:2px solid var(--accent);padding:0 0 0 17px;max-width:205px;font-size:.83rem}
+.pool-center .principal-insight strong{display:block;color:var(--accent);font-size:2.2rem;line-height:1.1;font-variant-numeric:tabular-nums;margin:4px 0 6px}
+.pool-center .principal-bars{display:grid;gap:15px;margin:28px 0 10px;list-style:none;padding:0}
+.pool-center .principal-bars li{display:grid;grid-template-columns:112px minmax(0,1fr) 65px;gap:15px;align-items:center;font-size:.84rem;line-height:1.3}
+.pool-center .principal-track{height:27px;background:#f1f4ee;border-left:1px solid #819188;position:relative}
+.pool-center .principal-bar{display:block;height:100%;background:var(--accent)}
+.pool-center .principal-bars li:nth-child(n+3) .principal-bar{background:#809876}
+.pool-center .principal-value{text-align:right;font-size:.95rem;font-weight:650;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pool-center .principal-axis{padding:0 80px 0 127px;display:flex;justify-content:space-between;color:var(--muted);font-size:.73rem;margin-top:8px}
+.pool-center .principal-key{font-size:.78rem;color:var(--muted);margin-top:17px}
+.pool-center .recourse-map{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch;margin:24px 0}
+.pool-center .recourse-box{padding:22px;border:1px solid var(--line);background:#f3f6f0}
+.pool-center .recourse-box.parent{background:#fbf6ee;border:1px dashed #987645}
+.pool-center .recourse-box h4{font-size:.95rem;margin:0 0 12px}
+.pool-center .recourse-box p{font-size:.86rem;line-height:1.55;margin-bottom:12px}
+.pool-center .recourse-box p:last-child{margin:0}
+
+.pool-center .recourse-lender{grid-column:1/-1;margin-top:17px;padding:17px 22px;border-top:3px solid var(--accent);background:#edf2e9;font-size:.9rem}
+.pool-center .recourse-lender p{margin:0}
+.pool-center .debt-note{font-size:.88rem;border-left:2px solid var(--line);padding-left:16px}
+.pool-center .queue{list-style:none;counter-reset:q;padding:0;margin:24px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.pool-center .queue li{counter-increment:q;padding:16px;border-top:3px solid var(--accent);background:#f2f5ef;line-height:1.45;font-size:.84rem}
+.pool-center .queue li:before{content:counter(q,decimal-leading-zero);display:block;font-size:.72rem;letter-spacing:.1em;margin-bottom:9px;color:var(--muted);font-weight:750}
+.pool-center .queue li:last-child{border-top-style:dashed;background:#fbf6ee;border-color:#987645}
+.pool-center .queue li strong{display:block;font-size:.91rem;margin-bottom:7px}
+.pool-center .queue li span{display:block;color:var(--muted);font-size:.8rem}
+.pool-center .covenant-legend{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.78rem;color:var(--muted);margin:24px 0 10px}
+.pool-center .covenant-row{display:grid;grid-template-columns:105px minmax(0,1fr) 66px;gap:15px;align-items:center;font-size:.85rem;margin:17px 0}
+.pool-center .covenant-track{height:36px;background:#f1f4ee;position:relative;border-left:1px solid #829288}
+.pool-center .covenant-bar{display:block;height:100%;background:var(--accent)}
+.pool-center .covenant-bar.stress{background:#ac8050}
+.pool-center .covenant-threshold{position:absolute;left:88.461538%;height:50px;top:-7px;width:0;border-left:2px dashed #392f24;z-index:1}
+.pool-center .ratio{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.05rem;text-align:right}
+.pool-center .covenant-answer{background:#f8f3e9;padding:16px 18px;font-size:.9rem;line-height:1.55;margin-top:23px}
+.pool-center .covenant-answer p{margin:0}
+.pool-center .terms-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 26px;margin:25px 0}
+.pool-center .terms-grid>div{padding:14px 0;border-bottom:1px solid var(--line)}
+.pool-center .terms-grid dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:5px;font-weight:650}
+.pool-center .terms-grid dd{margin:0;font-size:.91rem;line-height:1.5}
+.pool-center .debt-table-wrap{overflow-x:auto;overscroll-behavior-x:contain;margin:23px 0;padding-bottom:5px}
+.pool-center .debt-table{min-width:700px;table-layout:auto;font-size:.84rem}
+.pool-center .debt-table th,.pool-center .debt-table td{padding:12px 10px;line-height:1.45;vertical-align:top}
+.pool-center .debt-table th:first-child{width:22%;padding-left:0}
+.pool-center .debt-table td:last-child{text-align:left;width:32%;font-size:.78rem}
+.pool-center .debt-table td:nth-child(2){white-space:nowrap;font-variant-numeric:tabular-nums}
+.pool-center .debt-table .focus-row{background:#edf2e9}
+.pool-center .debt-reading-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:23px}
+.pool-center .debt-reading-pair>div{border-top:3px solid var(--accent);padding-top:16px}
+.pool-center .debt-reading-pair>div:last-child{border-color:#a67d48}
+.pool-center .debt-reading-pair h3{font-size:1.03rem}
+.pool-center .debt-reading-pair p{font-size:.91rem}
+@media(max-width:650px){.pool-center .principal-header{grid-template-columns:1fr;gap:12px}.pool-center .principal-insight{max-width:none;border-left:0;border-top:1px solid var(--line);padding:13px 0 0}.pool-center .principal-insight strong{display:inline;margin-right:9px;font-size:1.65rem}.pool-center .principal-bars li{grid-template-columns:80px minmax(0,1fr) 54px;gap:8px;font-size:.77rem}.pool-center .principal-track{height:24px}.pool-center .principal-value{font-size:.84rem}.pool-center .principal-axis{padding:0 62px 0 88px}.pool-center .recourse-map{grid-template-columns:1fr}.pool-center .recourse-box{padding:18px}.pool-center .queue{grid-template-columns:1fr;gap:10px}.pool-center .queue li{position:relative;padding:13px 15px 13px 49px;border-top:0;border-left:3px solid var(--accent)}.pool-center .queue li:before{position:absolute;left:14px;top:15px}.pool-center .queue li:last-child{border-left-style:dashed}.pool-center .terms-grid,.pool-center .debt-reading-pair{grid-template-columns:1fr}.pool-center .covenant-row{grid-template-columns:72px minmax(0,1fr) 49px;gap:8px;font-size:.78rem}.pool-center .ratio{font-size:.92rem}}
+@media(max-width:360px){.pool-center .principal-bars li{grid-template-columns:67px minmax(0,1fr) 48px;gap:7px}.pool-center .principal-axis{padding:0 55px 0 74px}.pool-center .debt-figure{padding:15px}.pool-center .debt-scope{padding:15px}.pool-center .debt-jump{gap:10px 17px}.pool-center .covenant-row{grid-template-columns:63px minmax(0,1fr) 45px;gap:7px}}
+@media print{.pool-center .debt-figure{break-inside:avoid;box-shadow:none}.pool-center .debt-table-wrap{overflow:visible}.pool-center .debt-table{min-width:0}.pool-center .debt-jump{display:none}}
+
+/* Fixed, reproducible bar geometry; no inline style dependency. */
+.pool-center .principal-y0{width:93.323077%}
+.pool-center .principal-y1{width:86.953846%}
+.pool-center .principal-y2{width:58.492308%}
+.pool-center .principal-y3{width:44.523077%}
+.pool-center .principal-y4{width:36.123077%}
+.pool-center .principal-y5{width:67.492308%}
+.pool-center .covenant-bar.before{width:92.307692%}
+.pool-center .covenant-bar.stress{width:83.076923%}
+.pool-center .debt-table-wrap:focus-visible{outline:3px solid #b06b22;outline-offset:4px}
+
+/* Continuation02: dated guarantee comparison and explicitly separate currency series. */
+.pool-center .guarantee-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:25px 0}
+.pool-center .guarantee-panel{padding:22px;background:#f1f5ed;border-top:4px solid var(--accent)}
+.pool-center .guarantee-panel.limited{background:#fcf6eb;border-top:4px dashed #916d3c}
+.pool-center .guarantee-panel h4{font-family:ui-serif,Georgia,serif;font-size:1.45rem;line-height:1.2;margin:7px 0 14px;font-weight:500}
+.pool-center .compare-date{font-size:.73rem;color:var(--muted);font-weight:700;letter-spacing:.04em;margin:0 0 10px}
+.pool-center .guarantee-panel p{font-size:.89rem;line-height:1.6;margin-bottom:14px}
+.pool-center .guarantee-panel .compare-entity{font-size:.81rem;color:var(--muted)}
+.pool-center .promise-scope{border:1px solid #b2c3ac;background:#fff;padding:13px 15px;font-size:.95rem;font-weight:650;line-height:1.45;margin-bottom:18px}
+.pool-center .limited .promise-scope{border-style:dashed;border-color:#b19a79}
+.pool-center .compare-conclusion{border-left:3px solid var(--accent);padding:12px 0 12px 17px;font-size:.93rem}
+.pool-center .issued-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:24px 0}
+.pool-center .issued-notes>section{border:1px solid var(--line);padding:23px;background:#fff}
+.pool-center .issued-notes h4{font-size:2.25rem;letter-spacing:-.03em;margin:14px 0;font-weight:600;font-variant-numeric:tabular-nums}
+.pool-center .issued-notes p:last-child{margin-bottom:0;font-size:.9rem;line-height:1.65}
+@media(max-width:650px){.pool-center .guarantee-compare,.pool-center .issued-notes{grid-template-columns:1fr;gap:14px}.pool-center .guarantee-panel,.pool-center .issued-notes>section{padding:18px}.pool-center .guarantee-panel h4{font-size:1.35rem}}
+@media print{.pool-center .guarantee-compare,.pool-center .issued-notes{break-inside:avoid}}

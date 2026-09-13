@@ -1,0 +1,682 @@
+{
+  "schema_version": "1.0.0",
+  "title": "The loan runs for years. Repayments can start earlier.",
+  "topic": "Is AI a Bubble?",
+  "question_revision": 1,
+  "question": "Is AI a Bubble?",
+  "evidence_checked_on": "2026-09-13",
+  "financial_snapshot": "2026-03-31",
+  "filing_date": "2026-05-08",
+  "currency": "USD for March snapshot; post-March events explicitly label USD or EUR",
+  "money_unit": "millions",
+  "scope": "March 31 historical 12-row principal snapshot plus separately dated May facility and June issued-note events. Not a June or September group roll-forward.",
+  "rules": [
+    "Historical March snapshot, not September current debt.",
+    "Principal, net carrying amount, facility ceiling and conditional availability differ.",
+    "Effective interest rates are rounded issuer measures, not contractual coupons or market yields.",
+    "Principal schedule is not an all-cash forecast; subsequent share settlement, repayment and new borrowing are not silently netted.",
+    "Null means not established here, not zero or unsecured.",
+    "Do not add facility limits, gross new issues or different currencies to March principal. Current group net changes and repayments are not reconstructed."
+  ],
+  "debt": [
+    {
+      "id": "ddtl1",
+      "label": "DDTL 1.0",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 1438,
+      "final_maturity_disclosed": "2028-03",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 15,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Issuer describes DDTL underlying project assets and pledged contractual cash flows; full individual security schedules not reviewed.",
+      "recourse": "Parent-guaranteed per Q1 indebtedness risk disclosure; full individual guarantee terms not reviewed.",
+      "guarantor": "CoreWeave, Inc. parent; issuer states unconditional guarantee for earlier DDTL facilities.",
+      "amortization": "Issuer describes amortization as contracted cash flows are generated; facility-specific principal schedule not reconstructed.",
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 MD&A financing discussion and indebtedness risks, printed pp.84–85; not a direct audit of each older agreement."
+    },
+    {
+      "id": "ddtl2",
+      "label": "DDTL 2.0",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 4425,
+      "final_maturity_disclosed": "2030-08",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 11,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Issuer describes DDTL underlying project assets and pledged contractual cash flows; full individual security schedules not reviewed.",
+      "recourse": "Parent-guaranteed per Q1 indebtedness risk disclosure; full individual guarantee terms not reviewed.",
+      "guarantor": "CoreWeave, Inc. parent; issuer states unconditional guarantee for earlier DDTL facilities.",
+      "amortization": "Issuer describes amortization as contracted cash flows are generated; facility-specific principal schedule not reconstructed.",
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 MD&A financing discussion and indebtedness risks, printed pp.84–85; not a direct audit of each older agreement."
+    },
+    {
+      "id": "ddtl21",
+      "label": "DDTL 2.1",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 3000,
+      "final_maturity_disclosed": "2031-03",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 9,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Issuer describes DDTL underlying project assets and pledged contractual cash flows; full individual security schedules not reviewed.",
+      "recourse": "Parent-guaranteed per Q1 indebtedness risk disclosure; full individual guarantee terms not reviewed.",
+      "guarantor": "CoreWeave, Inc. parent; issuer states unconditional guarantee for earlier DDTL facilities.",
+      "amortization": "Issuer describes amortization as contracted cash flows are generated; facility-specific principal schedule not reconstructed.",
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 MD&A financing discussion and indebtedness risks, printed pp.84–85; not a direct audit of each older agreement."
+    },
+    {
+      "id": "ddtl3",
+      "label": "DDTL 3.0",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 1700,
+      "final_maturity_disclosed": "2030-08",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 9,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Issuer describes DDTL underlying project assets and pledged contractual cash flows; full individual security schedules not reviewed.",
+      "recourse": "Parent-guaranteed per Q1 indebtedness risk disclosure; full individual guarantee terms not reviewed.",
+      "guarantor": "CoreWeave, Inc. parent; issuer states unconditional guarantee for earlier DDTL facilities.",
+      "amortization": "Issuer describes amortization as contracted cash flows are generated; facility-specific principal schedule not reconstructed.",
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 MD&A financing discussion and indebtedness risks, printed pp.84–85; not a direct audit of each older agreement."
+    },
+    {
+      "id": "ddtl4",
+      "label": "DDTL 4.0",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 1260,
+      "final_maturity_disclosed": "2032-03",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 7,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": {
+        "floating": "Daily compounded SOFR + 2.25 percentage points, or alternative base rate + 1.25 percentage points",
+        "fixed": "Applicable blended Treasury benchmark at borrowing + 2.00 percentage points",
+        "undrawn_fee_percent_per_year": 0.5,
+        "note": "Not one fixed rate for every borrowing; draw-specific fixed rates and benchmark resetting matter."
+      },
+      "security": "First-priority pledge of borrower equity and substantially all borrower/credit-party assets and controlled accounts; permitted liens, perfection timing and exclusions apply. Not a claim over every CoreWeave group asset.",
+      "recourse": "Borrower/project obligations; limited parent carve-out guarantee, not ordinary blanket parent repayment guarantee",
+      "guarantor": "CoreWeave, Inc. for defined Guaranteed Obligations; subsidiary guarantees under collateral documentation",
+      "amortization": "Monthly principal begins after specified commitment-termination, delayed-site or top-up events; residual due at maturity. Full Schedule 2.08/base-case amortization model not recovered.",
+      "source_ids": [
+        "coreweave-q1-10q",
+        "ddtl4-8k",
+        "ddtl4-credit",
+        "ddtl4-guarantee"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "borrower": "CoreWeave Compute Acquisition Co. VIII, LLC",
+      "agreement_date": "2026-03-30",
+      "facility_limit_usd_millions": 8500,
+      "final_maturity_date": "2032-03-31",
+      "availability_end": "2027-06-30",
+      "contract_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex102.htm"
+      ],
+      "security_verification": "Issuer Q1 Note10 reports perfected first-priority interests. No independent perfection search was performed."
+    },
+    {
+      "id": "senior2030",
+      "label": "2030 senior notes",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 2000,
+      "final_maturity_disclosed": "2030-06",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 10,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Senior unsecured notes and subsidiary guarantees, as described for the note group in Q1 risk disclosure; individual indenture not audited.",
+      "recourse": "Issuer obligation with described subsidiary guarantees; no lien priority inferred from senior label.",
+      "guarantor": "Specified wholly owned domestic subsidiaries that guarantee the revolver, per issuer description; complete current list unverified.",
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 indebtedness risks, printed p.85"
+    },
+    {
+      "id": "senior2031",
+      "label": "2031 senior notes",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 1750,
+      "final_maturity_disclosed": "2031-02",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 10,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": "Senior unsecured notes and subsidiary guarantees, as described for the note group in Q1 risk disclosure; individual indenture not audited.",
+      "recourse": "Issuer obligation with described subsidiary guarantees; no lien priority inferred from senior label.",
+      "guarantor": "Specified wholly owned domestic subsidiaries that guarantee the revolver, per issuer description; complete current list unverified.",
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 indebtedness risks, printed p.85"
+    },
+    {
+      "id": "convertible2031",
+      "label": "2031 convertible senior notes",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 2588,
+      "final_maturity_disclosed": "2031-12",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 2,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": {
+        "coupon_percent": 1.75,
+        "basis": "Issuer description in Q1 risk disclosure; distinct from rounded2% effective rate."
+      },
+      "security": "Senior unsecured notes and subsidiary guarantees, as described for the note group in Q1 risk disclosure; individual indenture not audited.",
+      "recourse": "Issuer obligation with described subsidiary guarantees; no lien priority inferred from senior label.",
+      "guarantor": "Specified wholly owned domestic subsidiaries that guarantee the revolver, per issuer description; complete current list unverified.",
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "terms_locator": "Q1 indebtedness risks, printed p.85"
+    },
+    {
+      "id": "promissory",
+      "label": "Convertible promissory notes",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 171,
+      "final_maturity_disclosed": "2026-04",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 7,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": null,
+      "recourse": null,
+      "guarantor": null,
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "subsequent_event": "Same Q1 filing reports settlement in April 2026 by Class A shares. Historical principal maturity is not proof that equivalent cash was paid."
+    },
+    {
+      "id": "revolver",
+      "label": "Revolving credit facility",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 1500,
+      "final_maturity_disclosed": "2029-11",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 6,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": {
+        "interest_formula": null,
+        "undrawn_fee_percent_per_year": 0.25,
+        "basis": "Note10 reports undrawn fee; no coupon formula reconstructed."
+      },
+      "security": "Secured by pledges of certain assets according to Note10; full collateral schedule unverified.",
+      "recourse": null,
+      "guarantor": null,
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee.",
+      "subsequent_event": "Q1 Note16 reports repayment of the March31 USD1500m balance in April. Future borrowing remains permitted; not a current-zero assertion."
+    },
+    {
+      "id": "oem-software",
+      "label": "OEM and software license financing",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 5036,
+      "final_maturity_disclosed": "2026-07 to 2030-07",
+      "maturity_precision": "range of months",
+      "reported_effective_rate_percent": 10,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": null,
+      "recourse": null,
+      "guarantor": null,
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee."
+    },
+    {
+      "id": "magnetar",
+      "label": "Magnetar loan",
+      "as_of": "2026-03-31",
+      "principal_usd_millions": 281,
+      "final_maturity_disclosed": "2029-01",
+      "maturity_precision": "month",
+      "reported_effective_rate_percent": 12,
+      "effective_rate_basis": "Rounded issuer-reported effective annual rate in Note 10; not a contractual coupon or market yield",
+      "contractual_rate": null,
+      "security": null,
+      "recourse": null,
+      "guarantor": null,
+      "amortization": null,
+      "source_ids": [
+        "coreweave-q1-10q"
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "locator": "Note 10, debt obligations table, printed page 24",
+      "unknown_terms_policy": "Null means not established in this case; not unsecured or no guarantee."
+    }
+  ],
+  "principal_maturity_ladder": [
+    {
+      "period": "Apr–Dec 2026",
+      "principal_usd_millions": 6066
+    },
+    {
+      "period": "2027",
+      "principal_usd_millions": 5652
+    },
+    {
+      "period": "2028",
+      "principal_usd_millions": 3802
+    },
+    {
+      "period": "2029",
+      "principal_usd_millions": 2894
+    },
+    {
+      "period": "2030",
+      "principal_usd_millions": 2348
+    },
+    {
+      "period": "Thereafter",
+      "principal_usd_millions": 4387
+    }
+  ],
+  "reconciliation": {
+    "principal_total": 25149,
+    "unamortized_discount_and_issuance_costs": 290,
+    "balance_sheet_net_debt_carrying_amount": 24859,
+    "net_current_debt": 7547,
+    "net_noncurrent_debt": 17312
+  },
+  "scheduled_through_2027": {
+    "amount": 11718,
+    "total": 25149,
+    "percent_unrounded": "46.59429798401526899677919599",
+    "percent_display": 46.6,
+    "formula": "(6066+5652)/25149*100",
+    "scope": "Historical scheduled principal, not default probability or a funding shortfall."
+  },
+  "cash_priority": {
+    "kind": "Normal-course contractual order, NOT bankruptcy distribution or observed cash flow",
+    "steps": [
+      {
+        "order": 1,
+        "label": "Specified operating costs",
+        "qualification": "Includes defined costs due or expected within 60 days; excludes certain management fees"
+      },
+      {
+        "order": 2,
+        "label": "Agent, depositary and related fees"
+      },
+      {
+        "order": 3,
+        "label": "Interest and ordinary hedging payments"
+      },
+      {
+        "order": 4,
+        "label": "Scheduled principal and hedge termination payments"
+      },
+      {
+        "order": 5,
+        "label": "Liquidity reserve"
+      },
+      {
+        "order": 6,
+        "label": "Power reserve"
+      },
+      {
+        "order": 7,
+        "label": "Cash trap, when triggered"
+      },
+      {
+        "order": 8,
+        "label": "Other permitted costs and management fees"
+      },
+      {
+        "order": 9,
+        "label": "Conditional distributions and permitted intercompany uses"
+      }
+    ],
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+    "locator": "Section 2.20(b); default proceeds have a distinct section 7.04 waterfall"
+  },
+  "coverage": {
+    "maintenance_minimum": 1.15,
+    "projected_sizing_minimum": 1.2,
+    "actual_ratio": null,
+    "testing_start": "After first full fiscal month following commitment termination, per section 6.12",
+    "definition": "Contractually defined net operating income divided by defined debt service over trailing three fiscal months; not a group GAAP ratio.",
+    "debt_service_excludes": "Final maturity bullet and specified other repayments excluded by contract definition",
+    "cure": "Section7.03 allows defined equity cures: financial covenant deadline is the fifteenth day after required statement delivery date; a cash-shortfall cure has a different thirty-day window. Lenders need not advance during the breach. Usage limit changes after a defined sunset date; no borrower compliance certificate inspected.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+    "locator": "Definitions Debt Service/DSCR/Projected DSCR; sections 6.12 and 7.03",
+    "actual_compliance_status": null,
+    "hypothetical": {
+      "is_observed": false,
+      "unit": "invented comparable units",
+      "debt_service": 100,
+      "initial_eligible_income": 120,
+      "stressed_eligible_income": 108,
+      "threshold_eligible_income": 115,
+      "initial_ratio": 1.2,
+      "stressed_ratio": 1.08,
+      "meaning": "Arithmetic illustration only, not actual covenant inputs, estimated headroom or a default forecast."
+    }
+  },
+  "rating_scope": {
+    "issuer_reported_facility_ratings": [
+      "A3",
+      "A(low)"
+    ],
+    "primary_rating_report_inspected": false,
+    "whole_group_rating_inferred": false,
+    "maintenance_clause": "Section5.18 requires a rating to be maintained, not a specified rating level."
+  },
+  "recovery": {
+    "fair_value_or_liquidation_estimate": null,
+    "reason": "No complete perfection/search record, executed collateral schedules, realizable GPU prices or correlated customer-default scenario verified. First-priority claim is a legal position, not a recovery percentage."
+  },
+  "sources": {
+    "coreweave-q1-10q": {
+      "title": "CoreWeave Q1 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
+      "publication_date": "2026-05-08",
+      "scope": "Notes on debt, future principal payments, financing costs, subsequent convertible-note settlement, revenues/customer concentration, and liquidity/financing discussion; selected financial statements, not a full audit; subsequent-events Note16 and full relevant indebtedness-risk section, including earlier-facility parent guarantees and issuer perfection/hedge-compliance statements",
+      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference."
+    },
+    "coreweave-q1-index": {
+      "title": "SEC filing metadata for CoreWeave Q1 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/0001769628-26-000222-index.htm",
+      "publication_date": "2026-05-08",
+      "scope": "Complete filing detail, dates and document table",
+      "limitations": "Date metadata, not separate corroboration of financial facts."
+    },
+    "ddtl4-8k": {
+      "title": "CoreWeave DDTL 4.0 closing and material terms",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
+      "publication_date": "2026-03-31",
+      "scope": "Complete 8-K financial terms and exhibit references",
+      "limitations": "Summary is qualified by exhibits; does not establish satisfaction of every future draw condition."
+    },
+    "ddtl4-credit": {
+      "title": "CoreWeave Compute Acquisition Co. VIII credit agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
+      "publication_date": "2026-03-31",
+      "scope": "Close reading of definitions; borrowing and amortization; section2.20; representations and closing conditions; account, rating and hedge covenants; sections6.12 and7.01–7.04; selected agency provisions",
+      "limitations": "Selected operative sections of a long agreement, not the entire loan-document suite. Amortization model, schedules, counterparty terms, some redactions, UCC perfection and compliance certificates absent. No legal enforceability opinion."
+    },
+    "ddtl4-guarantee": {
+      "title": "CoreWeave parent limited guarantee",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex102.htm",
+      "publication_date": "2026-03-31",
+      "scope": "Complete guarantee, signature and Schedule1 definition read",
+      "limitations": "Unconditional applies to defined Guaranteed Obligations. Specific conduct triggers/exclusions, not all ordinary debt repayment or a guarantee of collateral market value."
+    },
+    "ddtl4-release": {
+      "title": "CoreWeave announces $8.5bn DDTL 4.0 financing",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8-5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
+      "publication_date": "2026-03-31",
+      "scope": "Full substantive release: commercial rationale, facility ratings, participants and reported pricing",
+      "limitations": "Issuer marketing, not a primary rating report or group investment-grade designation; same transaction family as filing."
+    },
+    "latham-financing": {
+      "title": "Latham advises arrangers on CoreWeave financing",
+      "url": "https://www.lw.com/en/news/2026/03/latham-advises-on-coreweave-landmark-financing-facility",
+      "publication_date": null,
+      "scope": "Main transaction and representation paragraphs",
+      "limitations": "Other-side transaction perspective but commercially interested, not independent economic validation or ratings analysis."
+    },
+    "bis-financing": {
+      "title": "BIS Bulletin 120: The financing of the AI boom",
+      "url": "https://www.bis.org/publ/bisbull120.pdf",
+      "publication_date": "2026-01-07",
+      "scope": "All eight PDF pages and references read; graph pages indexed3–7 screenshot-inspected",
+      "limitations": "Authors’ analysis, not institution-wide prediction; dated January context. No chart dollar figures or macro forecasts adopted; not a CoreWeave underwriting model."
+    },
+    "sec-bond-guide": {
+      "title": "Investor.gov: What are corporate bonds?",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+      "publication_date": "2013-06-04",
+      "scope": "Debt, maturity, collateral, secured/unsecured priority and default explanation",
+      "limitations": "General education, not present CoreWeave credit or recovery evidence."
+    },
+    "ddtl5-release": {
+      "title": "CoreWeave May DDTL 5.0 facility announcement",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-3-1-Billion-Loan-Facility-Expanding-Access-to-Public-Markets-for-GPU-Backed-Financing/default.aspx",
+      "publication_date": "2026-05-18",
+      "scope": "Full substantive release; facility amount, pricing, commercial rationale and unnamed customer credit quality",
+      "limitations": "Issuer perspective; closing a facility does not prove full drawing. Ratings are attributed, not independently examined."
+    },
+    "ddtl5-index": {
+      "title": "CoreWeave May financing filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/0001769628-26-000236-index.htm",
+      "publication_date": "2026-05-18",
+      "scope": "Complete date, accession and exhibit index",
+      "limitations": "Metadata only, not independent verification of the transaction."
+    },
+    "ddtl5-8k": {
+      "title": "CoreWeave May 15 DDTL 5.0 agreement, filed May 18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+      "publication_date": "2026-05-18",
+      "scope": "Full short 8-K; Item 1.01, exhibit links and schedule omissions",
+      "limitations": "Terms qualified by exhibits; no current principal, covenant certificate or receipt audit."
+    },
+    "ddtl5-credit": {
+      "title": "CoreWeave Financing DDTL V credit agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/ex101.htm",
+      "publication_date": "2026-05-18",
+      "scope": "Selected definitions for coverage, debt service, payment and availability; sections 2.08, 2.20, 5.23, 6.12 and selected 7.03",
+      "limitations": "Selected operative sections, not complete 134-page audit; amortization percentages and other schedules/redactions unavailable."
+    },
+    "ddtl5-guarantee": {
+      "title": "CoreWeave May parent guarantee and holdco pledge",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/ex102.htm",
+      "publication_date": "2026-05-18",
+      "scope": "Definitions; Articles II and III; sections 6.8–6.9; payment-not-collection and statutory-limit language",
+      "limitations": "No enforcement or collectibility opinion; parent tests subject to rating/revolver qualifications."
+    },
+    "june-notes-pricing": {
+      "title": "CoreWeave prices dollar and euro 2032 notes",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Pricing-of-1-25-Billion-of-Senior-Notes-and-2-Billion-of-Senior-Notes/default.aspx",
+      "publication_date": "2026-06-11",
+      "scope": "Full substantive pricing announcement; expected June 18 close and intended proceeds",
+      "limitations": "Pricing is not closing; later actual issue filing read separately."
+    },
+    "june-notes-8k": {
+      "title": "CoreWeave June 18 dollar and euro notes issuance",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
+      "publication_date": "2026-06-18",
+      "scope": "Full short 8-K: Item 1.01, completion, principal currencies, coupons, maturity, guarantees and exhibits",
+      "limitations": "Gross issuance, not net proceeds or a current group debt roll-forward; intended uses not traced."
+    },
+    "june-usd-indenture": {
+      "title": "CoreWeave 9.625% dollar notes indenture",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/exhibit41.htm",
+      "publication_date": "2026-06-18",
+      "scope": "Selected sections 3.2, 3.17, 10.1–10.2 and Exhibit A note status",
+      "limitations": "Not a full indenture, debt-basket or guarantor audit; incurrence restrictions differ from maintenance covenants."
+    },
+    "june-eur-indenture": {
+      "title": "CoreWeave 8.500% euro notes indenture",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/exhibit43.htm",
+      "publication_date": "2026-06-18",
+      "scope": "Selected guarantee limits/releases and Exhibit A senior-unsecured note status",
+      "limitations": "Not a full indenture audit; no EUR/USD conversion or current currency-exposure estimate."
+    },
+    "latham-may": {
+      "title": "Arranger counsel account of CoreWeave May financing",
+      "url": "https://www.lw.com/en/news/2026/05/latham-watkins-advises-on-coreweave-delayed-draw-term-loan-facility",
+      "publication_date": "2026-05-26",
+      "scope": "Main transaction and representation paragraphs",
+      "limitations": "Interested arranger counsel, not independent bank-settlement or rating confirmation."
+    }
+  },
+  "limitations": [
+    "Current principal and later credit agreement changes",
+    "Complete collateral agreement and perfection filings",
+    "Borrower-specific compliance certificates and actual ratios",
+    "Cash reserves and contingent draw headroom today",
+    "Customer payment waterfall cash actually received",
+    "GPU liquidation values, re-letting expense and correlated customer default",
+    "Every facility collateral/guarantee/covenant schedule",
+    "Existing principal schedule, not all future cash uses, interest, leases or undrawn commitments.",
+    "Final legal maturity does not mean all principal waits until that date.",
+    "A later equity settlement is reported for the April convertible promissory notes; do not label all scheduled principal a cash repayment.",
+    "Current portion covers a different time window from the remaining nine months of calendar 2026; carrying amount and principal also differ.",
+    "June and August originals were discovered but not fully retrievable; no current-amount claim is admitted from search extracts.",
+    "DDTL4 timing uses management estimates of specified start events; not all dates are an independently reconstructed fixed repayment schedule.",
+    "The same Q1 filing reports April revolver repayment and new note issuance. Neither this ladder nor selected subsequent events reconstruct September debt.",
+    "May and June event evidence narrows the later-source gap but does not substitute for the unread June-quarter or August original documents."
+  ],
+  "post_march_events": [
+    {
+      "id": "debt:r04-ddtl5-event",
+      "label": "DDTL 5.0 facility",
+      "event_date": "2026-05-15",
+      "disclosed_on": "2026-05-18",
+      "borrower": "CoreWeave Financing DDTL V, LLC",
+      "currency": "USD",
+      "money_unit": "millions",
+      "amount": 3100,
+      "amount_basis": "facility limit, not current principal",
+      "current_principal": null,
+      "final_maturity": "2031-11-15",
+      "contractual_rate": "Daily compounded SOFR, floor zero, plus 4.50 percentage points; base-rate alternative plus 3.50 points",
+      "undrawn_fee_percent_per_year": 0.5,
+      "security": "Substantially all borrower/subsidiary assets and 100% borrower equity pledge by CW Financing DDTL V Holdco, LLC",
+      "guarantor": "CoreWeave, Inc. and borrower subsidiaries under their applicable documents",
+      "recourse": "Broad parent payment/performance guarantee; statutory liability maximum and other terms apply, not assured collectibility",
+      "availability": "Earlier of commitments reduced to zero and September 30, 2026",
+      "amortization": "Monthly scheduled principal after commitment termination under section 2.08; percentages in unavailable schedule",
+      "coverage": "Borrower 1.35x maintenance under defined start, transition, numerator/denominator and cure rules; no actual ratio inspected",
+      "unknowns": [
+        "Current drawn balance",
+        "Full amortization/security schedules",
+        "Compliance certificates and applicable parent-revolver tests",
+        "Enforceability and recovery value"
+      ],
+      "sources": [
+        "ddtl5-8k",
+        "ddtl5-credit",
+        "ddtl5-guarantee"
+      ]
+    },
+    {
+      "id": "debt:r04-june-usd-notes-event",
+      "label": "June USD 2032 senior notes",
+      "event_date": "2026-06-18",
+      "borrower": "CoreWeave, Inc.",
+      "currency": "USD",
+      "money_unit": "millions",
+      "amount": 1250,
+      "amount_basis": "issuer-reported principal issued at closing, not a later outstanding balance",
+      "current_principal": null,
+      "final_maturity": "2032-07-15",
+      "coupon_percent_per_year": 9.625,
+      "interest_payment_dates": "January 15 and July 15; first January 15, 2027; accrues from June 18, 2026",
+      "security": "Senior unsecured",
+      "guarantor": "Specified wholly owned subsidiaries and qualifying future domestic restricted subsidiaries; applicable limitations and releases",
+      "recourse": "Issuer obligation plus specified subsidiary guarantees, not a GPU-collateral claim",
+      "use_of_proceeds": "Intended general corporate purposes including potential repayment and costs; actual allocation not traced",
+      "unknowns": [
+        "Current outstanding principal",
+        "Net proceeds and actual uses",
+        "Complete current guarantor map",
+        "Enforceability/recovery; for EUR, currency exposures and hedges"
+      ],
+      "sources": [
+        "june-notes-8k",
+        "june-usd-indenture"
+      ]
+    },
+    {
+      "id": "debt:r04-june-eur-notes-event",
+      "label": "June EUR 2032 senior notes",
+      "event_date": "2026-06-18",
+      "borrower": "CoreWeave, Inc.",
+      "currency": "EUR",
+      "money_unit": "millions",
+      "amount": 2000,
+      "amount_basis": "issuer-reported principal issued at closing, not a later outstanding balance",
+      "current_principal": null,
+      "final_maturity": "2032-07-15",
+      "coupon_percent_per_year": 8.5,
+      "interest_payment_dates": "January 15 and July 15; first January 15, 2027; accrues from June 18, 2026",
+      "security": "Senior unsecured",
+      "guarantor": "Specified wholly owned subsidiaries and qualifying future domestic restricted subsidiaries; applicable limitations and releases",
+      "recourse": "Issuer obligation plus specified subsidiary guarantees, not a GPU-collateral claim",
+      "use_of_proceeds": "Intended general corporate purposes including potential repayment and costs; actual allocation not traced",
+      "unknowns": [
+        "Current outstanding principal",
+        "Net proceeds and actual uses",
+        "Complete current guarantor map",
+        "Enforceability/recovery; for EUR, currency exposures and hedges"
+      ],
+      "sources": [
+        "june-notes-8k",
+        "june-eur-indenture"
+      ]
+    }
+  ],
+  "later_recourse_comparison": {
+    "march": "DDTL 4.0: defined parent carve-outs; borrower security distinct",
+    "may": "DDTL 5.0: parent payment/performance guarantee, subject to statutory limit and terms",
+    "rule": "Qualitative legal-scope comparison, not dollar-proportional risk or a controlled credit-quality comparison",
+    "sources": [
+      "ddtl4-guarantee",
+      "ddtl5-guarantee",
+      "ddtl5-8k"
+    ]
+  }
+}
