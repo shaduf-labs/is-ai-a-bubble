@@ -22,6 +22,9 @@
   })
   const outline=$('[data-page-outline]')
   if(outline){const headings=[...document.querySelectorAll('.agent-document :is(h2,h3)[id]')];for(const heading of headings){const a=document.createElement('a');a.href='#'+encodeURIComponent(heading.id);a.textContent=heading.textContent;outline.append(a)}if(!headings.length)outline.hidden=true}
+  // Source-file bases keep sealed report links working after host redirects.
+  // Fragment links still belong to the currently displayed document.
+  if(document.querySelector('base[href]'))for(const a of document.querySelectorAll('a[href^="#"]'))a.href=location.pathname+location.search+a.getAttribute('href')
   const track=$('.ticker-track'), group=track?.firstElementChild
   if(group){const copy=group.cloneNode(true);copy.className='ticker-clone';copy.setAttribute('aria-hidden','true');copy.inert=true;for(const a of copy.querySelectorAll('a'))a.tabIndex=-1;track.append(copy)}
   $('[data-toggle-ticker]')?.addEventListener('click', event => {const paused=$('.activity-ticker')?.classList.contains('paused');event.currentTarget.setAttribute('aria-pressed',String(paused));event.currentTarget.setAttribute('aria-label',paused?'Resume activity ticker':'Pause activity ticker')})

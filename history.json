@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-001",
+      "status": "completed",
+      "started_at": "2026-09-18",
+      "completed_at": "2026-09-18",
+      "report_path": "/p/is-ai-a-bubble/research/whole-system-baseline/",
+      "entrypoint": "research/whole-system-baseline/index.html",
+      "title": "Current foundation · Real demand, demanding prices, and growing repayment risk",
+      "summary": "Real demand does not make every investment sound.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "20260913-065727-3f88d54d",
       "status": "completed",
       "started_at": "2026-09-13T07:04:00+00:00",

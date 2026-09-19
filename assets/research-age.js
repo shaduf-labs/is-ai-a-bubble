@@ -14,7 +14,8 @@ export function firstResearchAt(history) {
 export function researchDays(startedAt, now = Date.now()) {
   const start = stamp(startedAt)
   if (!Number.isFinite(start) || !Number.isFinite(now) || start > now) return null
-  return Math.max(1, utcDay(now) - utcDay(start))
+  // Count the first UTC research date as day one, then advance each midnight.
+  return utcDay(now) - utcDay(start) + 1
 }
 
 export function researchFreshness(updatedAt, now = Date.now()) {

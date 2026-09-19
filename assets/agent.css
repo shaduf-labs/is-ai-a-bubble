@@ -220,3 +220,58 @@
 [data-agent-document] .pool-center .issued-notes p:last-child{margin-bottom:0;font-size:.9rem;line-height:1.65}
 @media(max-width:650px){[data-agent-document] .pool-center .guarantee-compare,[data-agent-document] .pool-center .issued-notes{grid-template-columns:1fr;gap:14px}[data-agent-document] .pool-center .guarantee-panel,[data-agent-document] .pool-center .issued-notes>section{padding:18px}[data-agent-document] .pool-center .guarantee-panel h4{font-size:1.35rem}}
 @media print{[data-agent-document] .pool-center .guarantee-compare,[data-agent-document] .pool-center .issued-notes{break-inside:avoid}}
+
+/* Reader-content components; shared platform surfaces are not styled. */
+[data-agent-document] .pool-center.baseline {--accent:#275e4e;--tint:#edf2e9;}
+[data-agent-document] .pool-center.baseline h1 {max-width:900px;}
+[data-agent-document] .pool-center.baseline h3 {font-size:1.13rem;}
+[data-agent-document] .pool-center.baseline .scope {border-left:2px solid var(--line);padding-left:18px;font-size:.94rem;}
+[data-agent-document] .pool-center.baseline .section-nav {display:flex;flex-wrap:wrap;gap:10px 23px;border-block:1px solid var(--line);padding:18px 0;margin:30px 0;font-size:.88rem;}
+[data-agent-document] .pool-center.baseline .section-nav a {padding-block:4px;}
+[data-agent-document] .pool-center.baseline section[id],[data-agent-document] .pool-center.baseline [id] {scroll-margin-top:24px;}
+[data-agent-document] .pool-center.baseline .evidence-pair,[data-agent-document] .pool-center.baseline .mechanism-grid,[data-agent-document] .pool-center.baseline .window-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0;}
+[data-agent-document] .pool-center.baseline .evidence-pair>section,[data-agent-document] .pool-center.baseline .mechanism-grid>section {padding:24px;border:1px solid var(--line);background:#fff;}
+[data-agent-document] .pool-center.baseline .evidence-pair p:last-child,[data-agent-document] .pool-center.baseline .mechanism-grid p:last-child {margin-bottom:0;}
+[data-agent-document] .pool-center.baseline .window-grid>div {background:var(--tint);border-top:3px solid var(--accent);padding:23px;}
+[data-agent-document] .pool-center.baseline .stat {font-family:ui-serif,Georgia,serif;font-variant-numeric:tabular-nums;font-size:clamp(2.25rem,4.5vw,3.5rem);line-height:1.1;letter-spacing:-.03em;margin:12px 0 20px;}
+[data-agent-document] .pool-center.baseline .ratio-track {height:12px;background:#d1dacd;margin-top:18px;}
+[data-agent-document] .pool-center.baseline .ratio-trailing {width:77.3%;}
+[data-agent-document] .pool-center.baseline .ratio-half {width:91.4%;}
+[data-agent-document] .pool-center.baseline .ratio-track>span {display:block;height:100%;background:var(--accent);}
+[data-agent-document] .pool-center.baseline figure {margin:28px 0;padding:24px;border:1px solid var(--line);}
+[data-agent-document] .pool-center.baseline figcaption {font-size:.92rem;margin-bottom:18px;}
+[data-agent-document] .pool-center.baseline .money-chain,[data-agent-document] .pool-center.baseline .test-grid {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding:0;margin:25px 0;list-style:none;}
+[data-agent-document] .pool-center.baseline .money-chain li {position:relative;border-top:3px solid var(--accent);padding-top:13px;font-size:.9rem;}
+[data-agent-document] .pool-center.baseline .money-chain li+li:before {content:'→';position:absolute;top:-17px;left:-18px;background:var(--paper);font-size:1.3rem;}
+[data-agent-document] .pool-center.baseline .money-chain span {display:block;color:var(--muted);font-size:.84rem;margin-top:10px;}
+[data-agent-document] .pool-center.baseline .flow-return {border-top:1px dashed var(--accent);padding-top:18px;font-size:.94rem;margin-bottom:0;}
+[data-agent-document] .pool-center.baseline .step {display:block;color:var(--accent);font-variant-numeric:tabular-nums;font-size:.8rem;border-top:3px solid var(--accent);padding-top:14px;margin-bottom:10px;}
+[data-agent-document] .pool-center.baseline .test-grid p {font-size:.93rem;}
+[data-agent-document] .pool-center.baseline .table-hint {display:none;}
+[data-agent-document] .pool-center.baseline .scroll-table {overflow-x:auto;max-width:100%;margin:22px 0 18px;border:1px solid var(--line);padding:0 12px 12px;}
+[data-agent-document] .pool-center.baseline .scroll-table:focus-visible {outline:3px solid #a65c16;outline-offset:3px;}
+[data-agent-document] .pool-center.baseline table {table-layout:auto;min-width:520px;font-size:.88rem;}
+[data-agent-document] .pool-center.baseline table.cols-2 {min-width:0;}
+[data-agent-document] .pool-center.baseline caption {padding:14px 0 8px;font-size:.84rem;}
+[data-agent-document] .pool-center.baseline th,[data-agent-document] .pool-center.baseline td {padding:12px 9px;}
+[data-agent-document] .pool-center.baseline th:first-child {width:30%;}
+[data-agent-document] .pool-center.baseline .prose-table th,[data-agent-document] .pool-center.baseline .prose-table td {text-align:left;line-height:1.55;}
+[data-agent-document] .pool-center.baseline .prose-table th:first-child {width:26%;}
+[data-agent-document] .pool-center.baseline .prose-table td {width:37%;}
+[data-agent-document] .pool-center.baseline .boundary {border:2px solid var(--accent);padding:23px;margin:27px 0;background:#fff;}
+[data-agent-document] .pool-center.baseline .boundary p:last-child {margin-bottom:0;}
+[data-agent-document] .pool-center.baseline .scenario {border:1px solid var(--line);padding:24px;margin:26px 0;background:#f1f4ed;}
+[data-agent-document] .pool-center.baseline .formula {font-size:.94rem;border-block:1px solid var(--line);padding:14px 0;}
+[data-agent-document] .pool-center.baseline .scenario-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0;}
+[data-agent-document] .pool-center.baseline .scenario-grid>section {border-top:3px solid var(--accent);padding-top:18px;}
+[data-agent-document] .pool-center.baseline .scenario-grid p {font-size:.94rem;}
+[data-agent-document] .pool-center.baseline .change-entry {border-top:1px solid var(--line);padding-top:25px;margin-top:30px;}
+[data-agent-document] .pool-center.baseline .change-entry h3 {font-family:ui-serif,Georgia,serif;font-size:1.55rem;font-weight:500;}
+[data-agent-document] .pool-center.baseline .argument-list>section {padding:20px 0 0;}
+[data-agent-document] .pool-center.baseline .current-record {border:2px solid var(--accent);background:var(--tint);}
+[data-agent-document] .pool-center.baseline .source-line {line-height:1.7;}
+[data-agent-document] .pool-center.baseline code {font-size:.86em;overflow-wrap:anywhere;}
+@media(max-width:760px) {[data-agent-document] .pool-center.baseline .money-chain,[data-agent-document] .pool-center.baseline .test-grid {grid-template-columns:repeat(2,minmax(0,1fr));}[data-agent-document] .pool-center.baseline .scenario-grid {grid-template-columns:1fr;}[data-agent-document] .pool-center.baseline .money-chain li:before {display:none;}}
+@media(max-width:600px) {[data-agent-document] .pool-center.baseline .table-hint {display:block;font-size:.84rem;color:var(--muted);margin-bottom:6px;}[data-agent-document] .pool-center.baseline .evidence-pair,[data-agent-document] .pool-center.baseline .mechanism-grid,[data-agent-document] .pool-center.baseline .window-grid {grid-template-columns:1fr;gap:16px;}[data-agent-document] .pool-center.baseline .evidence-pair>section,[data-agent-document] .pool-center.baseline .mechanism-grid>section,[data-agent-document] .pool-center.baseline figure,[data-agent-document] .pool-center.baseline .scenario,[data-agent-document] .pool-center.baseline .boundary {padding:18px;}[data-agent-document] .pool-center.baseline .scroll-table {padding-inline:8px;}[data-agent-document] .pool-center.baseline .source-line {font-size:.85rem;}[data-agent-document] .pool-center.baseline .section-nav {gap:8px 18px;}}
+@media(max-width:360px) {[data-agent-document] .pool-center.baseline .money-chain,[data-agent-document] .pool-center.baseline .test-grid {grid-template-columns:1fr;}}
+@media print {[data-agent-document] .pool-center.baseline .section-nav {display:none;}[data-agent-document] .pool-center.baseline .scroll-table {overflow:visible;border:0;padding:0;}[data-agent-document] .pool-center.baseline table {min-width:0;}[data-agent-document] .pool-center.baseline .change-entry {break-inside:avoid;}}

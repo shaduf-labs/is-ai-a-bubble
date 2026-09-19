@@ -2,262 +2,562 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "r04-public-paragraph-6-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
-      "claim": "Financing risk has a timetable and a legal address. You can now distinguish when principal is due, whose assets support it, and whether the parent promises ordinary repayment. May’s broader guarantee strengthens that contrast; June’s unsecured notes show why a guarantee is not the same as collateral. May terms; June issuance.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave May 15 DDTL 5.0 agreement, filed May 18",
-      "limitations": "Terms qualified by exhibits; no current principal, covenant certificate or receipt audit.",
+      "evidence_id": "baseline-public-paragraph-15-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-6-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
-      "claim": "Financing risk has a timetable and a legal address. You can now distinguish when principal is due, whose assets support it, and whether the parent promises ordinary repayment. May’s broader guarantee strengthens that contrast; June’s unsecured notes show why a guarantee is not the same as collateral. May terms; June issuance.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave June 18 dollar and euro notes issuance",
-      "limitations": "Gross issuance, not net proceeds or a current group debt roll-forward; intended uses not traced.",
+      "evidence_id": "baseline-public-paragraph-15-1",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-9-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "CoreWeave’s filing places some loans’ final maturities years away. Yet its March principal schedule put $11.718bn of the then-outstanding $25.149bn before the end of 2027. That is 46.6% of scheduled principal, not a probability of default or an estimate of cash missing. CoreWeave Q1 filing, Note 10.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
+      "evidence_id": "baseline-public-paragraph-15-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-13-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
-      "claim": "The March agreement gives a named subsidiary, CoreWeave Compute Acquisition Co. VIII, LLC, an $8.5bn delayed-draw term loan facility, called DDTL 4.0. Delayed draw means borrowing can occur in stages. Only $1.260bn of principal was reported at 31 March. The ceiling and the borrowing are not two amounts to add. March financing disclosure; CoreWeave Q1 filing.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave DDTL 4.0 closing and material terms",
-      "limitations": "Summary is qualified by exhibits; does not establish satisfaction of every future draw condition.",
+      "evidence_id": "baseline-public-paragraph-15-3",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-13-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "The March agreement gives a named subsidiary, CoreWeave Compute Acquisition Co. VIII, LLC, an $8.5bn delayed-draw term loan facility, called DDTL 4.0. Delayed draw means borrowing can occur in stages. Only $1.260bn of principal was reported at 31 March. The ceiling and the borrowing are not two amounts to add. March financing disclosure; CoreWeave Q1 filing.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
+      "evidence_id": "baseline-public-paragraph-21-0",
+      "source_url": "https://arxiv.org/html/2304.11771v2",
+      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-14-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
-      "claim": "Sources: March financing disclosure, interest, availability and security sections; Credit agreement, section 2.08; CoreWeave Q1 filing, Note 10. These are contractual terms and a dated drawing, not a reconstruction of every cash payment.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave DDTL 4.0 closing and material terms",
-      "limitations": "Summary is qualified by exhibits; does not establish satisfaction of every future draw condition.",
+      "evidence_id": "baseline-public-paragraph-21-1",
+      "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-14-2",
+      "evidence_id": "baseline-public-paragraph-21-2",
+      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-21-3",
+      "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-23-0",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "claim": "Sources: Microsoft July earnings call; Menlo Ventures 2025 enterprise study.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-23-1",
+      "source_url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+      "claim": "Sources: Microsoft July earnings call; Menlo Ventures 2025 enterprise study.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-25-0",
+      "source_url": "https://openai.com/index/the-work-now-within-reach/",
+      "claim": "Sources: OpenAI 8 September commercial thesis.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-29-0",
+      "source_url": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
+      "claim": "Sources: Reuters, 17 August: Anthropic revenue reporting; Financial Times: Anthropic adjusted-profit expectation.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-29-1",
+      "source_url": "https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002",
+      "claim": "Sources: Reuters, 17 August: Anthropic revenue reporting; Financial Times: Anthropic adjusted-profit expectation.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-0",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-1",
+      "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-3",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-4",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-5",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-41-6",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+      "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-0",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-1",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-3",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-4",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-47-5",
+      "source_url": "https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/",
+      "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-51-0",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-51-1",
+      "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+      "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-51-2",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-51-3",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-58-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "claim": "Sources: Meta June 2026 filing, debt note; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-58-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "claim": "Sources: Meta June 2026 filing, debt note; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-61-0",
+      "source_url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-61-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-61-2",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-65-0",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
+      "claim": "Sources: CoreWeave June 2026 filing; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-65-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
+      "claim": "Sources: CoreWeave June 2026 filing; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-68-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
-      "claim": "Sources: March financing disclosure, interest, availability and security sections; Credit agreement, section 2.08; CoreWeave Q1 filing, Note 10. These are contractual terms and a dated drawing, not a reconstruction of every cash payment.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Compute Acquisition Co. VIII credit agreement",
-      "limitations": "Selected operative sections of a long agreement, not the entire loan-document suite. Amortization model, schedules, counterparty terms, some redactions, UCC perfection and compliance certificates absent. No legal enforceability opinion.",
+      "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-14-3",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "Sources: March financing disclosure, interest, availability and security sections; Credit agreement, section 2.08; CoreWeave Q1 filing, Note 10. These are contractual terms and a dated drawing, not a reconstruction of every cash payment.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "r04-public-paragraph-15-1",
+      "evidence_id": "baseline-public-paragraph-68-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex102.htm",
-      "claim": "The parent guarantee’s wording initially sounds broad. Its operative definition is narrower. The parent covers specified conduct-related losses, with exclusions; it does not generally promise to make every ordinary repayment when project income disappoints. Reading only the adjective “unconditional” would miss that distinction. Parent guarantee, Schedule 1.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave parent limited guarantee",
-      "limitations": "Unconditional applies to defined Guaranteed Obligations. Specific conduct triggers/exclusions, not all ordinary debt repayment or a guarantee of collateral market value.",
+      "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-24-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "Do not apply that boundary to all CoreWeave debt. The filing describes earlier DDTLs as parent-guaranteed. A new facility can have different protection from the loans beside it in the same table. CoreWeave Q1 filing, indebtedness risks.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
+      "evidence_id": "baseline-public-paragraph-68-2",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
+      "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-25-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
-      "claim": "The agreement specifies what the project’s cash pays before distributions. Reserves and restrictions can protect lenders while limiting the borrower’s flexibility. A customer paying on time is therefore only the start of the cash question. Credit agreement, section 2.20.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Compute Acquisition Co. VIII credit agreement",
-      "limitations": "Selected operative sections of a long agreement, not the entire loan-document suite. Amortization model, schedules, counterparty terms, some redactions, UCC perfection and compliance certificates absent. No legal enforceability opinion.",
+      "evidence_id": "baseline-public-paragraph-71-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "claim": "Sources: NVIDIA 17 August financing disclosure; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-28-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
-      "claim": "DDTL 4.0’s maintenance test is 1.15× after its specified start date. The agreement uses a borrower-specific, trailing-three-month calculation, with its own income and debt-service definitions. That is not interchangeable with an annual company-wide cash ratio, and it differs from the separate 1.20× projected sizing test. March financing disclosure; Credit agreement, definitions and section 6.12.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave DDTL 4.0 closing and material terms",
-      "limitations": "Summary is qualified by exhibits; does not establish satisfaction of every future draw condition.",
+      "evidence_id": "baseline-public-paragraph-71-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "Sources: NVIDIA 17 August financing disclosure; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-28-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
-      "claim": "DDTL 4.0’s maintenance test is 1.15× after its specified start date. The agreement uses a borrower-specific, trailing-three-month calculation, with its own income and debt-service definitions. That is not interchangeable with an annual company-wide cash ratio, and it differs from the separate 1.20× projected sizing test. March financing disclosure; Credit agreement, definitions and section 6.12.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Compute Acquisition Co. VIII credit agreement",
-      "limitations": "Selected operative sections of a long agreement, not the entire loan-document suite. Amortization model, schedules, counterparty terms, some redactions, UCC perfection and compliance certificates absent. No legal enforceability opinion.",
+      "evidence_id": "baseline-public-paragraph-74-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm",
+      "claim": "Sources: NVIDIA prepaid-forward agreement, section 1(f); NVIDIA offering-linked subscription agreement.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-31-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
-      "claim": "Equity cures can alter covenant compliance. Within the specified cure window, the agreement limits remedies based on the breach but does not require lenders to keep advancing funds. A cure is a contractual protection; it is not proof that independent customer receipts improved. Credit agreement, section 7.03.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Compute Acquisition Co. VIII credit agreement",
-      "limitations": "Selected operative sections of a long agreement, not the entire loan-document suite. Amortization model, schedules, counterparty terms, some redactions, UCC perfection and compliance certificates absent. No legal enforceability opinion.",
+      "evidence_id": "baseline-public-paragraph-74-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm",
+      "claim": "Sources: NVIDIA prepaid-forward agreement, section 1(f); NVIDIA offering-linked subscription agreement.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-33-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "CoreWeave Q1 filing. “Not established” means a missing part of this investigation, not that lenders lack collateral or guarantees. The full JSON retains those gaps and the additional DDTL 4.0 terms.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
+      "evidence_id": "baseline-public-paragraph-82-0",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
+      "claim": "Sources: CoreWeave June 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-34-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
-      "claim": "$25.149bn principal less $0.290bn unamortized discount and issuance costs equals $24.859bn carrying amount. The $7.547bn current carrying portion also covers a different time window from the remaining nine months of calendar 2026. Neither difference is missing debt. CoreWeave Q1 filing, Note 10.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Q1 2026 Form 10-Q",
-      "limitations": "Historical March31 balances; later June-quarter and August terms not successfully recovered. No current September balance or default inference.",
+      "evidence_id": "baseline-public-paragraph-89-0",
+      "source_url": "https://openai.com/index/the-work-now-within-reach/",
+      "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-35-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
-      "claim": "In May, a different subsidiary—CoreWeave Financing DDTL V, LLC—entered a $3.1bn delayed-draw facility, known as DDTL 5.0. That is a maximum lending commitment, not a disclosed current loan balance. Its floating rate is daily compounded SOFR plus 4.50 percentage points, with final maturity on 15 November 2031. Scheduled principal begins under the agreement’s earlier amortization rules. May financing disclosure; credit agreement, section 2.08.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave May 15 DDTL 5.0 agreement, filed May 18",
-      "limitations": "Terms qualified by exhibits; no current principal, covenant certificate or receipt audit.",
+      "evidence_id": "baseline-public-paragraph-89-1",
+      "source_url": "https://mistral.ai/news/mistral-3/",
+      "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-35-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/ex101.htm",
-      "claim": "In May, a different subsidiary—CoreWeave Financing DDTL V, LLC—entered a $3.1bn delayed-draw facility, known as DDTL 5.0. That is a maximum lending commitment, not a disclosed current loan balance. Its floating rate is daily compounded SOFR plus 4.50 percentage points, with final maturity on 15 November 2031. Scheduled principal begins under the agreement’s earlier amortization rules. May financing disclosure; credit agreement, section 2.08.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Financing DDTL V credit agreement",
-      "limitations": "Selected operative sections, not complete 134-page audit; amortization percentages and other schedules/redactions unavailable.",
+      "evidence_id": "baseline-public-paragraph-89-2",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-46-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/ex101.htm",
-      "claim": "The May loan’s borrower coverage threshold is 1.35× after its specified start. Its defined debt-service denominator excludes the final-maturity bullet and other specified items. Passing that test would not, by itself, establish the ability to pay the final balance. The parent guarantee has separate, conditional leverage tests; the June dollar-note indenture restricts taking on additional debt, with exceptions. These are not one company-wide maintenance ratio. Actual certificates and a complete debt-basket calculation were not obtained. May definitions and section 6.12; parent section 6.9; note indenture, section 3.2.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave Financing DDTL V credit agreement",
-      "limitations": "Selected operative sections, not complete 134-page audit; amortization percentages and other schedules/redactions unavailable.",
+      "evidence_id": "baseline-public-paragraph-89-3",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-46-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/ex102.htm",
-      "claim": "The May loan’s borrower coverage threshold is 1.35× after its specified start. Its defined debt-service denominator excludes the final-maturity bullet and other specified items. Passing that test would not, by itself, establish the ability to pay the final balance. The parent guarantee has separate, conditional leverage tests; the June dollar-note indenture restricts taking on additional debt, with exceptions. These are not one company-wide maintenance ratio. Actual certificates and a complete debt-basket calculation were not obtained. May definitions and section 6.12; parent section 6.9; note indenture, section 3.2.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave May parent guarantee and holdco pledge",
-      "limitations": "No enforcement or collectibility opinion; parent tests subject to rating/revolver qualifications.",
+      "evidence_id": "baseline-public-paragraph-93-0",
+      "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
+      "claim": "Sources: Microsoft fiscal 2026 annual filing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-46-3",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/exhibit41.htm",
-      "claim": "The May loan’s borrower coverage threshold is 1.35× after its specified start. Its defined debt-service denominator excludes the final-maturity bullet and other specified items. Passing that test would not, by itself, establish the ability to pay the final balance. The parent guarantee has separate, conditional leverage tests; the June dollar-note indenture restricts taking on additional debt, with exceptions. These are not one company-wide maintenance ratio. Actual certificates and a complete debt-basket calculation were not obtained. May definitions and section 6.12; parent section 6.9; note indenture, section 3.2.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave 9.625% dollar notes indenture",
-      "limitations": "Not a full indenture, debt-basket or guarantor audit; incurrence restrictions differ from maintenance covenants.",
+      "evidence_id": "baseline-public-paragraph-99-0",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-47-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
-      "claim": "The 18 June filing reports that both offerings completed, following the earlier pricing announcement. They are senior unsecured obligations with specified subsidiary guarantees—not loans secured by a particular GPU pool. The figures below describe principal issued on that date, not today’s outstanding balances. June issuance and terms.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave June 18 dollar and euro notes issuance",
-      "limitations": "Gross issuance, not net proceeds or a current group debt roll-forward; intended uses not traced.",
+      "evidence_id": "baseline-public-paragraph-99-1",
+      "source_url": "https://www.anthropic.com/news/series-h",
+      "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-52-1",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
-      "claim": "Cash interest is semiannual, first payable on 15 January 2027, accruing from issuance. The subsidiary guarantees have limits and release provisions. No currency conversion or combined dollar total is shown. Issuance disclosure; USD indenture, Article X and note form.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave June 18 dollar and euro notes issuance",
-      "limitations": "Gross issuance, not net proceeds or a current group debt roll-forward; intended uses not traced.",
+      "evidence_id": "baseline-public-paragraph-99-2",
+      "source_url": "https://www.axios.com/2026/08/17/anthropic-revenue-run-rate-ipo-openai",
+      "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-52-2",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/exhibit41.htm",
-      "claim": "Cash interest is semiannual, first payable on 15 January 2027, accruing from issuance. The subsidiary guarantees have limits and release provisions. No currency conversion or combined dollar total is shown. Issuance disclosure; USD indenture, Article X and note form.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave 9.625% dollar notes indenture",
-      "limitations": "Not a full indenture, debt-basket or guarantor audit; incurrence restrictions differ from maintenance covenants.",
+      "evidence_id": "baseline-public-paragraph-99-3",
+      "source_url": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
+      "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-55-1",
-      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8-5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
-      "claim": "Contract-backed borrowing can finance useful capacity before customer cash arrives. Collateral, reserve requirements, hedging and payment priority provide protections. CoreWeave described DDTL 4.0 as investment-grade-rated financing; that description concerns the facility, not an independently verified group rating. Issuer’s case.",
-      "accessed_at": "2026-09-13",
-      "source_title": "CoreWeave announces $8.5bn DDTL 4.0 financing",
-      "limitations": "Issuer marketing, not a primary rating report or group investment-grade designation; same transaction family as filing.",
+      "evidence_id": "baseline-public-paragraph-99-4",
+      "source_url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
+      "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "r04-public-paragraph-57-1",
-      "source_url": "https://www.bis.org/publ/bisbull120.pdf",
-      "claim": "The BIS’s January analysis gives a useful counterweight: closed-end private-credit funds may reduce redemption pressure even while financing connections create risk. A fund’s funding structure and a borrower’s ability to repay are different questions. BIS Bulletin 120.",
-      "accessed_at": "2026-09-13",
-      "source_title": "BIS Bulletin 120: The financing of the AI boom",
-      "limitations": "Authors’ analysis, not institution-wide prediction; dated January context. No chart dollar figures or macro forecasts adopted; not a CoreWeave underwriting model.",
+      "evidence_id": "baseline-public-paragraph-108-0",
+      "source_url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-1",
+      "source_url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-2",
+      "source_url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-3",
+      "source_url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-ipo-launch-shifts-toward-midoctober-sources-say-4890091",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-4",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-5",
+      "source_url": "https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-108-6",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
+      "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-111-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm",
+      "claim": "Sources: NVIDIA offering-linked subscription agreement.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-0",
+      "source_url": "https://openai.com/index/the-work-now-within-reach/",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-1",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-2",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-3",
+      "source_url": "https://sequoiacap.com/article/ais-600b-question",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-4",
+      "source_url": "https://www.wheresyoured.at/on-nvidia-and-analyslop/",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-117-5",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "baseline-public-paragraph-128-0",
+      "source_url": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt",
+      "claim": "Sources: BIS, January 2026: financing the AI boom.",
+      "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     }

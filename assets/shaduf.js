@@ -150,12 +150,222 @@
   peek?.querySelectorAll('[data-close-peek]').forEach((node) => node.addEventListener('click', closePeek))
   peek?.querySelector('[data-peek-side]')?.addEventListener('click', () => peek.classList.toggle('side'))
 
-  async function session() {
-    try {
-      const response = await fetch('/api/session', { credentials: 'same-origin' })
-      return response.ok ? response.json() : { authenticated: false }
-    } catch { return { authenticated: false } }
+  const platformAuth = document.querySelector('[data-platform-auth]')
+  const accountControl = document.querySelector('[data-account-control]')
+  const accountMenu = accountControl?.querySelector('[data-account-menu]')
+  const authLabel = platformAuth?.querySelector('[data-auth-label]')
+  const authChevron = platformAuth?.querySelector('[data-auth-chevron]')
+  const controllerRevision = document.currentScript?.src?.match(/[?&]v=([^&#]+)/)?.[1] || 'my-pools-1'
+  let sessionState = { status: 'loading', authenticated: null }
+  let sessionRequest = null
+  const sessionListeners = new Set()
+  const followListeners = new Set()
+  const authChannel = typeof BroadcastChannel === 'function' ? new BroadcastChannel('shaduf-auth') : null
+
+  const closeAccountMenu = (restoreFocus = false) => {
+    if (!accountMenu || accountMenu.hidden) return
+    accountMenu.hidden = true
+    platformAuth?.setAttribute('aria-expanded', 'false')
+    if (restoreFocus) platformAuth?.focus?.()
   }
+  const notifySession = () => sessionListeners.forEach((listener) => listener(sessionState))
+  const notifyFollows = () => followListeners.forEach((listener) => listener())
+  const announceFollows = () => { notifyFollows(); authChannel?.postMessage({ type: 'follows-changed' }) }
+  const renderAccountMenu = () => {
+    if (!accountMenu || !sessionState.authenticated) return
+    accountMenu.replaceChildren()
+    accountMenu.setAttribute('role', 'menu')
+    const identity = document.createElement('div')
+    identity.className = 'account-menu-identity'
+    const name = document.createElement('strong')
+    name.textContent = sessionState.display_identity
+    const method = document.createElement('span')
+    method.textContent = `Signed in with ${sessionState.provider === 'github' ? 'GitHub' : 'Email'}`
+    identity.append(name, method)
+    const accountLink = document.createElement('a')
+    accountLink.href = platformAuth?.dataset.accountHref || '/account/'
+    accountLink.textContent = 'Account'
+    accountLink.setAttribute('role', 'menuitem')
+    const signOut = document.createElement('button')
+    signOut.type = 'button'
+    signOut.dataset.accountSignout = ''
+    signOut.textContent = 'Sign out'
+    signOut.setAttribute('role', 'menuitem')
+    const status = document.createElement('p')
+    status.className = 'account-menu-status'
+    status.setAttribute('role', 'status')
+    status.setAttribute('aria-live', 'polite')
+    signOut.addEventListener('click', async () => {
+      signOut.disabled = true
+      signOut.textContent = 'Signing out…'
+      status.textContent = ''
+      const ok = await logout()
+      if (ok) closeAccountMenu(true)
+      else {
+        signOut.disabled = false
+        signOut.textContent = 'Sign out'
+        status.textContent = 'We could not sign you out. Please try again.'
+      }
+    })
+    accountMenu.append(identity, accountLink, signOut, status)
+  }
+  const renderSession = () => {
+    if (!platformAuth || !authLabel) return
+    closeAccountMenu()
+    platformAuth.disabled = sessionState.status === 'loading'
+    platformAuth.setAttribute('aria-busy', String(sessionState.status === 'loading'))
+    platformAuth.classList.toggle('is-authenticated', Boolean(sessionState.authenticated))
+    if (sessionState.status === 'loading') {
+      authLabel.textContent = 'Account'
+      platformAuth.setAttribute('aria-label', 'Checking account')
+      if (authChevron) authChevron.hidden = true
+    } else if (sessionState.authenticated) {
+      authLabel.textContent = sessionState.display_identity
+      platformAuth.setAttribute('aria-label', `${sessionState.display_identity}, account menu`)
+      if (authChevron) authChevron.hidden = false
+      renderAccountMenu()
+    } else if (sessionState.status === 'error') {
+      authLabel.textContent = 'Account'
+      platformAuth.setAttribute('aria-label', 'Account status unavailable. Try again')
+      if (authChevron) authChevron.hidden = true
+    } else {
+      authLabel.textContent = 'Sign in'
+      platformAuth.setAttribute('aria-label', 'Sign in')
+      if (authChevron) authChevron.hidden = true
+    }
+    notifySession()
+  }
+  async function session({ force = false, loading = true } = {}) {
+    if (!force && sessionState.status !== 'loading') return sessionState
+    if (sessionRequest) return sessionRequest
+    if (loading && platformAuth) { sessionState = { status: 'loading', authenticated: null }; renderSession() }
+    sessionRequest = (async () => {
+      let timer = 0
+      try {
+        const request = fetch('/api/session', { credentials: 'same-origin' })
+        const response = platformAuth && typeof window.setTimeout === 'function'
+          ? await Promise.race([request, new Promise((_, reject) => { timer = window.setTimeout(() => reject(new Error('session_timeout')), 5000) })])
+          : await request
+        if (!response.ok) throw new Error('session_unavailable')
+        const value = await response.json()
+        if (value.authenticated === true && (value.provider === 'email' || value.provider === 'github') && typeof value.display_identity === 'string' && value.display_identity) {
+          sessionState = { status: 'ready', authenticated: true, provider: value.provider, display_identity: value.display_identity, csrf_token: value.csrf_token || '' }
+        } else if (value.authenticated === false) sessionState = { status: 'ready', authenticated: false }
+        else throw new Error('session_invalid')
+      } catch {
+        sessionState = { status: 'error', authenticated: null }
+      } finally {
+        if (timer) window.clearTimeout(timer)
+        sessionRequest = null
+        renderSession()
+      }
+      return sessionState
+    })()
+    return sessionRequest
+  }
+  async function logout() {
+    let current = sessionState
+    if (!current.authenticated) current = await session({ force: true, loading: false })
+    if (!current.authenticated) return false
+    try {
+      const response = await fetch('/api/auth/logout', { method: 'POST', headers: { 'x-shaduf-csrf': current.csrf_token || '' } })
+      if (!response.ok) return false
+      sessionState = { status: 'ready', authenticated: false }
+      renderSession()
+      authChannel?.postMessage({ type: 'session-changed' })
+      return true
+    } catch { return false }
+  }
+  const authHost = document.createElement('div')
+  const authRoot = authHost.attachShadow({ mode: 'closed' })
+  authRoot.innerHTML = `<link rel="stylesheet" href="/assets/auth-modal.css?v=${encodeURIComponent(controllerRevision)}"><dialog><main><button class="close" type="button" aria-label="Close">×</button><h2>Sign in</h2><p>Your first sign-in creates an account.</p><form><label>Email<input type="email" autocomplete="email" required></label><button class="primary submit" type="submit">Email me a sign-in link</button><p class="status" role="status" aria-live="polite"></p><button class="change" type="button" hidden>Change email</button></form><p class="or">or</p><button class="primary github" type="button">Continue with GitHub</button></main></dialog>`
+  document.body.append(authHost)
+  const authDialog = authRoot.querySelector('dialog')
+  const authForm = authRoot.querySelector('form'), authInput = authRoot.querySelector('input'), authStatus = authRoot.querySelector('.status'), authSubmit = authRoot.querySelector('.submit'), authChange = authRoot.querySelector('.change'), authGithub = authRoot.querySelector('.github'), authClose = authRoot.querySelector('.close')
+  let authOpener = null, authPopup = null, authTimer = 0
+  const setAuthStatus = (message, state = '') => { authStatus.textContent = message; if (authStatus.dataset) authStatus.dataset.state = state }
+  const closeAuth = () => { window.clearInterval(authTimer); authTimer = 0; if (authDialog.open) authDialog.close(); authOpener?.focus?.(); authOpener = null }
+  const refreshAuth = async () => { const current = await session({ force: true, loading: false }); if (current.authenticated) { authChannel?.postMessage({ type: 'session-changed' }); closeAuth(); return true } return false }
+  const openAuth = (opener) => { authOpener = opener; setAuthStatus(''); authChange.hidden = true; authSubmit.textContent = 'Email me a sign-in link'; if (!authDialog.open) authDialog.showModal(); authInput.focus() }
+  authClose.addEventListener('click', closeAuth)
+  authDialog.addEventListener('cancel', event => { event.preventDefault(); closeAuth() })
+  authDialog.addEventListener('close', () => { window.clearInterval(authTimer); authTimer = 0 })
+  authInput.addEventListener('invalid', () => setAuthStatus('Enter a valid email address.', 'error'))
+  authChange.addEventListener('click', () => { authChange.hidden = true; authSubmit.textContent = 'Email me a sign-in link'; setAuthStatus(''); authInput.focus(); authInput.select() })
+  authForm.addEventListener('submit', async event => {
+    event.preventDefault()
+    if (authForm.reportValidity && !authForm.reportValidity()) return
+    const email = authInput.value.trim()
+    authSubmit.disabled = true
+    authSubmit.textContent = 'Sending…'
+    setAuthStatus('Sending your sign-in link…')
+    try {
+      const response = await fetch('/api/auth/email/request',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email,return_to:location.pathname})})
+      const result = await response.json().catch(() => ({}))
+      if (!response.ok) {
+        const code = result?.error?.code
+        setAuthStatus(code === 'invalid_email' ? 'Enter a valid email address.' : code === 'email_cooldown' || code === 'rate_limited' ? 'Please wait a minute before requesting another link.' : code === 'email_delivery_failed' ? 'We could not send the link. Please try again.' : 'Sign-in email is temporarily unavailable. Please try again.', 'error')
+        return
+      }
+      setAuthStatus(`Check your email at ${email}. If it is not there, check Spam.`)
+      authSubmit.textContent = 'Send again'
+      authChange.hidden = false
+    } catch { setAuthStatus('We could not reach sign-in. Check your connection and try again.', 'error') }
+    finally { authSubmit.disabled = false; if (authSubmit.textContent === 'Sending…') authSubmit.textContent = 'Email me a sign-in link' }
+  })
+  authGithub.addEventListener('click', () => {
+    window.clearInterval(authTimer)
+    setAuthStatus('Opening GitHub…')
+    authPopup = window.open(`/api/auth/github/start?return_to=${encodeURIComponent('/sign-in/popup-complete/')}`,'shaduf-github-auth','popup,width=520,height=680')
+    if (!authPopup) {
+      const link=document.createElement('a')
+      link.href=`/api/auth/github/start?return_to=${encodeURIComponent(location.pathname)}`
+      link.target='_blank'
+      link.rel='noopener'
+      link.textContent='Open GitHub sign in in a new tab'
+      authStatus.replaceChildren(document.createTextNode('Your browser blocked the popup. '),link)
+      if (authStatus.dataset) authStatus.dataset.state = 'error'
+      return
+    }
+    const deadline=Date.now()+120000
+    authTimer = window.setInterval(async () => {
+      if (await refreshAuth()) return window.clearInterval(authTimer)
+      if (authPopup.closed) { window.clearInterval(authTimer); setAuthStatus('GitHub sign-in was not completed. Try again.', 'error') }
+      else if (Date.now() >= deadline) { window.clearInterval(authTimer); setAuthStatus('GitHub sign-in took too long. Try again.', 'error') }
+    }, 750)
+  })
+  platformAuth?.addEventListener('click', async event => {
+    event.preventDefault()
+    let current = sessionState
+    if (current.status === 'loading' || current.status === 'error') current = await session({ force: true })
+    if (current.authenticated) {
+      accountMenu.hidden = !accountMenu.hidden
+      platformAuth.setAttribute('aria-expanded', String(!accountMenu.hidden))
+      if (!accountMenu.hidden) accountMenu.querySelector('[role="menuitem"]')?.focus()
+      return
+    }
+    openAuth(platformAuth)
+    if (current.status === 'error') setAuthStatus('We could not check your current session. You can still try to sign in.', 'error')
+  })
+  document.querySelectorAll('[data-account-page-signin]').forEach((button) => button.addEventListener('click', () => openAuth(button)))
+  document.addEventListener('click', event => { if (accountControl && !accountControl.contains(event.target)) closeAccountMenu() })
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && accountMenu && !accountMenu.hidden) { event.preventDefault(); closeAccountMenu(true) } })
+  window.addEventListener('focus', () => { if (authDialog.open) refreshAuth(); else if (platformAuth) session({ force: true }) })
+  window.addEventListener('pageshow', () => { if (platformAuth) session({ force: true }) })
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && platformAuth) session({ force: true }) })
+  authChannel?.addEventListener('message', event => {
+    if (event.data?.type === 'session-changed') session({ force: true })
+    else if (event.data?.type === 'follows-changed') notifyFollows()
+  })
+  window.ShadufAuth = {
+    refresh: () => session({ force: true }),
+    open: openAuth,
+    logout,
+    announceFollows,
+    subscribe(listener) { sessionListeners.add(listener); listener(sessionState); return () => sessionListeners.delete(listener) },
+    subscribeFollows(listener) { followListeners.add(listener); return () => followListeners.delete(listener) },
+  }
+  if (platformAuth) session({ force: true })
   async function track(event_name, properties = {}) {
     const pool_id = body.dataset.poolId || ''
     const page_id = body.dataset.pageId || ''
@@ -187,16 +397,49 @@
     document.querySelectorAll('.related-dock a[data-target-id]').forEach((node) => relatedObserver.observe(node))
   }
 
-  const toolFrames = new Map([...document.querySelectorAll('[data-tool-frame]')].map((frame) => [frame.contentWindow, frame]))
-  document.querySelectorAll('[data-tool-frame]').forEach((frame) => frame.addEventListener('load', () => {
+  const toolFrames = new Map()
+  const registeredToolFrames = new WeakSet()
+  const requestToolMeasurement = (frame) => {
     frame.contentWindow?.postMessage({ type: 'shaduf:theme', theme: 'light' }, '*')
-  }))
+    frame.contentWindow?.postMessage({ type: 'shaduf:measure' }, '*')
+  }
+  const fitToolFrame = (frame, contentHeight) => {
+    const style = window.getComputedStyle(frame)
+    const pixel = (value) => Number.parseFloat(value) || 0
+    const frameChrome = style.boxSizing === 'border-box'
+      ? pixel(style.borderTopWidth) + pixel(style.borderBottomWidth) + pixel(style.paddingTop) + pixel(style.paddingBottom)
+      : 0
+    frame.style.height = `${Math.ceil(contentHeight + frameChrome)}px`
+  }
+  const registerToolFrame = (frame) => {
+    if (frame?.tagName !== 'IFRAME' || registeredToolFrames.has(frame)) return
+    registeredToolFrames.add(frame)
+    if (frame.contentWindow) toolFrames.set(frame.contentWindow, frame)
+    frame.addEventListener('load', () => {
+      for (const [source, registered] of toolFrames) if (registered === frame) toolFrames.delete(source)
+      if (frame.contentWindow) toolFrames.set(frame.contentWindow, frame)
+      requestToolMeasurement(frame)
+    })
+    window.requestAnimationFrame(() => requestToolMeasurement(frame))
+  }
+  const registerToolFrames = (root = document) => {
+    if (root?.tagName === 'IFRAME' && root.matches('[data-tool-frame],[data-agent-document] iframe[sandbox~="allow-scripts"][src]')) registerToolFrame(root)
+    root.querySelectorAll?.('[data-tool-frame],[data-agent-document] iframe[sandbox~="allow-scripts"][src]').forEach(registerToolFrame)
+  }
+  registerToolFrames()
+  if ('MutationObserver' in window) new MutationObserver((records) => {
+    for (const record of records) for (const node of record.addedNodes) if (node?.nodeType === 1) registerToolFrames(node)
+  }).observe(document.documentElement, { childList: true, subtree: true })
   window.addEventListener('message', (event) => {
     const frame = toolFrames.get(event.source)
     if (!frame || event.origin !== 'null' || !event.data || typeof event.data !== 'object') return
     if (event.data.type === 'shaduf:resize') {
-      const height = Math.max(240, Math.min(1200, Number(event.data.height) || 0))
-      frame.style.height = `${height}px`
+      const height = Number(event.data.height)
+      if (!Number.isFinite(height) || height <= 0) return
+      frame.dataset.shadufResizeReady = 'true'
+      fitToolFrame(frame,height)
+    } else if (event.data.type === 'shaduf:ready') {
+      requestToolMeasurement(frame)
     } else if (event.data.type === 'shaduf:fullscreen') {
       frame.requestFullscreen?.().catch(() => {})
     } else if (event.data.type === 'shaduf:navigate' && typeof event.data.path === 'string') {
@@ -206,17 +449,87 @@
     else if (event.data.type === 'shaduf:tool-completed') track('tool_completed', { target_id: frame.dataset.toolId || '' })
   })
 
-  document.querySelector('[data-follow]')?.addEventListener('click', async (event) => {
-    const button = event.currentTarget
-    const current = await session()
-    if (!current.authenticated) {
-      location.href = `/api/auth/github/start?return_to=${encodeURIComponent(location.pathname)}`
-      return
+  const followButton = document.querySelector('[data-follow]')
+  if (followButton) {
+    const followLabel = followButton.querySelector('span') || followButton
+    const poolId = body.dataset.poolId || ''
+    let followState = 'unknown'
+    let followBusy = false
+    let followRevision = 0
+    const renderFollow = () => {
+      followButton.classList.toggle('is-following', followState === 'following')
+      followButton.disabled = followBusy || followState === 'loading'
+      followButton.setAttribute('aria-busy', String(followBusy || followState === 'loading'))
+      if (followBusy) followLabel.textContent = followState === 'following' ? 'Removing…' : 'Saving…'
+      else if (followState === 'following') followLabel.textContent = '✓ Following'
+      else if (followState === 'error') followLabel.textContent = 'Retry'
+      else if (followState === 'loading') followLabel.textContent = 'Checking…'
+      else followLabel.textContent = 'Follow this pool'
+      followButton.setAttribute('aria-label', followState === 'following' ? 'Unfollow this pool' : followState === 'error' ? 'Retry loading saved pool state' : 'Follow this pool')
     }
-    const response = await fetch(`/api/follows/${encodeURIComponent(body.dataset.poolId || '')}`, { method: 'POST', headers: { 'x-shaduf-csrf': current.csrf_token || '' } })
-    if (response.ok) { button.textContent = 'Following'; showToast('Pool saved — notifications are not enabled') }
-    else showToast('Follow could not be saved')
-  })
+    const refreshFollow = async () => {
+      const revision = ++followRevision
+      let current = sessionState
+      if (current.status === 'loading' || current.status === 'error') current = await session({ force: true, loading: false })
+      if (revision !== followRevision) return
+      if (!current.authenticated) { followState = 'guest'; followBusy = false; renderFollow(); return }
+      followState = 'loading'; renderFollow()
+      try {
+        const response = await fetch('/api/me/pools', { credentials: 'same-origin', cache: 'no-store' })
+        if (revision !== followRevision) return
+        if (response.status === 401) {
+          await session({ force: true, loading: false })
+          if (revision !== followRevision) return
+          followState = 'guest'
+        } else if (!response.ok) followState = 'error'
+        else {
+          const value = await response.json()
+          followState = Array.isArray(value.items) && value.items.some(item => item?.pool_id === poolId && item?.following === true) ? 'following' : 'not-following'
+        }
+      } catch { if (revision === followRevision) followState = 'error' }
+      if (revision === followRevision) { followBusy = false; renderFollow() }
+    }
+    followButton.addEventListener('click', async () => {
+      if (followBusy || followState === 'loading') return
+      let current = sessionState
+      if (!current.authenticated) current = await session({ force: true, loading: false })
+      if (!current.authenticated) { openAuth(followButton); return }
+      if (followState === 'unknown' || followState === 'error') { await refreshFollow(); return }
+      const confirmed = followState
+      followBusy = true; renderFollow()
+      try {
+        const response = await fetch(`/api/follows/${encodeURIComponent(poolId)}`, {
+          method: confirmed === 'following' ? 'DELETE' : 'POST',
+          headers: { 'x-shaduf-csrf': current.csrf_token || '' },
+        })
+        if (response.status === 401) {
+          await session({ force: true, loading: false })
+          followState = 'guest'
+          showToast('Your session ended. Sign in to save this pool.')
+        } else if (!response.ok) {
+          followState = confirmed
+          showToast(confirmed === 'following' ? 'Unfollow could not be saved. Try again.' : 'Follow could not be saved. Try again.')
+        } else {
+          const value = await response.json().catch(() => ({}))
+          followState = value.following === true ? 'following' : 'not-following'
+          showToast(followState === 'following' ? 'Saved to My pools' : 'Removed from My pools')
+          announceFollows()
+        }
+      } catch {
+        followState = confirmed
+        showToast(confirmed === 'following' ? 'Unfollow could not be saved. Try again.' : 'Follow could not be saved. Try again.')
+      } finally { followBusy = false; renderFollow() }
+    })
+    window.ShadufAuth.subscribe((current) => {
+      followRevision += 1
+      if (current.status === 'ready' && !current.authenticated) { followState = 'guest'; followBusy = false; renderFollow() }
+      else if (current.status === 'ready' && current.authenticated) refreshFollow()
+      else if (current.status === 'error') { followState = 'error'; followBusy = false; renderFollow() }
+    })
+    window.ShadufAuth.subscribeFollows(refreshFollow)
+    window.addEventListener('focus', refreshFollow)
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refreshFollow() })
+  }
 
   const fundingButton = document.querySelector('[data-funding-intent]')
   fundingButton?.addEventListener('click', async () => {

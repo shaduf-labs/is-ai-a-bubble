@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "AI can be useful while some AI investments lose money. The evidence checked here shows real spending and working infrastructure, but not enough to establish returns across the investment chain or justify every price. That leaves the broad bubble question open.",
+  "current_answer": "AI is a real commercial expansion with concentrated speculative and financing vulnerabilities—not a uniformly unsupported economy. Customers obtain value and important suppliers earn operating profits. What remains unproven is whether the full build-out, its contractual obligations and the prices paid for ownership will earn their required returns.",
   "summary": [
-    "A March principal timetable and contract case, extended by May parent-recourse terms and June unsecured issuance. Current June-quarter and August source gaps remain explicit."
+    "Real demand does not make every investment sound."
   ],
   "uncertainty": [
-    "Stronger evidence of paying customers, high useful utilization and returns after replacement costs would support durable expansion. Persistent underuse, falling realized prices, losses on completed assets or dependence on refinancing would support a less favorable account. Those outcomes must be measured, not inferred from a promise to spend."
+    "Independent customers renewing at nonsubsidized prices, durable cash margins after full costs, and successful repayment and replacement across delivered investment cohorts would weaken the concern. Weak retention, greater dependence on fresh financing and poorer collateral recovery together would strengthen it—even if technical performance keeps improving."
   ],
-  "checked_at": "2026-09-13T09:04:45.535575+00:00",
-  "meaningfully_updated_at": "2026-09-13T09:04:45.535575+00:00",
-  "freshness_note": "Evidence checked 2026-09-13.",
+  "checked_at": "2026-09-18",
+  "meaningfully_updated_at": "2026-09-18T03:54:02+07:00",
+  "freshness_note": "Research evidence cutoff: 18 September 2026, a retrieval-day boundary, not a complete end-of-day snapshot.",
   "catalogue_card": {
     "question": "Is AI a Bubble?",
-    "text": "The spending is real. Whether it earns enough back is still open."
+    "text": "Real demand does not make every investment sound."
   }
 }

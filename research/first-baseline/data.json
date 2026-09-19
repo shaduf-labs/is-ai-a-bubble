@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0.0",
+  "topic": "Is AI a Bubble?",
+  "question_revision": 1,
+  "question": "Is AI a Bubble?",
+  "report_id": "first-baseline",
+  "evidence_checked_on": "2026-09-11",
+  "check_timezone": "Asia/Bangkok",
+  "source_dates_are_not_publication_dates": true,
+  "observations": [
+    {
+      "id": "evidence:r01-msft",
+      "classification": "reported_finding",
+      "statement": "Microsoft reports positive quarterly revenue and GAAP operating income.",
+      "source_ids": [
+        "source:msft-fy26q4"
+      ],
+      "period_or_event_date": "three months ended 2026-06-30",
+      "scope": "Consolidated company, nominal USD millions",
+      "limitations": "Not AI-only profit, cash flow or return on newly invested capital.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "revenue": 90007,
+        "gaap_operating_income": 40603,
+        "currency": "USD",
+        "unit": "million"
+      }
+    },
+    {
+      "id": "evidence:r01-nvidia",
+      "classification": "reported_finding",
+      "statement": "NVIDIA reports positive quarterly revenue and GAAP operating income.",
+      "source_ids": [
+        "source:nvidia-fy27q2"
+      ],
+      "period_or_event_date": "quarter ended 2026-07-26",
+      "scope": "Consolidated company, nominal USD millions",
+      "limitations": "Supplier earnings do not establish the return earned by compute buyers.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "revenue": 96221,
+        "gaap_operating_income": 63734,
+        "currency": "USD",
+        "unit": "million"
+      }
+    },
+    {
+      "id": "evidence:r01-amazon-investment",
+      "classification": "announced_terms",
+      "statement": "Amazon investment announcement splits an initial amount and a later conditional amount.",
+      "source_ids": [
+        "source:openai-amazon"
+      ],
+      "period_or_event_date": "2026-02-27",
+      "scope": "Investment leg, nominal USD billions",
+      "limitations": "Initial and conditional are announcement descriptions, not confirmation of each cash transfer.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "total": 50,
+        "initial": 15,
+        "conditional": 35,
+        "cash_paid_verified": null,
+        "currency": "USD",
+        "unit": "billion"
+      }
+    },
+    {
+      "id": "evidence:r01-aws-procurement",
+      "classification": "announced_terms",
+      "statement": "OpenAI announces an incremental eight-year AWS purchase expansion, distinct from the investment leg.",
+      "source_ids": [
+        "source:openai-amazon"
+      ],
+      "period_or_event_date": "2026-02-27",
+      "scope": "Incremental services commitment, nominal USD billions",
+      "limitations": "Not annual revenue, cash paid, delivered compute or traced use of Amazon investment proceeds.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "incremental_amount": 100,
+        "term_years": 8,
+        "cash_paid": null,
+        "recognized_revenue": null,
+        "currency": "USD",
+        "unit": "billion"
+      }
+    },
+    {
+      "id": "evidence:r01-round-close",
+      "classification": "issuer_reported_close",
+      "statement": "OpenAI reports a March 31 round close with $122 billion in committed capital and an $852 billion post-money valuation.",
+      "source_ids": [
+        "source:openai-march-round"
+      ],
+      "period_or_event_date": "2026-03-31",
+      "scope": "Aggregate round; nominal USD billions",
+      "limitations": "Replaces the February headline for this round, not another $122 billion to add; individual cash receipt schedule not verified. Valuation is a financing term, not intrinsic value.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "committed_capital": 122,
+        "post_money_valuation": 852,
+        "cash_received_verified": null,
+        "currency": "USD",
+        "unit": "billion"
+      }
+    },
+    {
+      "id": "evidence:r01-revolver",
+      "classification": "issuer_reported_facility",
+      "statement": "OpenAI describes an approximately $4.7 billion revolving facility as undrawn at the March close.",
+      "source_ids": [
+        "source:openai-march-round"
+      ],
+      "period_or_event_date": "2026-03-31",
+      "scope": "Facility limit versus drawings; nominal USD billions",
+      "limitations": "Zero drawings is specific to the announced closing date, not a claim about current drawings; covenants, security and maturity remain unverified.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "facility_limit_approx": 4.7,
+        "drawn_at_reported_close": 0,
+        "current_drawn": null,
+        "currency": "USD",
+        "unit": "billion"
+      }
+    },
+    {
+      "id": "evidence:r01-financing-target",
+      "classification": "announced_target",
+      "statement": "NVIDIA and six financial institutions announce memorandums aiming to mobilize more than $500 billion over time; final agreements remain required in that release.",
+      "source_ids": [
+        "source:nvidia-financing"
+      ],
+      "period_or_event_date": "2026-08-10",
+      "scope": "Third-party compute financing target, nominal USD billions",
+      "limitations": "Not a committed fund size, borrower debt balance, deployed capital or final lender terms.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "target_lower_bound_exclusive": 500,
+        "committed": null,
+        "funded": null,
+        "currency": "USD",
+        "unit": "billion"
+      }
+    },
+    {
+      "id": "evidence:r01-support",
+      "classification": "research_finding",
+      "statement": "A staggered support-tool rollout reports 15% more issues resolved per hour on average in a 5,172-agent study.",
+      "source_ids": [
+        "source:ai-at-work-v2",
+        "source:ai-at-work-html-v2"
+      ],
+      "period_or_event_date": "main rollout fall 2020/winter 2021; paper version 2024-11-06",
+      "scope": "One enterprise software support setting; main estimate difference-in-differences",
+      "limitations": "Not a universal productivity multiplier or directly observed monetary return; causal interpretation relies on rollout assumptions. Small randomized pilot is distinct from main sample.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "sample_agents": 5172,
+        "reported_mean_change_percent": 15,
+        "outcome": "issues resolved per hour",
+        "design": "staggered observational rollout / difference-in-differences"
+      }
+    },
+    {
+      "id": "evidence:r01-developer",
+      "classification": "research_finding",
+      "statement": "A randomized study of experienced open-source developers using early-2025 tools found 19% longer task completion time with AI access.",
+      "source_ids": [
+        "source:metr-2025"
+      ],
+      "period_or_event_date": "early 2025; published 2025-07-10",
+      "scope": "16 developers, 246 real tasks in familiar repositories",
+      "limitations": "Task duration is the denominator; not a 19% economy-wide productivity decline or a current-tool conclusion.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "sample_developers": 16,
+        "tasks": 246,
+        "time_change_percent": 19,
+        "outcome": "task completion time",
+        "design": "randomized field experiment"
+      }
+    },
+    {
+      "id": "evidence:r01-developer-follow-up",
+      "classification": "methodological_finding",
+      "statement": "METR's February update says selection and time-measurement problems make its newer speedup estimate unreliable.",
+      "source_ids": [
+        "source:metr-2026"
+      ],
+      "period_or_event_date": "published 2026-02-24; late-2025 follow-up",
+      "scope": "Task/participant selection and concurrent-agent measurement",
+      "limitations": "Weakens extrapolation from either old or newer raw estimates; not a precise causal replacement estimate.",
+      "confidence": "high_as_attributed",
+      "values": {}
+    },
+    {
+      "id": "evidence:r01-survey",
+      "classification": "self_reported_finding",
+      "statement": "A convenience survey of 349 technical workers reports medians of 1.4–2 times perceived work value across three questions.",
+      "source_ids": [
+        "source:metr-survey-2026"
+      ],
+      "period_or_event_date": "survey February–April 2026; published 2026-05-11",
+      "scope": "Self-reported counterfactual value of work, largely around March 2026",
+      "limitations": "The range is across question wordings, not a confidence interval; not a randomized output effect, measured cash savings or representative workforce estimate.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "analyzed_respondents": 349,
+        "raw_unique_respondents": 359,
+        "excluded_respondents": 10,
+        "median_value_multiplier_across_questions_min": 1.4,
+        "median_value_multiplier_across_questions_max": 2,
+        "range_type": "different question formulations",
+        "design": "convenience self-report survey"
+      }
+    },
+    {
+      "id": "evidence:r01-power",
+      "classification": "modeled_scenario",
+      "statement": "IEA's April 2025 base case projects about 945 TWh of global data-centre electricity demand in 2030.",
+      "source_ids": [
+        "source:iea-energy",
+        "source:iea-energy-landing"
+      ],
+      "period_or_event_date": "forecast vintage 2025-04-10; target year 2030",
+      "scope": "All data centres globally, AI and non-AI",
+      "limitations": "Forecast is not observed consumption or energized capacity; no claim this is the newest available forecast.",
+      "confidence": "high_as_attributed",
+      "values": {
+        "forecast_about": 945,
+        "unit": "TWh per year",
+        "target_year": 2030,
+        "vintage": "2025-04-10"
+      }
+    },
+    {
+      "id": "evidence:r01-assessment",
+      "classification": "inference",
+      "statement": "The inspected record supports real activity and scoped usefulness, but does not settle whole-chain payback or valuations; localized overinvestment and a productive buildout remain compatible.",
+      "source_ids": [
+        "source:msft-fy26q4",
+        "source:nvidia-fy27q2",
+        "source:ai-at-work-html-v2",
+        "source:openai-amazon",
+        "source:nvidia-financing"
+      ],
+      "period_or_event_date": "research baseline 2026-09-11 Asia/Bangkok",
+      "scope": "Selected companies, transactions and studies—not a sector-wide investment judgment",
+      "limitations": "No current-price model, causal systemic-risk estimate, crash date or probability produced.",
+      "confidence": "bounded_inference",
+      "values": {}
+    }
+  ],
+  "calculations": [
+    {
+      "id": "calculation:r01-msft-margin",
+      "label": "Microsoft GAAP operating margin",
+      "formula": "GAAP operating income / revenue * 100",
+      "inputs": {
+        "gaap_operating_income": 40603,
+        "revenue": 90007,
+        "currency": "USD",
+        "unit": "million"
+      },
+      "evidence_ids": [
+        "evidence:r01-msft"
+      ],
+      "unrounded_percent": "45.11093581610319197395758108",
+      "display_percent": "45.11",
+      "rounding": "Decimal; half-up to 2 decimal percentage points",
+      "interpretation": "Company-wide operating margin for its own reported quarter, not free cash flow or return on invested capital. No combined sector total."
+    },
+    {
+      "id": "calculation:r01-nvidia-margin",
+      "label": "NVIDIA GAAP operating margin",
+      "formula": "GAAP operating income / revenue * 100",
+      "inputs": {
+        "gaap_operating_income": 63734,
+        "revenue": 96221,
+        "currency": "USD",
+        "unit": "million"
+      },
+      "evidence_ids": [
+        "evidence:r01-nvidia"
+      ],
+      "unrounded_percent": "66.23710000935346753827127134",
+      "display_percent": "66.24",
+      "rounding": "Decimal; half-up to 2 decimal percentage points",
+      "interpretation": "Company-wide operating margin for its own reported quarter, not free cash flow or return on invested capital. No combined sector total."
+    },
+    {
+      "id": "calculation:r01-amazon-split",
+      "label": "Check investment announcement split",
+      "formula": "15 + 35",
+      "inputs": {
+        "initial_announced": 15,
+        "conditional_announced": 35,
+        "currency": "USD",
+        "unit": "billion"
+      },
+      "result": 50,
+      "evidence_ids": [
+        "evidence:r01-amazon-investment"
+      ],
+      "interpretation": "Reconciles announced components only; does not establish cash settlement."
+    },
+    {
+      "id": "calculation:r01-survey-count",
+      "label": "Check analyzed survey count",
+      "formula": "359 - 10",
+      "inputs": {
+        "unique_responses": 359,
+        "excluded": 10,
+        "unit": "respondents"
+      },
+      "result": 349,
+      "evidence_ids": [
+        "evidence:r01-survey"
+      ],
+      "interpretation": "Arithmetic consistency with researcher report, not a replication of filtering choices."
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:msft-fy26q4",
+      "title": "Microsoft FY2026 Q4 results",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "published_at": "2026-07-29",
+      "publication_date_precision": "day",
+      "inspection_scope": "Quarterly GAAP rows and income statements; selected operating commentary",
+      "locator": "GAAP quarterly reconciliation and unaudited income statements, quarter ended 30 June 2026",
+      "limitations": "Company-reported, unaudited release; not an audit or an AI-only income statement. No customer cash-flow reconciliation."
+    },
+    {
+      "id": "source:nvidia-fy27q2",
+      "title": "NVIDIA FY2027 Q2 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "published_at": "2026-08-26",
+      "publication_date_precision": "day",
+      "inspection_scope": "GAAP summary and consolidated income statement; financing highlight",
+      "locator": "Q2 FY27 GAAP summary; quarter ended 26 July 2026",
+      "limitations": "Issuer disclosure, not independent confirmation of customers' returns; GAAP rather than adjusted operating income used."
+    },
+    {
+      "id": "source:openai-amazon",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "url": "https://openai.com/index/amazon-partnership/",
+      "published_at": "2026-02-27",
+      "publication_date_precision": "day",
+      "inspection_scope": "Investment split and incremental AWS procurement terms",
+      "locator": "Opening investment paragraph; Expanding infrastructure commitments",
+      "limitations": "Original announcement, not proof of individual payments, current conditions or delivered services; group names not a legal-entity tree."
+    },
+    {
+      "id": "source:openai-feb-round",
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone/",
+      "published_at": "2026-02-27",
+      "publication_date_precision": "day",
+      "inspection_scope": "Original February funding headline compared with March close",
+      "locator": "Opening funding paragraph",
+      "limitations": "Historical $110 billion announcement, not an additional round to add to March; not a current funding total."
+    },
+    {
+      "id": "source:openai-march-round",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "published_at": "2026-03-31",
+      "publication_date_precision": "day",
+      "inspection_scope": "Opening closing statement, named participants, credit-facility paragraph",
+      "locator": "Opening; Deep conviction across global capital",
+      "limitations": "Closed round is stated in terms of committed capital; no individual draw/payment schedule, full investment agreement, debt covenants or audit inspected. Not verified as the latest subsequent financing event."
+    },
+    {
+      "id": "source:nvidia-financing",
+      "title": "NVIDIA partnerships for compute financing platforms",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "published_at": "2026-08-10",
+      "publication_date_precision": "day",
+      "inspection_scope": "Opening target, signed memorandums, final-agreement condition",
+      "locator": "Opening paragraphs and sentence before About NVIDIA",
+      "limitations": "Target to mobilize third-party capital over time, not executed facilities or funds deployed. No current settlement or vehicles verified."
+    },
+    {
+      "id": "source:metr-2025",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "published_at": "2025-07-10",
+      "publication_date_precision": "day",
+      "inspection_scope": "Study summary, design, sample, treatment and stated generalization limits",
+      "locator": "Summary; study design; scope limitations",
+      "limitations": "Small randomized field sample of experienced developers in familiar repositories with early-2025 tools; not economy-wide or current-tool estimate. Raw data not reanalyzed."
+    },
+    {
+      "id": "source:metr-2026",
+      "title": "We are Changing our Developer Productivity Experiment Design",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "published_at": "2026-02-24",
+      "publication_date_precision": "day",
+      "inspection_scope": "Selection, task refusal, concurrent-agent timing and conclusions",
+      "locator": "Why the estimate is unreliable; measurement discussion",
+      "limitations": "Follow-up changes confidence in present-tense application; does not erase the earlier randomized result or establish a precise current speedup."
+    },
+    {
+      "id": "source:metr-survey-2026",
+      "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "published_at": "2026-05-11",
+      "publication_date_precision": "day",
+      "inspection_scope": "Summary, convenience sampling, question definitions and result limitations",
+      "locator": "Summary; Methodology; Productivity gains around March 2026",
+      "limitations": "Convenience survey; low email response rate, selection and counterfactual self-report. Value measures are not measured output, wages or realized financial returns; no respondent-level reanalysis."
+    },
+    {
+      "id": "source:ai-at-work-v2",
+      "title": "Generative AI at Work, version 2",
+      "url": "https://arxiv.org/abs/2304.11771",
+      "published_at": "2024-11-06",
+      "publication_date_precision": "day",
+      "inspection_scope": "Version and abstract checked; expanded through separately registered HTML full text",
+      "locator": "Version 2 abstract",
+      "limitations": "Version date differs from deployment dates; full statistical replication not performed."
+    },
+    {
+      "id": "source:ai-at-work-html-v2",
+      "title": "Generative AI at Work, version 2 HTML",
+      "url": "https://arxiv.org/html/2304.11771v2",
+      "published_at": "2024-11-06",
+      "publication_date_precision": "day",
+      "inspection_scope": "Abstract and sections 2–3 on setting, rollout, sample and difference-in-differences; generalization limits",
+      "locator": "Sections 2.2, 2.3, 3.1–3.3 and abstract",
+      "limitations": "Main rollout is observational, with identifying assumptions, not a randomized assignment of all 5,172 workers; one firm/client setting; no macro or wage inference. Underlying data not replicated."
+    },
+    {
+      "id": "source:iea-energy",
+      "title": "IEA Energy and AI: executive summary",
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "published_at": "2025-04-10",
+      "publication_date_precision": "day",
+      "inspection_scope": "2025-vintage global data-centre estimate and base-case forecast, grid constraint discussion",
+      "locator": "Electricity demand for data centres more than doubles by 2030",
+      "limitations": "All data centres, not AI alone; modeled 2030 demand, not delivered capacity. Reinspection does not make this the latest forecast vintage."
+    },
+    {
+      "id": "source:iea-energy-landing",
+      "title": "IEA Energy and AI report metadata",
+      "url": "https://www.iea.org/reports/energy-and-ai",
+      "published_at": "2025-04-10",
+      "publication_date_precision": "day",
+      "inspection_scope": "Publication date and links to online executive summary",
+      "locator": "Published 10 April 2025",
+      "limitations": "Metadata only; PDF not needed or opened; unrelated embedded agent instructions ignored."
+    }
+  ],
+  "aggregation_rules": [
+    "Do not add company sales along a supply chain into sector demand.",
+    "Do not add equity, purchase commitments, facility limits and platform targets.",
+    "Do not add the February and March versions of the same funding round.",
+    "Do not average heterogeneous task outcomes or self-reported value."
+  ],
+  "unknown_means": "not established by this record; not zero",
+  "unresolved": [
+    "Current participant payments and debt drawings",
+    "Collateral, maturity and covenants",
+    "Customer retention and unsubsidized demand",
+    "Comparable cash investment and returns on capital",
+    "Current valuation expectations",
+    "Latest forecast vintage and delivered physical capacity",
+    "Non-US competition and lower-cost substitutes"
+  ]
+}
