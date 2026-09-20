@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "AI has genuine customers and useful products. That does not yet establish that the whole build-out—or the prices paid to own it—will earn enough back. The evidence supports a real commercial expansion with concentrated speculative and financing vulnerabilities, rather than a uniformly unsupported AI economy.",
+  "current_answer": "AI has genuine customers and useful products. Some financing contracts can protect lenders even when an AI investment disappoints. Neither establishes that the whole build-out—or the prices paid to own it—will earn enough back. The evidence supports a real expansion with uneven investment returns and concentrated financing vulnerabilities, not a uniformly unsupported AI economy or an inevitable credit collapse.",
   "summary": [
     "Real customer value. Uneven returns. The financial question is who keeps enough cash, for long enough."
   ],
   "uncertainty": [
     "Independent customers renewing at nonsubsidized prices, durable cash margins after full costs, and successful repayment and replacement across delivered investment cohorts would weaken the concern. Weak retention, greater dependence on fresh financing and poorer collateral recovery together would strengthen it—even if technical performance keeps improving."
   ],
-  "checked_at": "2026-09-19",
-  "meaningfully_updated_at": "2026-09-20T09:46:56.717649+00:00",
-  "freshness_note": "Financial baseline dated 18 September 2026; customer demand and evidentiary correction dated 19 September. Individual observations retain their own dates.",
+  "checked_at": "2026-09-20",
+  "meaningfully_updated_at": "2026-09-20T16:10:06.758878+00:00",
+  "freshness_note": "Selected financing evidence checked 20 September; demand 19 September; broader baseline 18 September. Underlying balances and events retain their own dates.",
   "catalogue_card": {
     "question": "Is AI a Bubble?",
     "text": "Real customer value. Uneven returns. The financial question is who keeps enough cash, for long enough."

@@ -77,3 +77,5 @@
 :is(.pool-center,.center-document) .reader-page .demand-steps li{margin:16px 0}
 :is(.pool-center,.center-document) .reader-page .demand-steps span{display:block;color:var(--reader-muted);font-size:.92rem}
 @container(max-width:580px){:is(.pool-center,.center-document) .reader-page :is(.mechanism-grid,.scenario-grid,.demand-study-pair,.demand-result-pair){grid-template-columns:1fr}}
+
+:is(.pool-center,.center-document) .reader-page .source-notes details{scroll-margin-top:20px}

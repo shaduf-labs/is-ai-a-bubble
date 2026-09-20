@@ -3,6 +3,25 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "financing-fragility-and-loss-transmission",
+      "slug": "financing-fragility-and-loss-transmission",
+      "title": "Who has to pay when AI returns disappoint?",
+      "research_run_number": 3,
+      "route": "/p/is-ai-a-bubble/research/financing-fragility-and-loss-transmission/",
+      "file": "research/financing-fragility-and-loss-transmission/index.html",
+      "csv_file": "assets/financing-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-20",
+      "financial_snapshot": "2026-06-30",
+      "published_at": "2026-09-20T16:10:06.758878+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "Contracted service cash can protect lenders while losses move to customers, equity or supplier support. Actual cash reconciliation, conditional collection/recovery tests and a bounded Meta comparison.",
+      "current_notice": "June CoreWeave/Meta and July NVIDIA balances remain dated. September 18 notes are priced with expected September 22 settlement; no proceeds counted at the September 20 evidence boundary."
+    },
+    {
       "id": "whole-system-baseline",
       "slug": "whole-system-baseline",
       "title": "Real demand, demanding prices, and growing repayment risk",
@@ -18,7 +37,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Customer value, spending, financing, recovery, valuation and loss transmission in one connected assessment. Conditional models retain their assumptions and the NVIDIA receipt correction.",
-      "current_notice": "Financial and offering evidence retains the 18 September 2026 boundary; demand and the obligation-versus-receipt correction use 19 September. Conditional models are not company targets."
+      "current_notice": "Whole-system evidence checked September 18, with September 19 demand and correction and September 20 selected financing integration. The broader valuation inputs are not refreshed by the financing update."
     },
     {
       "id": "independent-demand-and-monetization",
@@ -36,7 +55,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Support, coding and office assistance show how useful work becomes payment—and why providers may not retain enough. Includes buyer hurdles, recurring-purchase evidence and price/volume/cost sensitivities.",
-      "current_notice": "Evidence boundary 19 September 2026. Paid use, realized buyer value and complete provider cash margins are distinct. Receipt under the NVIDIA forward is unverified, not disproved."
+      "current_notice": "Demand studies and tariffs retain September 19 inspection; September 20 financing context distinguishes retail pricing from Meta-backed fixed contractual receipts. NVIDIA obligation/receipt correction remains unchanged."
     },
     {
       "id": "debt-before-returns",

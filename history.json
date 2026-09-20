@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-003",
+      "status": "completed",
+      "started_at": "2026-09-20",
+      "completed_at": "2026-09-20",
+      "report_path": "/p/is-ai-a-bubble/research/financing-fragility-and-loss-transmission/",
+      "entrypoint": "research/financing-fragility-and-loss-transmission/index.html",
+      "title": "Who has to pay when AI returns disappoint?",
+      "summary": "Contracted service cash can protect lenders while losses move to customers, equity or supplier support. Actual cash reconciliation, conditional collection/recovery tests and a bounded Meta comparison.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-002",
       "status": "completed",
       "started_at": "2026-09-19",

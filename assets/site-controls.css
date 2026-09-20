@@ -20,3 +20,16 @@ body[data-kind="simple"] .app-view{display:block}.simple-main{max-width:940px;ma
 
 /* Declared page descendants remain under their landing page. */
 .page-tree .page-branch>summary{display:flex;align-items:center;cursor:pointer;list-style:none}.page-tree .page-branch>summary::-webkit-details-marker{display:none}.page-tree .page-branch>summary:before{content:"▸";font-size:.75rem;flex:none}.page-tree .page-branch[open]>summary:before{content:"▾"}.page-tree .page-branch>summary>a{flex:1;min-width:0}.page-tree .page-children{margin-left:12px;padding-left:6px;border-left:1px solid #deded8}
+
+/* Contact and pool requests use the shared document canvas. */
+.request-pool-link{white-space:nowrap}.request-pool-link:hover{color:var(--blue)}
+.pool-request-form{display:grid;gap:10px;max-width:620px;margin-top:28px}
+.pool-request-form label{font:600 15px/1.5 var(--ui,system-ui);margin-top:10px}
+.pool-request-form input,.pool-request-form textarea{box-sizing:border-box;width:100%;min-width:0;border:1px solid var(--line,#d8d7d0);border-radius:8px;background:var(--surface,#fff);color:var(--ink,#24231b);font:16px/1.5 var(--ui,system-ui);padding:12px 14px}
+.pool-request-form textarea{resize:vertical}.pool-request-form :is(input,textarea):focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.pool-request-form .form-note{font:14px/1.5 var(--ui,system-ui);color:var(--muted);margin:0 0 12px}
+.pool-request-form button{justify-self:start;min-height:44px;padding:10px 20px}.pool-request-form button:disabled{opacity:.65;cursor:default}
+.pool-request-form .request-status{font:16px/1.6 var(--ui,system-ui);min-height:1.6em;margin:6px 0;overflow-wrap:anywhere}
+.contact-email{overflow-wrap:anywhere}.mobile-contact{gap:12px}
+@media(min-width:701px) and (max-width:1180px){.app-header{gap:16px;padding-inline:20px}.app-header .wordmark{min-width:0}.app-header .search-trigger{width:clamp(140px,24vw,250px)}.header-actions{gap:14px}}
+@media(max-width:700px){.header-actions .request-pool-link{display:none}}

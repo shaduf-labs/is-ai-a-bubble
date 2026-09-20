@@ -19,7 +19,14 @@
       &&(ignoreTags||!state.tags.length||state.tags.some(t=>(p.tags||[]).includes(t)))
       &&words.every(w=>(p.title+' '+p.question+' '+(p.card?.question||'')+' '+(p.card?.text||'')+' '+(p.description||'')+' '+(p.tags||[]).join(' ')).toLocaleLowerCase().includes(w)));
   }
-  function select(pools,state) {const order=Object.hasOwn(SORTS,state.sort)?SORTS[state.sort]:SORTS.newest;return filter(pools,state).sort((a,b)=>order(a,b)||collator.compare(a.title,b.title)||a.slug.localeCompare(b.slug));}
+  function select(pools,state) {
+    const order=Object.hasOwn(SORTS,state.sort)?SORTS[state.sort]:SORTS.newest;
+    const ordered=filter(pools,state).sort((a,b)=>order(a,b)||collator.compare(a.title,b.title)||a.slug.localeCompare(b.slug));
+    if(state.sort!=='newest'||state.query.trim()||state.categories.length||state.tags.length)return ordered;
+    const featured=ordered.filter(p=>Number.isInteger(p.featured_position)&&p.featured_position>0),result=ordered.filter(p=>!featured.includes(p));
+    for(const pool of featured.sort((a,b)=>a.featured_position-b.featured_position))result.splice(Math.min(pool.featured_position-1,result.length),0,pool);
+    return result;
+  }
   function paginate(results,requestedPage,size=24) {
     const pages=Math.max(1,Math.ceil(results.length/size));
     const page=Math.min(pages,Math.max(1,Number.parseInt(requestedPage,10)||1));
