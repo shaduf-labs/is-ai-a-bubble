@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "baseline-public-paragraph-15-0",
+      "evidence_id": "report-1-paragraph-16-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
       "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
       "accessed_at": "2026-09-18",
@@ -10,7 +10,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-15-1",
+      "evidence_id": "report-1-paragraph-16-1",
       "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
       "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
       "accessed_at": "2026-09-18",
@@ -18,7 +18,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-15-2",
+      "evidence_id": "report-1-paragraph-16-2",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
       "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
       "accessed_at": "2026-09-18",
@@ -26,7 +26,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-15-3",
+      "evidence_id": "report-1-paragraph-16-3",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
       "claim": "Sources: Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing; NVIDIA July 2026 filing; NVIDIA 17 August financing disclosure.",
       "accessed_at": "2026-09-18",
@@ -34,63 +34,63 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-21-0",
+      "evidence_id": "report-1-paragraph-26-0",
       "source_url": "https://arxiv.org/html/2304.11771v2",
-      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-21-1",
+      "evidence_id": "report-1-paragraph-26-1",
+      "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
+      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-1-paragraph-26-2",
       "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-21-2",
-      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
-      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
+      "evidence_id": "report-1-paragraph-26-3",
+      "source_url": "https://arxiv.org/html/2504.11436v4",
+      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-21-3",
-      "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
-      "claim": "Sources: Generative AI at Work, study and methods; METR early-2025 developer experiment; METR February 2026 follow-up limitations; METR May 2026 technical-worker survey.",
-      "accessed_at": "2026-09-18",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "baseline-public-paragraph-23-0",
+      "evidence_id": "report-1-paragraph-29-0",
       "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
-      "claim": "Sources: Microsoft July earnings call; Menlo Ventures 2025 enterprise study.",
+      "claim": "Sources: Microsoft July call; Ramp February payment update; Ramp September price and spending update.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-23-1",
-      "source_url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
-      "claim": "Sources: Microsoft July earnings call; Menlo Ventures 2025 enterprise study.",
+      "evidence_id": "report-1-paragraph-29-1",
+      "source_url": "https://ramp.com/data/ai-index-february-2026",
+      "claim": "Sources: Microsoft July call; Ramp February payment update; Ramp September price and spending update.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-25-0",
-      "source_url": "https://openai.com/index/the-work-now-within-reach/",
-      "claim": "Sources: OpenAI 8 September commercial thesis.",
+      "evidence_id": "report-1-paragraph-29-2",
+      "source_url": "https://ramp.com/data/ai-index-sept-2026",
+      "claim": "Sources: Microsoft July call; Ramp February payment update; Ramp September price and spending update.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-29-0",
+      "evidence_id": "report-1-paragraph-34-0",
       "source_url": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
       "claim": "Sources: Reuters, 17 August: Anthropic revenue reporting; Financial Times: Anthropic adjusted-profit expectation.",
       "accessed_at": "2026-09-18",
@@ -98,7 +98,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-29-1",
+      "evidence_id": "report-1-paragraph-34-1",
       "source_url": "https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002",
       "claim": "Sources: Reuters, 17 August: Anthropic revenue reporting; Financial Times: Anthropic adjusted-profit expectation.",
       "accessed_at": "2026-09-18",
@@ -106,7 +106,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-0",
+      "evidence_id": "report-1-paragraph-42-0",
       "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -114,7 +114,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-1",
+      "evidence_id": "report-1-paragraph-42-1",
       "source_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q2/press-release-webcast",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -122,7 +122,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-2",
+      "evidence_id": "report-1-paragraph-42-2",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -130,7 +130,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-3",
+      "evidence_id": "report-1-paragraph-42-3",
       "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -138,7 +138,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-4",
+      "evidence_id": "report-1-paragraph-42-4",
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -146,7 +146,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-5",
+      "evidence_id": "report-1-paragraph-42-5",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -154,7 +154,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-41-6",
+      "evidence_id": "report-1-paragraph-42-6",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
       "claim": "Sources: Microsoft fiscal 2026 results; Microsoft December half-year cash statement; Alphabet June 2026 filing; Alphabet 2025 results; Amazon second-quarter 2026 results; Meta second-quarter 2026 results; Meta 2025 results.",
       "accessed_at": "2026-09-18",
@@ -162,7 +162,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-0",
+      "evidence_id": "report-1-paragraph-48-0",
       "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -170,7 +170,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-1",
+      "evidence_id": "report-1-paragraph-48-1",
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -178,7 +178,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-2",
+      "evidence_id": "report-1-paragraph-48-2",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -186,7 +186,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-3",
+      "evidence_id": "report-1-paragraph-48-3",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -194,7 +194,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-4",
+      "evidence_id": "report-1-paragraph-48-4",
       "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -202,7 +202,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-47-5",
+      "evidence_id": "report-1-paragraph-48-5",
       "source_url": "https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/",
       "claim": "Sources: NVIDIA second-quarter fiscal 2027 results; Amazon second-quarter 2026 results; Alphabet June 2026 filing; Alphabet July earnings call; CoreWeave second-quarter 2026 results; Oracle quarter ended August 2026 results.",
       "accessed_at": "2026-09-18",
@@ -210,7 +210,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-51-0",
+      "evidence_id": "report-1-paragraph-52-0",
       "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
       "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -218,7 +218,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-51-1",
+      "evidence_id": "report-1-paragraph-52-1",
       "source_url": "https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
       "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -226,7 +226,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-51-2",
+      "evidence_id": "report-1-paragraph-52-2",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
       "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -234,7 +234,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-51-3",
+      "evidence_id": "report-1-paragraph-52-3",
       "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
       "claim": "Sources: Microsoft July earnings call; Alphabet July earnings call; Meta second-quarter 2026 results; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -242,7 +242,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-58-0",
+      "evidence_id": "report-1-paragraph-59-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
       "claim": "Sources: Meta June 2026 filing, debt note; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
@@ -250,7 +250,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-58-1",
+      "evidence_id": "report-1-paragraph-59-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
       "claim": "Sources: Meta June 2026 filing, debt note; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
@@ -258,7 +258,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-61-0",
+      "evidence_id": "report-1-paragraph-62-0",
       "source_url": "https://www.anthropic.com/news/anthropic-amazon-compute",
       "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -266,7 +266,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-61-1",
+      "evidence_id": "report-1-paragraph-62-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
       "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -274,7 +274,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-61-2",
+      "evidence_id": "report-1-paragraph-62-2",
       "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
       "claim": "Sources: Anthropic 20 April Amazon compute commitment; Amazon June 2026 filing, investment note; Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -282,7 +282,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-65-0",
+      "evidence_id": "report-1-paragraph-66-0",
       "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
       "claim": "Sources: CoreWeave June 2026 filing; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -290,7 +290,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-65-1",
+      "evidence_id": "report-1-paragraph-66-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
       "claim": "Sources: CoreWeave June 2026 filing; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -298,7 +298,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-68-0",
+      "evidence_id": "report-1-paragraph-69-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex1011.htm",
       "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -306,7 +306,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-68-1",
+      "evidence_id": "report-1-paragraph-69-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex102.htm",
       "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -314,7 +314,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-68-2",
+      "evidence_id": "report-1-paragraph-69-2",
       "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
       "claim": "Sources: CoreWeave DDTL 4.0 credit agreement; CoreWeave DDTL 4.0 parent guaranty; CoreWeave June 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -322,7 +322,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-71-0",
+      "evidence_id": "report-1-paragraph-72-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
       "claim": "Sources: NVIDIA 17 August financing disclosure; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -330,7 +330,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-71-1",
+      "evidence_id": "report-1-paragraph-72-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
       "claim": "Sources: NVIDIA 17 August financing disclosure; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -338,23 +338,31 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-74-0",
+      "evidence_id": "report-1-paragraph-78-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm",
-      "claim": "Sources: NVIDIA prepaid-forward agreement, section 1(f); NVIDIA offering-linked subscription agreement.",
+      "claim": "Sources: Energy Global, LP / NVIDIA Prepaid Forward Contract, section 1(f); September 4 exhibit index; Separate offering-linked share subscription.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-74-1",
+      "evidence_id": "report-1-paragraph-78-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm",
+      "claim": "Sources: Energy Global, LP / NVIDIA Prepaid Forward Contract, section 1(f); September 4 exhibit index; Separate offering-linked share subscription.",
+      "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-1-paragraph-78-2",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm",
-      "claim": "Sources: NVIDIA prepaid-forward agreement, section 1(f); NVIDIA offering-linked subscription agreement.",
+      "claim": "Sources: Energy Global, LP / NVIDIA Prepaid Forward Contract, section 1(f); September 4 exhibit index; Separate offering-linked share subscription.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-82-0",
+      "evidence_id": "report-1-paragraph-86-0",
       "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/9f708637-612f-4da7-bef2-4a4b667f9d64.pdf",
       "claim": "Sources: CoreWeave June 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -362,7 +370,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-89-0",
+      "evidence_id": "report-1-paragraph-95-0",
       "source_url": "https://openai.com/index/the-work-now-within-reach/",
       "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -370,7 +378,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-89-1",
+      "evidence_id": "report-1-paragraph-95-1",
       "source_url": "https://mistral.ai/news/mistral-3/",
       "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -378,7 +386,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-89-2",
+      "evidence_id": "report-1-paragraph-95-2",
       "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
       "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -386,7 +394,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-89-3",
+      "evidence_id": "report-1-paragraph-95-3",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
       "claim": "Sources: OpenAI 8 September commercial thesis; Mistral 3 release and licensing; IEA April 2026 energy and AI outlook; NVIDIA July 2026 filing.",
       "accessed_at": "2026-09-18",
@@ -394,7 +402,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-93-0",
+      "evidence_id": "report-1-paragraph-99-0",
       "source_url": "https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693",
       "claim": "Sources: Microsoft fiscal 2026 annual filing.",
       "accessed_at": "2026-09-18",
@@ -402,7 +410,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-99-0",
+      "evidence_id": "report-1-paragraph-105-0",
       "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/",
       "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
       "accessed_at": "2026-09-18",
@@ -410,7 +418,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-99-1",
+      "evidence_id": "report-1-paragraph-105-1",
       "source_url": "https://www.anthropic.com/news/series-h",
       "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
       "accessed_at": "2026-09-18",
@@ -418,7 +426,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-99-2",
+      "evidence_id": "report-1-paragraph-105-2",
       "source_url": "https://www.axios.com/2026/08/17/anthropic-revenue-run-rate-ipo-openai",
       "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
       "accessed_at": "2026-09-18",
@@ -426,7 +434,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-99-3",
+      "evidence_id": "report-1-paragraph-105-3",
       "source_url": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
       "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
       "accessed_at": "2026-09-18",
@@ -434,7 +442,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-99-4",
+      "evidence_id": "report-1-paragraph-105-4",
       "source_url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
       "claim": "Sources: OpenAI 31 March financing announcement; Anthropic 28 May Series H announcement; Axios, 17 August: lab revenue run rates; Reuters, 17 August: Anthropic revenue reporting; Wall Street Journal: possible OpenAI financing.",
       "accessed_at": "2026-09-18",
@@ -442,7 +450,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-0",
+      "evidence_id": "report-1-paragraph-114-0",
       "source_url": "https://openai.com/index/openai-submits-confidential-s-1/",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -450,7 +458,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-1",
+      "evidence_id": "report-1-paragraph-114-1",
       "source_url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -458,7 +466,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-2",
+      "evidence_id": "report-1-paragraph-114-2",
       "source_url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -466,7 +474,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-3",
+      "evidence_id": "report-1-paragraph-114-3",
       "source_url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-ipo-launch-shifts-toward-midoctober-sources-say-4890091",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -474,7 +482,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-4",
+      "evidence_id": "report-1-paragraph-114-4",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -482,7 +490,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-5",
+      "evidence_id": "report-1-paragraph-114-5",
       "source_url": "https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -490,7 +498,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-108-6",
+      "evidence_id": "report-1-paragraph-114-6",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
       "claim": "Sources: OpenAI 8 June confidential submission announcement; Fortune, 12 September: OpenAI offering timing; Anthropic 1 June confidential submission announcement; Reuters, 4 September: reported Anthropic timetable; SE Global Holdings 4 September S-1/A exhibits; Reuters, 15 September: planned Japanese share tranche; CoreWeave 17 September financing proposal.",
       "accessed_at": "2026-09-18",
@@ -498,7 +506,7 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-111-0",
+      "evidence_id": "report-1-paragraph-117-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1028-sharepurchasea.htm",
       "claim": "Sources: NVIDIA offering-linked subscription agreement.",
       "accessed_at": "2026-09-18",
@@ -506,58 +514,290 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-0",
+      "evidence_id": "report-1-paragraph-123-0",
       "source_url": "https://openai.com/index/the-work-now-within-reach/",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-1",
+      "evidence_id": "report-1-paragraph-123-1",
       "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-2",
+      "evidence_id": "report-1-paragraph-123-2",
       "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-3",
+      "evidence_id": "report-1-paragraph-123-3",
       "source_url": "https://sequoiacap.com/article/ais-600b-question",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-4",
+      "evidence_id": "report-1-paragraph-123-4",
       "source_url": "https://www.wheresyoured.at/on-nvidia-and-analyslop/",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-117-5",
+      "evidence_id": "report-1-paragraph-123-5",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "baseline-public-paragraph-128-0",
+      "evidence_id": "report-1-paragraph-134-0",
       "source_url": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt",
       "claim": "Sources: BIS, January 2026: financing the AI boom.",
       "accessed_at": "2026-09-18",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-14-0",
+      "source_url": "https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf",
+      "claim": "Sources: Census \u00b7 AI question wording updates; Federal Reserve \u00b7 monitoring AI adoption. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-14-1",
+      "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
+      "claim": "Sources: Census \u00b7 AI question wording updates; Federal Reserve \u00b7 monitoring AI adoption. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-16-0",
+      "source_url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+      "claim": "Sources: Menlo Ventures \u00b7 2025 enterprise study; Ramp \u00b7 how its data works. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-16-1",
+      "source_url": "https://ramp.com/data/how-ramp-data-works",
+      "claim": "Sources: Menlo Ventures \u00b7 2025 enterprise study; Ramp \u00b7 how its data works. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-22-0",
+      "source_url": "https://arxiv.org/html/2304.11771v2",
+      "claim": "Sources: Generative AI at Work \u00b7 served arXiv v2. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-25-0",
+      "source_url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+      "claim": "Sources: Klarna \u00b7 first-month assistant announcement. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-29-0",
+      "source_url": "https://s205.q4cdn.com/644747736/files/doc_earnings/2026/q2/earnings-result/Q2-26-Klarna-Group-plc-Earnings-Release.pdf",
+      "claim": "Sources: Klarna \u00b7 Q2 2026 interim financial statements. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-32-0",
+      "source_url": "https://www.intercom.com/pricing",
+      "claim": "Sources: Intercom Fin \u00b7 pricing and outcome definitions. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-58-0",
+      "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
+      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments; METR \u00b7 early-2025 developer experiment. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-58-1",
+      "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments; METR \u00b7 early-2025 developer experiment. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-61-0",
+      "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
+      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-63-0",
+      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "claim": "Sources: METR \u00b7 February 2026 follow-up limitations; METR \u00b7 technical-worker usage survey. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-63-1",
+      "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "claim": "Sources: METR \u00b7 February 2026 follow-up limitations; METR \u00b7 technical-worker usage survey. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-68-0",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "claim": "Sources: Microsoft \u00b7 FY2026 Q4 earnings call. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-74-0",
+      "source_url": "https://arxiv.org/html/2504.11436v4",
+      "claim": "Sources: Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-89-0",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise",
+      "claim": "Sources: Microsoft 365 Copilot \u00b7 enterprise pricing; Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-89-1",
+      "source_url": "https://arxiv.org/html/2504.11436v4",
+      "claim": "Sources: Microsoft 365 Copilot \u00b7 enterprise pricing; Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-93-0",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+      "claim": "Sources: Microsoft \u00b7 FY2026 Q4 earnings call. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-95-0",
+      "source_url": "https://cdn.openai.com/pdf/work-at-the-frontier-report-202609.pdf",
+      "claim": "Sources: OpenAI \u00b7 Work at the Frontier. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-99-0",
+      "source_url": "https://ramp.com/data/ai-index-february-2026",
+      "claim": "Sources: Ramp \u00b7 February 2026 payment update. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-101-0",
+      "source_url": "https://ramp.com/data/how-ramp-data-works",
+      "claim": "Sources: Ramp \u00b7 how its data works; Ramp \u00b7 June 2026 coverage expansion. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-101-1",
+      "source_url": "https://ramp.com/data/ai-index-june-2026",
+      "claim": "Sources: Ramp \u00b7 how its data works; Ramp \u00b7 June 2026 coverage expansion. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-105-0",
+      "source_url": "https://ramp.com/data/ai-index-sept-2026",
+      "claim": "Sources: Ramp \u00b7 September 2026 pricing and spending update. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-110-0",
+      "source_url": "https://openai.com/index/how-people-are-using-chatgpt/",
+      "claim": "Sources: OpenAI \u00b7 how people use ChatGPT. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-112-0",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Sources: Meta \u00b7 Q2 2026 results. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-141-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm",
+      "claim": "Sources: Energy Global, LP / NVIDIA \u00b7 Prepaid Forward Contract. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-143-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm",
+      "claim": "Sources: SB Energy \u00b7 4 September 2026 exhibit-only amendment. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-145-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "claim": "Sources: NVIDIA \u00b7 17 August 2026 current report; NVIDIA \u00b7 quarter ended 26 July 2026 filing. Inspection notes.",
+      "accessed_at": "2026-09-19",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "report-2-paragraph-145-1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "Sources: NVIDIA \u00b7 17 August 2026 current report; NVIDIA \u00b7 quarter ended 26 July 2026 filing. Inspection notes.",
+      "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
     }
