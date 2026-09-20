@@ -19,3 +19,6 @@
 
 .explore-preview-note{max-width:760px;margin:24px 0 0;color:var(--muted);font-size:14px;line-height:1.6}.explore-preview-note a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}#research-preview{scroll-margin-top:calc(var(--top) + 24px)}
 @media(min-width:861px){.document-head h1{font-size:clamp(36px,6cqi,59px)}}
+
+/* Declared page descendants remain under their landing page. */
+.page-tree .page-branch>summary{display:flex;align-items:center;cursor:pointer;list-style:none}.page-tree .page-branch>summary::-webkit-details-marker{display:none}.page-tree .page-branch>summary:before{content:"▸";font-size:.75rem;flex:none}.page-tree .page-branch[open]>summary:before{content:"▾"}.page-tree .page-branch>summary>a{flex:1;min-width:0}.page-tree .page-children{margin-left:12px;padding-left:6px;border-left:1px solid #deded8}

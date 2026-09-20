@@ -5,7 +5,7 @@
     {
       "id": "whole-system-baseline",
       "slug": "whole-system-baseline",
-      "title": "Current foundation · Real demand, demanding prices, and growing repayment risk",
+      "title": "Real demand, demanding prices, and growing repayment risk",
       "research_run_number": 1,
       "route": "/p/is-ai-a-bubble/research/whole-system-baseline/",
       "file": "research/whole-system-baseline/index.html",
@@ -14,12 +14,29 @@
       "question_revision": 1,
       "question": "Is AI a Bubble?",
       "evidence_checked_on": "2026-09-18",
-      "published_at": null,
+      "published_at": "2026-09-20T09:46:56.717649+00:00",
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
-      "summary": "New programme, research 1. A whole-system assessment with an 18 September retrieval-day boundary; current foundation, not a new publication date. Recovery and valuation are conditional scenarios.",
-      "current_notice": "Current foundation. The NVIDIA prepaid forward is an executed obligation; receipt is not established by the cited exhibit.",
-      "release_id": "release-v02-r01-20260919"
+      "summary": "Customer value, spending, financing, recovery, valuation and loss transmission in one connected assessment. Conditional models retain their assumptions and the NVIDIA receipt correction.",
+      "current_notice": "Financial and offering evidence retains the 18 September 2026 boundary; demand and the obligation-versus-receipt correction use 19 September. Conditional models are not company targets."
+    },
+    {
+      "id": "independent-demand-and-monetization",
+      "slug": "independent-demand-and-monetization",
+      "title": "Real customers, uneven capture",
+      "research_run_number": 2,
+      "route": "/p/is-ai-a-bubble/research/independent-demand-and-monetization/",
+      "file": "research/independent-demand-and-monetization/index.html",
+      "csv_file": "assets/demand-observations.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-19",
+      "published_at": "2026-09-20T09:46:56.717649+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "Support, coding and office assistance show how useful work becomes payment—and why providers may not retain enough. Includes buyer hurdles, recurring-purchase evidence and price/volume/cost sensitivities.",
+      "current_notice": "Evidence boundary 19 September 2026. Paid use, realized buyer value and complete provider cash margins are distinct. Receipt under the NVIDIA forward is unverified, not disproved."
     },
     {
       "id": "debt-before-returns",
@@ -37,12 +54,12 @@
       "published_at": null,
       "publication_status": "published",
       "confirmed_model": null,
-      "summary": "Historical, previous programme 04. March principal timetable and selected May/June terms; the current assessment uses June data, not a reconstructed 18 September balance.",
+      "summary": "March principal schedule, borrower collateral and parent-guarantee boundaries, with selected May and June terms. The current assessment uses a June snapshot; the original remains dated.",
       "release_id": "release-r04-20260913",
       "publication_date_precision": "Published 2026-09-13T09:16:51Z per the existing publication record.",
       "financial_snapshot": "2026-03-31",
       "additional_data_file": "assets/debt-later-events.csv",
-      "current_notice": "Historical, previous programme 04. March principal timetable and selected May/June terms; the current assessment uses June data, not a reconstructed 18 September balance."
+      "current_notice": "March principal schedule, borrower collateral and parent-guarantee boundaries, with selected May and June terms. The current assessment uses a June snapshot; the original remains dated."
     },
     {
       "id": "funding-promises-payments",
@@ -60,10 +77,10 @@
       "published_at": null,
       "publication_status": "published",
       "confirmed_model": null,
-      "summary": "Historical, previous programme 03. Dated financing and payment detail. Its prepaid-forward obligation is not verified receipt; that narrower boundary is retained.",
+      "summary": "Investor payment disclosures, conditional facilities and guarantee gates. Its prepaid-forward treatment establishes an obligation without claiming verified receipt.",
       "release_id": "release-r03-20260913",
       "publication_date_precision": "Publication recorded to day precision; exact timestamp unavailable.",
-      "current_notice": "Historical, previous programme 03. Dated financing and payment detail. Its prepaid-forward obligation is not verified receipt; that narrower boundary is retained."
+      "current_notice": "Investor payment disclosures, conditional facilities and guarantee gates. Its prepaid-forward treatment establishes an obligation without claiming verified receipt."
     },
     {
       "id": "spending-to-capacity",
@@ -81,10 +98,10 @@
       "published_at": null,
       "publication_status": "published",
       "confirmed_model": null,
-      "summary": "Historical, previous programme 02. Matched half-year cash and the original Amazon payment correction. Current comparisons use a longer overlapping window, not an additive bill.",
+      "summary": "Matched half-year cash, separate leases and commitments, and physical-delivery boundaries. This report already corrected the missed Amazon payment disclosure.",
       "release_id": "release-r02-20260912",
       "publication_date_precision": "Published on 2026-09-12; exact timestamp unavailable.",
-      "current_notice": "Historical, previous programme 02. Matched half-year cash and the original Amazon payment correction. Current comparisons use a longer overlapping window, not an additive bill."
+      "current_notice": "Matched half-year cash, separate leases and commitments, and physical-delivery boundaries. This report already corrected the missed Amazon payment disclosure."
     },
     {
       "id": "first-baseline",
@@ -101,11 +118,11 @@
       "published_at": null,
       "publication_status": "published",
       "confirmed_model": null,
-      "summary": "Historical, previous programme 01. Contemporary results and productivity studies; its missed Amazon disclosure was already corrected in report 02.",
+      "summary": "Company results and scoped productivity studies. Its incomplete Amazon funding-evidence coverage was subsequently corrected in Cash, commitments and capacity.",
       "release_id": "release-r01-20260911",
       "publication_date_precision": "Exact publication timestamp unavailable; the evidence date is reported separately.",
       "public_data_route": "/p/is-ai-a-bubble/assets/first-baseline-data.json",
-      "current_notice": "Historical, previous programme 01. Contemporary results and productivity studies; its missed Amazon disclosure was already corrected in report 02."
+      "current_notice": "Company results and scoped productivity studies. Its incomplete Amazon funding-evidence coverage was subsequently corrected in Cash, commitments and capacity."
     }
   ]
 }

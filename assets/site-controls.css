@@ -17,3 +17,6 @@ body[data-kind="simple"] .app-view{display:block}.simple-main{max-width:940px;ma
 
 .research-age{white-space:nowrap}.research-age strong{font-weight:600}
 .pool-age{font:14px/1.5 var(--ui);color:var(--ink);margin:-3px 0 16px}
+
+/* Declared page descendants remain under their landing page. */
+.page-tree .page-branch>summary{display:flex;align-items:center;cursor:pointer;list-style:none}.page-tree .page-branch>summary::-webkit-details-marker{display:none}.page-tree .page-branch>summary:before{content:"▸";font-size:.75rem;flex:none}.page-tree .page-branch[open]>summary:before{content:"▾"}.page-tree .page-branch>summary>a{flex:1;min-width:0}.page-tree .page-children{margin-left:12px;padding-left:6px;border-left:1px solid #deded8}

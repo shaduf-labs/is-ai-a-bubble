@@ -2,14 +2,25 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-002",
+      "status": "completed",
+      "started_at": "2026-09-19",
+      "completed_at": "2026-09-19",
+      "report_path": "/p/is-ai-a-bubble/research/independent-demand-and-monetization/",
+      "entrypoint": "research/independent-demand-and-monetization/index.html",
+      "title": "Real customers, uneven capture",
+      "summary": "Support, coding and office assistance show how useful work becomes payment—and why providers may not retain enough. Includes buyer hurdles, recurring-purchase evidence and price/volume/cost sensitivities.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-001",
       "status": "completed",
       "started_at": "2026-09-18",
       "completed_at": "2026-09-18",
       "report_path": "/p/is-ai-a-bubble/research/whole-system-baseline/",
       "entrypoint": "research/whole-system-baseline/index.html",
-      "title": "Current foundation · Real demand, demanding prices, and growing repayment risk",
-      "summary": "Real demand does not make every investment sound.",
+      "title": "Real demand, demanding prices, and growing repayment risk",
+      "summary": "Customer value, spending, financing, recovery, valuation and loss transmission in one connected assessment. Conditional models retain their assumptions and the NVIDIA receipt correction.",
       "answer_change": "meaningful_change"
     },
     {
