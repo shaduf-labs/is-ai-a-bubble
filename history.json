@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-004",
+      "status": "completed",
+      "started_at": "2026-09-22",
+      "completed_at": "2026-09-22",
+      "report_path": "/p/is-ai-a-bubble/research/physical-capacity-and-investment-recovery/",
+      "entrypoint": "research/physical-capacity-and-investment-recovery/index.html",
+      "title": "Capacity that earns revenue is not yet capital that earns its cost",
+      "summary": "Accepted capacity and separately costed equipment/facilities sharpen the recovery test. IREN contractual timing, finite replacement cycles and conditional continuation value are compared with CoreWeave contract protection and facility-only hosting.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-003",
       "status": "completed",
       "started_at": "2026-09-20",

@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "physical-capacity-and-investment-recovery",
+      "slug": "physical-capacity-and-investment-recovery",
+      "title": "Capacity that earns revenue is not yet capital that earns its cost",
+      "research_run_number": 4,
+      "route": "/p/is-ai-a-bubble/research/physical-capacity-and-investment-recovery/",
+      "file": "research/physical-capacity-and-investment-recovery/index.html",
+      "csv_file": "assets/capacity-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-22",
+      "published_at": "2026-09-22T06:19:17.417656+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "Accepted capacity and separately costed equipment/facilities sharpen the recovery test. IREN contractual timing, finite replacement cycles and conditional continuation value are compared with CoreWeave contract protection and facility-only hosting.",
+      "current_notice": "Original budgets, August acceptance and financial periods retain their dates. Full-cost and equipment-only recovery differ; end-value and utilization thresholds are scenarios, not observed prices, losses or actual IRR."
+    },
+    {
       "id": "financing-fragility-and-loss-transmission",
       "slug": "financing-fragility-and-loss-transmission",
       "title": "Who has to pay when AI returns disappoint?",
@@ -19,7 +37,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Contracted service cash can protect lenders while losses move to customers, equity or supplier support. Actual cash reconciliation, conditional collection/recovery tests and a bounded Meta comparison.",
-      "current_notice": "June CoreWeave/Meta and July NVIDIA balances remain dated. September 18 notes are priced with expected September 22 settlement; no proceeds counted at the September 20 evidence boundary."
+      "current_notice": "June CoreWeave/Meta and July NVIDIA balances remain dated. September 18 notes are priced with expected September 22 settlement; no proceeds counted at the September 20 evidence boundary. The September 22 physical review is not confirmation of settlement or an appraisal of this loan’s collateral."
     },
     {
       "id": "whole-system-baseline",
@@ -37,7 +55,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Customer value, spending, financing, recovery, valuation and loss transmission in one connected assessment. Conditional models retain their assumptions and the NVIDIA receipt correction.",
-      "current_notice": "Whole-system evidence checked September 18, with September 19 demand and correction and September 20 selected financing integration. The broader valuation inputs are not refreshed by the financing update."
+      "current_notice": "Whole-system evidence checked September 18, with September 19 demand/correction, September 20 selected financing and September 22 physical-recovery integration. The broad parent ledger and valuation inputs are not refreshed by later chapters."
     },
     {
       "id": "independent-demand-and-monetization",
@@ -55,7 +73,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Support, coding and office assistance show how useful work becomes payment—and why providers may not retain enough. Includes buyer hurdles, recurring-purchase evidence and price/volume/cost sensitivities.",
-      "current_notice": "Demand studies and tariffs retain September 19 inspection; September 20 financing context distinguishes retail pricing from Meta-backed fixed contractual receipts. NVIDIA obligation/receipt correction remains unchanged."
+      "current_notice": "Demand studies and tariffs retain September 19 inspection; September 20 financing context distinguishes retail pricing from Meta-backed fixed contractual receipts. NVIDIA obligation/receipt correction remains unchanged. September 22 capacity context adds a separate fixed-cohort replacement test; study results and the original normalized cost assumptions remain unchanged."
     },
     {
       "id": "debt-before-returns",

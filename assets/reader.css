@@ -79,3 +79,8 @@
 @container(max-width:580px){:is(.pool-center,.center-document) .reader-page :is(.mechanism-grid,.scenario-grid,.demand-study-pair,.demand-result-pair){grid-template-columns:1fr}}
 
 :is(.pool-center,.center-document) .reader-page .source-notes details{scroll-margin-top:20px}
+
+/* Supplied recovery figure: preserve its drawing and allow readable horizontal inspection. */
+:is(.pool-center,.center-document) .reader-page .source-svg{display:block;width:100%;min-width:960px;max-width:none;height:auto}
+:is(.pool-center,.center-document) .reader-page .cadence{font-size:.83rem;color:var(--reader-muted)}
+@media print{:is(.pool-center,.center-document) .reader-page .source-svg{min-width:0;max-width:100%;width:100%}}
