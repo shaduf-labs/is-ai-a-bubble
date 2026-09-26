@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "valuations-ipo-expectations-and-synthesis",
+      "slug": "valuations-ipo-expectations-and-synthesis",
+      "title": "What today’s ownership prices require",
+      "research_run_number": 5,
+      "route": "/p/is-ai-a-bubble/research/valuations-ipo-expectations-and-synthesis/",
+      "file": "research/valuations-ipo-expectations-and-synthesis/index.html",
+      "csv_file": "assets/valuations-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-26",
+      "published_at": "2026-09-26T14:29:16.422013+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "IREN remaining cash versus whole-company ownership, Microsoft required revenue growth and reinvestment, frontier funding/dilution and a revised whole answer. Includes completed versus conditional financing.",
+      "current_notice": "Public prices freeze the September 24 completed session and are paired with dated share counts/statements. Residuals, margins, future funding and growth requirements are conditional, not appraisals or forecasts. Earlier investigations remain accessible current dated research."
+    },
+    {
       "id": "physical-capacity-and-investment-recovery",
       "slug": "physical-capacity-and-investment-recovery",
       "title": "Capacity that earns revenue is not yet capital that earns its cost",
@@ -18,7 +36,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Accepted capacity and separately costed equipment/facilities sharpen the recovery test. IREN contractual timing, finite replacement cycles and conditional continuation value are compared with CoreWeave contract protection and facility-only hosting.",
-      "current_notice": "Original budgets, August acceptance and financial periods retain their dates. Full-cost and equipment-only recovery differ; end-value and utilization thresholds are scenarios, not observed prices, losses or actual IRR."
+      "current_notice": "Original budgets, August acceptance and financial periods retain their dates. Full-cost and equipment-only recovery differ; end-value and utilization thresholds are scenarios, not observed prices, losses or actual IRR. The September 26 forward ownership test is separate; it does not turn required end values into appraisals or rewrite these inputs."
     },
     {
       "id": "financing-fragility-and-loss-transmission",
@@ -37,7 +55,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Contracted service cash can protect lenders while losses move to customers, equity or supplier support. Actual cash reconciliation, conditional collection/recovery tests and a bounded Meta comparison.",
-      "current_notice": "June CoreWeave/Meta and July NVIDIA balances remain dated. September 18 notes are priced with expected September 22 settlement; no proceeds counted at the September 20 evidence boundary. The September 22 physical review is not confirmation of settlement or an appraisal of this loan’s collateral."
+      "current_notice": "June CoreWeave/Meta and July NVIDIA balances remain dated. September 18 notes are priced with expected September 22 settlement; no proceeds counted at the September 20 evidence boundary. The September 22 physical review is not confirmation of settlement or an appraisal of this loan’s collateral. A later filing, inspected September 26, confirms the September 22 $4.2bn issuance; the report retains its original pricing record with a visible later update."
     },
     {
       "id": "whole-system-baseline",
@@ -55,7 +73,7 @@
       "publication_status": "published",
       "confirmed_model": "GPT-6 Pro",
       "summary": "Customer value, spending, financing, recovery, valuation and loss transmission in one connected assessment. Conditional models retain their assumptions and the NVIDIA receipt correction.",
-      "current_notice": "Whole-system evidence checked September 18, with September 19 demand/correction, September 20 selected financing and September 22 physical-recovery integration. The broad parent ledger and valuation inputs are not refreshed by later chapters."
+      "current_notice": "Whole-system evidence checked September 18, with September 19 demand/correction, September 20 selected financing and September 22 physical-recovery integration. The broad parent ledger and valuation inputs are not refreshed by later chapters. The September 26 ownership review has a separate revenue/reinvestment model and updated transaction evidence; the older cash-growth illustration is retained as dated."
     },
     {
       "id": "independent-demand-and-monetization",

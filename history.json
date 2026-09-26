@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-005",
+      "status": "completed",
+      "started_at": "2026-09-26",
+      "completed_at": "2026-09-26",
+      "report_path": "/p/is-ai-a-bubble/research/valuations-ipo-expectations-and-synthesis/",
+      "entrypoint": "research/valuations-ipo-expectations-and-synthesis/index.html",
+      "title": "What today’s ownership prices require",
+      "summary": "IREN remaining cash versus whole-company ownership, Microsoft required revenue growth and reinvestment, frontier funding/dilution and a revised whole answer. Includes completed versus conditional financing.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-004",
       "status": "completed",
       "started_at": "2026-09-22",

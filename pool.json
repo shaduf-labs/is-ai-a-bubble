@@ -9,7 +9,7 @@
   "description": "Understand the AI bubble question, what the latest cash and infrastructure evidence changes, and what still needs to be proved.",
   "cadence": "Updated as new research is ready",
   "release_state": "live",
-  "latest_research_at": "2026-09-22",
+  "latest_research_at": "2026-09-26",
   "evidence_scope": "Public source-linked research",
   "methodology_summary": "A technology can be useful, a company can be profitable, and an investment can still be too expensive.",
   "public_repo": "https://github.com/shaduf-labs/is-ai-a-bubble",

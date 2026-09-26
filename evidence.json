@@ -36,7 +36,7 @@
     {
       "evidence_id": "report-1-paragraph-26-0",
       "source_url": "https://arxiv.org/html/2304.11771v2",
-      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
+      "claim": "Sources: Support rollout study; Cui and coauthors’ developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -44,7 +44,7 @@
     {
       "evidence_id": "report-1-paragraph-26-1",
       "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
-      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
+      "claim": "Sources: Support rollout study; Cui and coauthors’ developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -52,7 +52,7 @@
     {
       "evidence_id": "report-1-paragraph-26-2",
       "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
+      "claim": "Sources: Support rollout study; Cui and coauthors’ developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -60,7 +60,7 @@
     {
       "evidence_id": "report-1-paragraph-26-3",
       "source_url": "https://arxiv.org/html/2504.11436v4",
-      "claim": "Sources: Support rollout study; Cui and coauthors\u2019 developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
+      "claim": "Sources: Support rollout study; Cui and coauthors’ developer experiments; METR developer experiment; Office randomized-access study. Design, vintage and manuscript-version limits.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -516,7 +516,7 @@
     {
       "evidence_id": "report-1-paragraph-123-0",
       "source_url": "https://openai.com/index/the-work-now-within-reach/",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -524,7 +524,7 @@
     {
       "evidence_id": "report-1-paragraph-123-1",
       "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -532,7 +532,7 @@
     {
       "evidence_id": "report-1-paragraph-123-2",
       "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -540,7 +540,7 @@
     {
       "evidence_id": "report-1-paragraph-123-3",
       "source_url": "https://sequoiacap.com/article/ais-600b-question",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -548,7 +548,7 @@
     {
       "evidence_id": "report-1-paragraph-123-4",
       "source_url": "https://www.wheresyoured.at/on-nvidia-and-analyslop/",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -556,7 +556,7 @@
     {
       "evidence_id": "report-1-paragraph-123-5",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
-      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI\u2019s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
+      "claim": "Sources: OpenAI 8 September commercial thesis; NVIDIA second-quarter fiscal 2027 results; CoreWeave second-quarter 2026 results; Sequoia, June 2024: AI’s $600B Question; Ed Zitron, February 2026: NVIDIA financing critique; Amazon June 2026 filing, investment note.",
       "accessed_at": "2026-09-18",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -572,7 +572,7 @@
     {
       "evidence_id": "report-2-paragraph-14-0",
       "source_url": "https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf",
-      "claim": "Sources: Census \u00b7 AI question wording updates; Federal Reserve \u00b7 monitoring AI adoption. Inspection notes.",
+      "claim": "Sources: Census · AI question wording updates; Federal Reserve · monitoring AI adoption. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -580,7 +580,7 @@
     {
       "evidence_id": "report-2-paragraph-14-1",
       "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/monitoring-ai-adoption-in-the-u-s-economy-20260403.html",
-      "claim": "Sources: Census \u00b7 AI question wording updates; Federal Reserve \u00b7 monitoring AI adoption. Inspection notes.",
+      "claim": "Sources: Census · AI question wording updates; Federal Reserve · monitoring AI adoption. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -588,7 +588,7 @@
     {
       "evidence_id": "report-2-paragraph-16-0",
       "source_url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
-      "claim": "Sources: Menlo Ventures \u00b7 2025 enterprise study; Ramp \u00b7 how its data works. Inspection notes.",
+      "claim": "Sources: Menlo Ventures · 2025 enterprise study; Ramp · how its data works. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -596,7 +596,7 @@
     {
       "evidence_id": "report-2-paragraph-16-1",
       "source_url": "https://ramp.com/data/how-ramp-data-works",
-      "claim": "Sources: Menlo Ventures \u00b7 2025 enterprise study; Ramp \u00b7 how its data works. Inspection notes.",
+      "claim": "Sources: Menlo Ventures · 2025 enterprise study; Ramp · how its data works. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -604,7 +604,7 @@
     {
       "evidence_id": "report-2-paragraph-22-0",
       "source_url": "https://arxiv.org/html/2304.11771v2",
-      "claim": "Sources: Generative AI at Work \u00b7 served arXiv v2. Inspection notes.",
+      "claim": "Sources: Generative AI at Work · served arXiv v2. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -612,7 +612,7 @@
     {
       "evidence_id": "report-2-paragraph-25-0",
       "source_url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-      "claim": "Sources: Klarna \u00b7 first-month assistant announcement. Inspection notes.",
+      "claim": "Sources: Klarna · first-month assistant announcement. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -620,7 +620,7 @@
     {
       "evidence_id": "report-2-paragraph-29-0",
       "source_url": "https://s205.q4cdn.com/644747736/files/doc_earnings/2026/q2/earnings-result/Q2-26-Klarna-Group-plc-Earnings-Release.pdf",
-      "claim": "Sources: Klarna \u00b7 Q2 2026 interim financial statements. Inspection notes.",
+      "claim": "Sources: Klarna · Q2 2026 interim financial statements. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -628,7 +628,7 @@
     {
       "evidence_id": "report-2-paragraph-32-0",
       "source_url": "https://www.intercom.com/pricing",
-      "claim": "Sources: Intercom Fin \u00b7 pricing and outcome definitions. Inspection notes.",
+      "claim": "Sources: Intercom Fin · pricing and outcome definitions. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -636,7 +636,7 @@
     {
       "evidence_id": "report-2-paragraph-58-0",
       "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
-      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments; METR \u00b7 early-2025 developer experiment. Inspection notes.",
+      "claim": "Sources: Cui and coauthors · three developer field experiments; METR · early-2025 developer experiment. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -644,7 +644,7 @@
     {
       "evidence_id": "report-2-paragraph-58-1",
       "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments; METR \u00b7 early-2025 developer experiment. Inspection notes.",
+      "claim": "Sources: Cui and coauthors · three developer field experiments; METR · early-2025 developer experiment. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -652,7 +652,7 @@
     {
       "evidence_id": "report-2-paragraph-61-0",
       "source_url": "https://www.mertdemirer.com/Papers/Demirer_AI_productivity.pdf",
-      "claim": "Sources: Cui and coauthors \u00b7 three developer field experiments. Inspection notes.",
+      "claim": "Sources: Cui and coauthors · three developer field experiments. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -660,7 +660,7 @@
     {
       "evidence_id": "report-2-paragraph-63-0",
       "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
-      "claim": "Sources: METR \u00b7 February 2026 follow-up limitations; METR \u00b7 technical-worker usage survey. Inspection notes.",
+      "claim": "Sources: METR · February 2026 follow-up limitations; METR · technical-worker usage survey. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -668,7 +668,7 @@
     {
       "evidence_id": "report-2-paragraph-63-1",
       "source_url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
-      "claim": "Sources: METR \u00b7 February 2026 follow-up limitations; METR \u00b7 technical-worker usage survey. Inspection notes.",
+      "claim": "Sources: METR · February 2026 follow-up limitations; METR · technical-worker usage survey. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -676,7 +676,7 @@
     {
       "evidence_id": "report-2-paragraph-68-0",
       "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
-      "claim": "Sources: Microsoft \u00b7 FY2026 Q4 earnings call. Inspection notes.",
+      "claim": "Sources: Microsoft · FY2026 Q4 earnings call. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -684,7 +684,7 @@
     {
       "evidence_id": "report-2-paragraph-74-0",
       "source_url": "https://arxiv.org/html/2504.11436v4",
-      "claim": "Sources: Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "claim": "Sources: Shifting Work Patterns with Generative AI · served arXiv v4. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -692,7 +692,7 @@
     {
       "evidence_id": "report-2-paragraph-89-0",
       "source_url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise",
-      "claim": "Sources: Microsoft 365 Copilot \u00b7 enterprise pricing; Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "claim": "Sources: Microsoft 365 Copilot · enterprise pricing; Shifting Work Patterns with Generative AI · served arXiv v4. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -700,7 +700,7 @@
     {
       "evidence_id": "report-2-paragraph-89-1",
       "source_url": "https://arxiv.org/html/2504.11436v4",
-      "claim": "Sources: Microsoft 365 Copilot \u00b7 enterprise pricing; Shifting Work Patterns with Generative AI \u00b7 served arXiv v4. Inspection notes.",
+      "claim": "Sources: Microsoft 365 Copilot · enterprise pricing; Shifting Work Patterns with Generative AI · served arXiv v4. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -708,7 +708,7 @@
     {
       "evidence_id": "report-2-paragraph-93-0",
       "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
-      "claim": "Sources: Microsoft \u00b7 FY2026 Q4 earnings call. Inspection notes.",
+      "claim": "Sources: Microsoft · FY2026 Q4 earnings call. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -716,7 +716,7 @@
     {
       "evidence_id": "report-2-paragraph-95-0",
       "source_url": "https://cdn.openai.com/pdf/work-at-the-frontier-report-202609.pdf",
-      "claim": "Sources: OpenAI \u00b7 Work at the Frontier. Inspection notes.",
+      "claim": "Sources: OpenAI · Work at the Frontier. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -724,7 +724,7 @@
     {
       "evidence_id": "report-2-paragraph-99-0",
       "source_url": "https://ramp.com/data/ai-index-february-2026",
-      "claim": "Sources: Ramp \u00b7 February 2026 payment update. Inspection notes.",
+      "claim": "Sources: Ramp · February 2026 payment update. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -732,7 +732,7 @@
     {
       "evidence_id": "report-2-paragraph-101-0",
       "source_url": "https://ramp.com/data/how-ramp-data-works",
-      "claim": "Sources: Ramp \u00b7 how its data works; Ramp \u00b7 June 2026 coverage expansion. Inspection notes.",
+      "claim": "Sources: Ramp · how its data works; Ramp · June 2026 coverage expansion. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -740,7 +740,7 @@
     {
       "evidence_id": "report-2-paragraph-101-1",
       "source_url": "https://ramp.com/data/ai-index-june-2026",
-      "claim": "Sources: Ramp \u00b7 how its data works; Ramp \u00b7 June 2026 coverage expansion. Inspection notes.",
+      "claim": "Sources: Ramp · how its data works; Ramp · June 2026 coverage expansion. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -748,7 +748,7 @@
     {
       "evidence_id": "report-2-paragraph-105-0",
       "source_url": "https://ramp.com/data/ai-index-sept-2026",
-      "claim": "Sources: Ramp \u00b7 September 2026 pricing and spending update. Inspection notes.",
+      "claim": "Sources: Ramp · September 2026 pricing and spending update. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -756,7 +756,7 @@
     {
       "evidence_id": "report-2-paragraph-110-0",
       "source_url": "https://openai.com/index/how-people-are-using-chatgpt/",
-      "claim": "Sources: OpenAI \u00b7 how people use ChatGPT. Inspection notes.",
+      "claim": "Sources: OpenAI · how people use ChatGPT. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -764,7 +764,7 @@
     {
       "evidence_id": "report-2-paragraph-112-0",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
-      "claim": "Sources: Meta \u00b7 Q2 2026 results. Inspection notes.",
+      "claim": "Sources: Meta · Q2 2026 results. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -772,7 +772,7 @@
     {
       "evidence_id": "report-2-paragraph-141-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/exhibit1027-prepaidforward.htm",
-      "claim": "Sources: Energy Global, LP / NVIDIA \u00b7 Prepaid Forward Contract. Inspection notes.",
+      "claim": "Sources: Energy Global, LP / NVIDIA · Prepaid Forward Contract. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -780,7 +780,7 @@
     {
       "evidence_id": "report-2-paragraph-143-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm",
-      "claim": "Sources: SB Energy \u00b7 4 September 2026 exhibit-only amendment. Inspection notes.",
+      "claim": "Sources: SB Energy · 4 September 2026 exhibit-only amendment. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -788,7 +788,7 @@
     {
       "evidence_id": "report-2-paragraph-145-0",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
-      "claim": "Sources: NVIDIA \u00b7 17 August 2026 current report; NVIDIA \u00b7 quarter ended 26 July 2026 filing. Inspection notes.",
+      "claim": "Sources: NVIDIA · 17 August 2026 current report; NVIDIA · quarter ended 26 July 2026 filing. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -796,7 +796,7 @@
     {
       "evidence_id": "report-2-paragraph-145-1",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "claim": "Sources: NVIDIA \u00b7 17 August 2026 current report; NVIDIA \u00b7 quarter ended 26 July 2026 filing. Inspection notes.",
+      "claim": "Sources: NVIDIA · 17 August 2026 current report; NVIDIA · quarter ended 26 July 2026 filing. Inspection notes.",
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
