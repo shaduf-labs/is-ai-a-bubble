@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-006",
+      "status": "completed",
+      "started_at": "2026-09-27",
+      "completed_at": "2026-09-27",
+      "report_path": "/p/is-ai-a-bubble/research/payer-cash-and-spending-flexibility/",
+      "entrypoint": "research/payer-cash-and-spending-flexibility/index.html",
+      "title": "Strong customers, less effortless funding",
+      "summary": "Strong-payer protection is better supported than effortless funding or cheap spending reversibility. Complete cash accounts, lease payments, restrictions, matched-period and continuation tests, customer advances and contract-specific flexibility.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-005",
       "status": "completed",
       "started_at": "2026-09-26",

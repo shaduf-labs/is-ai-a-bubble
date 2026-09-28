@@ -27,7 +27,20 @@
   if(document.querySelector('base[href]'))for(const a of document.querySelectorAll('a[href^="#"]'))a.href=location.pathname+location.search+a.getAttribute('href')
   const track=$('.ticker-track'), group=track?.firstElementChild
   if(group){const copy=group.cloneNode(true);copy.className='ticker-clone';copy.setAttribute('aria-hidden','true');copy.inert=true;for(const a of copy.querySelectorAll('a'))a.tabIndex=-1;track.append(copy)}
-  $('[data-toggle-ticker]')?.addEventListener('click', event => {const paused=$('.activity-ticker')?.classList.contains('paused');event.currentTarget.setAttribute('aria-pressed',String(paused));event.currentTarget.setAttribute('aria-label',paused?'Resume activity ticker':'Pause activity ticker')})
+  const ticker=$('.activity-ticker'),tickerButton=$('[data-toggle-ticker]')
+  const syncTicker=()=>{
+    const paused=Boolean(ticker?.classList.contains('paused'))
+    if(!tickerButton)return
+    tickerButton.textContent=paused?'▶':'Ⅱ'
+    tickerButton.setAttribute('aria-pressed',String(paused))
+    tickerButton.setAttribute('aria-label',paused?'Resume activity ticker':'Pause activity ticker')
+  }
+  try{if(sessionStorage.getItem('shaduf_ticker_paused')==='true')ticker?.classList.add('paused')}catch{}
+  syncTicker()
+  tickerButton?.addEventListener('click',()=>{
+    syncTicker()
+    try{sessionStorage.setItem('shaduf_ticker_paused',String(Boolean(ticker?.classList.contains('paused'))))}catch{}
+  })
   let aboutPlayback=null,loadingTimer=null
   const stop=()=>{clearTimeout(loadingTimer);loadingTimer=null;if(aboutPlayback)return;window.ShadufMotion?.stop();$('#transition-layer')?.classList.remove('is-loading')}
   window.addEventListener('pageshow',stop)

@@ -89,3 +89,9 @@
 :is(.pool-center,.center-document) .reader-page .source-svg.ownership-plot{min-width:800px}
 :is(.pool-center,.center-document) .reader-page .reader-figure:has(.source-svg.ownership-plot) .scroll-hint{display:block}
 @media print{:is(.pool-center,.center-document) .reader-page .source-svg.ownership-plot{min-width:0}}
+
+/* Payer-budget source drawing and inspectable source notes. */
+:is(.pool-center,.center-document) .reader-page .source-svg.payer-plot{min-width:940px}
+:is(.pool-center,.center-document) .reader-page .reader-figure:has(.source-svg.payer-plot) .scroll-hint{display:block}
+:is(.pool-center,.center-document) .reader-page .source-note{padding:16px 0;border-top:1px solid var(--reader-line);scroll-margin-top:20px;font-size:.91rem}
+@media print{:is(.pool-center,.center-document) .reader-page .source-svg.payer-plot{min-width:0}}

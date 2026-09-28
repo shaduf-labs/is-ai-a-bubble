@@ -33,3 +33,11 @@ body[data-kind="simple"] .app-view{display:block}.simple-main{max-width:940px;ma
 .contact-email{overflow-wrap:anywhere}.mobile-contact{gap:12px}
 @media(min-width:701px) and (max-width:1180px){.app-header{gap:16px;padding-inline:20px}.app-header .wordmark{min-width:0}.app-header .search-trigger{width:clamp(140px,24vw,250px)}.header-actions{gap:14px}}
 @media(max-width:700px){.header-actions .request-pool-link{display:none}}
+
+/* Keep discovery language reachable without squeezing pool controls off screen. */
+body[data-kind="simple"] .mobile-menu,body[data-kind="pro-preview"] .mobile-menu{display:none}
+.header-language>summary{min-width:44px;min-height:44px;justify-content:center}
+.header-language button[aria-pressed="true"]{background:var(--slot);font-weight:600}
+@media(max-width:700px){.app-header .header-language>div{position:fixed;top:calc(var(--masthead) - 2px);right:8px;width:min(280px,calc(100vw - 16px));max-height:calc(100dvh - var(--masthead) - var(--bottom-stack) - 16px);overflow-y:auto}.header-language button{min-height:44px}.app-header>.mobile-menu,.app-header>.search-trigger,.app-header .mobile-info{width:44px;height:44px;flex:none}}
+@media(max-width:560px){:root{--masthead:104px}.app-header{height:var(--masthead);padding:6px 12px;gap:0 10px;flex-wrap:wrap}.app-header>.wordmark{flex:1}.app-header>.header-actions{flex-basis:100%;height:44px;gap:8px}.header-actions .header-language{display:block;margin-right:auto}}
+@media(min-width:701px) and (max-width:1000px){:root{--masthead:104px}.app-header{height:var(--masthead);padding:6px 20px;gap:0 16px;flex-wrap:wrap}.app-header>.wordmark{flex:1}.app-header>.search-trigger{width:min(310px,calc(100vw - 180px));height:44px}.app-header .mobile-info{width:44px;height:44px;flex:none}.app-header>.header-actions{flex-basis:100%;height:44px;gap:12px;justify-content:flex-end}.header-actions>a{display:inline-flex;align-items:center;min-height:44px}}

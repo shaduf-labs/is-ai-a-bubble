@@ -1,3 +1,4 @@
+import { suspensionsFor, isSuspended } from './pool-lifecycle.js'
 const DAY = 86_400_000
 const stamp = value => typeof value === 'string' && value.trim() ? Date.parse(value) : NaN
 const utcDay = milliseconds => Math.floor(milliseconds / DAY)
@@ -11,11 +12,16 @@ export function firstResearchAt(history) {
     .sort((a, b) => stamp(a) - stamp(b))[0] || null
 }
 
-export function researchDays(startedAt, now = Date.now()) {
+export function researchDays(startedAt, now = Date.now(), suspensions = []) {
   const start = stamp(startedAt)
   if (!Number.isFinite(start) || !Number.isFinite(now) || start > now) return null
   // Count the first UTC research date as day one, then advance each midnight.
-  return utcDay(now) - utcDay(start) + 1
+  const stoppedDays = suspensions.reduce((total, interval) => {
+    const from = Math.max(start, stamp(interval.suspended_at))
+    const to = Math.min(now, interval.resumed_at === null ? now : stamp(interval.resumed_at))
+    return total + (Number.isFinite(from) && Number.isFinite(to) && to >= from ? utcDay(to) - utcDay(from) : 0)
+  }, 0)
+  return Math.max(1, utcDay(now) - utcDay(start) + 1 - stoppedDays)
 }
 
 export function researchFreshness(updatedAt, now = Date.now()) {
@@ -30,11 +36,17 @@ export function researchFreshness(updatedAt, now = Date.now()) {
 
 export function updateResearchDates(root, now = Date.now()) {
   root.querySelectorAll('[data-research-started]').forEach(node => {
-    const days = researchDays(node.dataset.researchStarted, now)
+    const slug = node.dataset.researchPool || node.closest?.('[data-library-pool]')?.dataset.libraryPool || root.body?.dataset.pool
+    const days = researchDays(node.dataset.researchStarted, now, suspensionsFor(slug))
     node.hidden = days === null
     if (days === null) return
     node.querySelector('[data-research-days]').textContent = String(days)
     node.querySelector('[data-research-days-label]').textContent = `${days === 1 ? 'day' : 'days'} of research`
+  })
+  root.querySelectorAll('[data-pool-state]').forEach(node => {
+    const suspended = isSuspended(node.dataset.poolState, now)
+    node.textContent = suspended ? 'Suspended' : node.dataset.releaseState || ''
+    if (node.dataset.suspensionBadge !== undefined) node.hidden = !suspended
   })
   root.querySelectorAll('[data-research-updated]').forEach(node => {
     node.textContent = researchFreshness(node.getAttribute('datetime'), now)

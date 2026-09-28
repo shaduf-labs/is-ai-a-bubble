@@ -102,3 +102,4 @@ body[data-kind="home"] .transition-layer{left:0;right:0}
 
 .pool-research-model b{min-width:0;overflow-wrap:anywhere}.pool-research-model small{display:block;font-size:11px;color:var(--muted);margin-top:2px}
 .reading-pane{padding-inline:clamp(20px,4%,48px)}:where(.document h1){font-size:clamp(34px,6cqi,52px)}
+.search-status{padding:4px 13px;color:var(--muted);font:12px/1.5 var(--ui)}.search-result .search-result-meta{display:block;text-transform:none;letter-spacing:0;font:12px/1.5 var(--ui)}.search-result:focus-visible,.search-more:focus-visible{outline:2px solid var(--ink);outline-offset:-2px}.search-more{display:block;min-height:44px;width:calc(100% - 26px);margin:10px 13px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:13px/1.5 var(--ui);cursor:pointer}.search-more:hover{background:var(--slot)}

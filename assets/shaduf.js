@@ -1,10 +1,13 @@
 (() => {
   const body = document.body
   const toast = document.querySelector('[data-toast]')
+  const languageMenus = [...document.querySelectorAll('.header-language, .language-menu')]
+  const languageButtons = languageMenus.flatMap(menu => [...menu.querySelectorAll('[data-language]')])
   const applyLanguage = (locale, persist = false) => {
-    if (!document.querySelector(`[data-language="${CSS.escape(locale)}"]`)) return
+    if (!languageButtons.some(node => node.dataset.language === locale)) return
     if (persist) { try { localStorage.setItem('shaduf_language', locale) } catch {} }
     document.querySelectorAll('[data-language-label]').forEach((node) => { node.textContent = locale.toUpperCase() })
+    languageButtons.forEach(node => node.setAttribute('aria-pressed', String(node.dataset.language === locale)))
     const prioritize = (selector) => document.querySelectorAll(selector).forEach((container) => {
       const items = [...container.children].filter((item) => item.matches('[data-locale]'))
       items.sort((a, b) => {
@@ -17,7 +20,25 @@
     prioritize('.explore-list')
     prioritize('.related-dock')
   }
-  document.querySelectorAll('[data-language]').forEach((node) => node.addEventListener('click', () => applyLanguage(node.dataset.language, true)))
+  const closeLanguageMenus = (restoreFocus = false) => languageMenus.forEach(menu => {
+    if (!menu.open) return
+    menu.open = false
+    if (restoreFocus) menu.querySelector('summary')?.focus()
+  })
+  languageButtons.forEach(node => node.addEventListener('click', () => {
+    applyLanguage(node.dataset.language, true)
+    closeLanguageMenus(true)
+  }))
+  document.addEventListener('click', event => {
+    languageMenus.forEach(menu => { if (menu.open && !menu.contains(event.target)) menu.open = false })
+  })
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && languageMenus.some(menu => menu.open)) {
+      event.preventDefault()
+      closeLanguageMenus(true)
+    }
+  })
+  window.addEventListener('resize', () => closeLanguageMenus())
   let savedLanguage = ''
   try { savedLanguage = localStorage.getItem('shaduf_language') || '' } catch {}
   applyLanguage(savedLanguage || document.documentElement.lang || 'en')
@@ -57,62 +78,114 @@
 
   const search = document.querySelector('[data-search-dialog]')
   const searchResults = search?.querySelector('[data-search-results]')
-  let searchIndexPromise
-  const loadSearchIndex = () => searchIndexPromise ||= fetch('/search-index.json').then((response) => {
+  const searchAssetVersion = document.currentScript?.src?.match(/[?&]v=([^&#]+)/)?.[1]
+  let searchIndexPromise, searchSessionPromise, searchSession, searchRequest = 0, searchOpener
+  const loadSearchIndex = () => searchIndexPromise ||= fetch('/search-index.json', { cache: 'no-cache' }).then((response) => {
     if (!response.ok) throw new Error('search index unavailable')
     return response.json()
-  }).then((data) => Array.isArray(data.items) ? data.items : [])
+  }).then((data) => {
+    if (!Array.isArray(data.items)) throw new Error('search index invalid')
+    return data.items
+  }).catch((error) => { searchIndexPromise = null; throw error })
+  const displaySearchResults = ({ status, total = 0, items = [] }) => {
+    if (!searchResults) return
+    const focusNext = document.activeElement?.hasAttribute?.('data-search-more')
+    const previousCount = searchResults.querySelectorAll('a.search-result').length
+    searchResults.replaceChildren()
+    searchResults.setAttribute('aria-busy', String(status === 'loading'))
+    const note = document.createElement('p')
+    note.className = 'search-status'
+    note.textContent = status === 'empty' ? 'Search published pools, pages, reports, and evidence.'
+      : status === 'loading' ? 'Searching published research…'
+      : status === 'error' ? 'Search is temporarily unavailable. Try again.'
+      : !total ? 'No published result matches this search.'
+      : `${items.length} of ${total} ${total === 1 ? 'result' : 'results'}`
+    searchResults.append(note)
+    if (status === 'error') {
+      const retry = document.createElement('button')
+      retry.type = 'button'
+      retry.className = 'search-more'
+      retry.textContent = 'Try again'
+      retry.addEventListener('click', () => renderSearchResults(search.querySelector('input[type="search"]').value))
+      searchResults.append(retry)
+    }
+    for (const item of items) {
+      const link = document.createElement('a')
+      link.className = 'search-result'
+      link.href = item.href
+      const meta = document.createElement('small')
+      meta.className = 'search-result-meta'
+      const dateValue = item.research_completed_at || item.updated_at
+      const date = dateValue && Number.isFinite(Date.parse(dateValue))
+        ? new Date(dateValue).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }) : ''
+      meta.textContent = [item.pool_title, item.kind, date && `${item.research_completed_at ? 'Research' : 'Updated'} ${date}`].filter(Boolean).join(' · ')
+      const title = document.createElement('strong')
+      title.textContent = item.title
+      const summary = document.createElement('span')
+      summary.textContent = item.summary || ''
+      link.append(meta, title, summary)
+      searchResults.append(link)
+    }
+    if (items.length < total) {
+      const more = document.createElement('button')
+      more.type = 'button'
+      more.className = 'search-more'
+      more.setAttribute('data-search-more', '')
+      more.textContent = `Show more results (${total - items.length} remaining)`
+      more.addEventListener('click', () => searchSession.more())
+      searchResults.append(more)
+    }
+    if (focusNext) searchResults.querySelectorAll('a.search-result')[previousCount]?.focus()
+  }
+  const loadSearchSession = () => searchSessionPromise ||= import(`/assets/search.js${searchAssetVersion ? `?v=${searchAssetVersion}` : ''}`)
+    .then(({ createSearchSession }) => {
+      searchSession = createSearchSession({ loadItems: loadSearchIndex, onChange: displaySearchResults })
+      return searchSession
+    }).catch((error) => { searchSessionPromise = null; throw error })
   const renderSearchResults = async (query) => {
     if (!searchResults) return
-    const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean)
-    searchResults.replaceChildren()
-    if (!terms.length) {
-      const hint = document.createElement('p')
-      hint.textContent = 'Search published pools, pages, reports, and evidence.'
-      searchResults.append(hint)
-      return
-    }
+    const request = ++searchRequest
+    searchSession?.cancel()
+    if (!query.trim()) { displaySearchResults({ status: 'empty' }); return }
+    displaySearchResults({ status: 'loading' })
     try {
-      const items = await loadSearchIndex()
-      const matches = items.map((item) => {
-        const haystack = [item.title, item.summary, item.kind, ...(item.keywords || [])].join(' ').toLowerCase()
-        const score = terms.reduce((total, term) => total + (haystack.includes(term) ? 1 : 0), 0)
-        return { item, score }
-      }).filter(({ score }) => score === terms.length).slice(0, 12)
-      if (!matches.length) {
-        const empty = document.createElement('p')
-        empty.textContent = 'No published result matches this search.'
-        searchResults.append(empty)
-        return
-      }
-      for (const { item } of matches) {
-        const link = document.createElement('a')
-        link.className = 'search-result'
-        link.href = item.href
-        const meta = document.createElement('small')
-        meta.textContent = item.kind
-        const title = document.createElement('strong')
-        title.textContent = item.title
-        const summary = document.createElement('span')
-        summary.textContent = item.summary
-        link.append(meta, title, summary)
-        searchResults.append(link)
-      }
+      const session = await loadSearchSession()
+      if (request === searchRequest) await session.search(query)
     } catch {
-      const error = document.createElement('p')
-      error.textContent = 'Search is temporarily unavailable.'
-      searchResults.append(error)
+      if (request === searchRequest) displaySearchResults({ status: 'error' })
     }
   }
   const openSearch = (value = '') => {
     if (!search) return
     const input = search.querySelector('input[type="search"]')
     if (input && value) input.value = input.value ? `${input.value} ${value}` : value
-    if (!search.open) search.showModal()
+    if (!search.open) { searchOpener = document.activeElement; search.showModal() }
     if (input) renderSearchResults(input.value)
     window.setTimeout(() => input?.focus(), 0)
   }
   search?.querySelector('input[type="search"]')?.addEventListener('input', (event) => renderSearchResults(event.currentTarget.value))
+  search?.querySelector('input[type="search"]')?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' || event.isComposing) return
+    // The close button is the form's default submitter. Keep Enter in the
+    // search field from implicitly activating that dialog-close button.
+    event.preventDefault()
+    const first = searchResults?.querySelector('a.search-result')
+    if (first) location.assign(first.href)
+  })
+  search?.querySelector('form')?.addEventListener('submit', (event) => {
+    if (event.submitter?.getAttribute('formmethod') === 'dialog') return
+    event.preventDefault()
+    const first = searchResults?.querySelector('a.search-result')
+    if (first) location.assign(first.href)
+  })
+  search?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || event.isComposing || !search.open) return
+    // WebKit otherwise clears a search input before dismissing its dialog.
+    event.preventDefault()
+    event.stopPropagation()
+    search.close()
+  }, true)
+  search?.addEventListener('close', () => { searchRequest += 1; searchSession?.cancel(); searchOpener?.focus?.() })
   document.querySelectorAll('[data-open-search]').forEach((node) => node.addEventListener('click', () => openSearch()))
   document.querySelectorAll('[data-search-tag]').forEach((node) => node.addEventListener('click', () => openSearch(node.dataset.searchTag || node.textContent.trim())))
   document.addEventListener('keydown', (event) => {

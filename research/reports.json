@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "payer-cash-and-spending-flexibility",
+      "slug": "payer-cash-and-spending-flexibility",
+      "title": "Strong customers, less effortless funding",
+      "research_run_number": 6,
+      "route": "/p/is-ai-a-bubble/research/payer-cash-and-spending-flexibility/",
+      "file": "research/payer-cash-and-spending-flexibility/index.html",
+      "csv_file": "assets/payer-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-27",
+      "published_at": "2026-09-28T16:27:18.104134+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "Strong-payer protection is better supported than effortless funding or cheap spending reversibility. Complete cash accounts, lease payments, restrictions, matched-period and continuation tests, customer advances and contract-specific flexibility.",
+      "current_notice": "June Microsoft/Meta and August Oracle balances remain dated. Conditional cash, investment, policy and buffer choices are not forecasts, insolvency findings or legally executable spending floors. Earlier current research and all historical reports remain accessible."
+    },
+    {
       "id": "valuations-ipo-expectations-and-synthesis",
       "slug": "valuations-ipo-expectations-and-synthesis",
       "title": "What today’s ownership prices require",
