@@ -95,3 +95,11 @@
 :is(.pool-center,.center-document) .reader-page .reader-figure:has(.source-svg.payer-plot) .scroll-hint{display:block}
 :is(.pool-center,.center-document) .reader-page .source-note{padding:16px 0;border-top:1px solid var(--reader-line);scroll-margin-top:20px;font-size:.91rem}
 @media print{:is(.pool-center,.center-document) .reader-page .source-svg.payer-plot{min-width:0}}
+
+/* New diagrams retain legible labels in a narrow Center; older figures are unchanged. */
+:is(.pool-center,.center-document) .reader-page .reading-diagram.wide svg{min-width:700px}
+@container(max-width:800px){:is(.pool-center,.center-document) .reader-page .reading-diagram.wide .scroll-hint{display:block}}
+/* Supplied accrual-profit drawing; its geometry remains unchanged. */
+:is(.pool-center,.center-document) .reader-page .capture-plot{display:block;width:100%;min-width:1040px;max-width:none;height:auto}
+:is(.pool-center,.center-document) .reader-page .reader-figure:has(.capture-plot) .scroll-hint{display:block}
+@media print{:is(.pool-center,.center-document) .reader-page .capture-plot{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .reading-diagram.wide svg{min-width:0}}

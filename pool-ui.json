@@ -15,6 +15,18 @@
       "redirects": []
     },
     {
+      "id": "demand",
+      "slug": "demand",
+      "label": "Customer demand",
+      "parent": null,
+      "group": "Understand",
+      "icon": "",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "demand/index.html",
+      "redirects": []
+    },
+    {
       "id": "money",
       "slug": "money",
       "label": "Spending & obligations",
@@ -24,6 +36,18 @@
       "visibility": "public",
       "indexable": true,
       "entrypoint": "money/index.html",
+      "redirects": []
+    },
+    {
+      "id": "capacity",
+      "slug": "capacity",
+      "label": "Capacity & recovery",
+      "parent": null,
+      "group": "Understand",
+      "icon": "",
+      "visibility": "public",
+      "indexable": true,
+      "entrypoint": "capacity/index.html",
       "redirects": []
     },
     {

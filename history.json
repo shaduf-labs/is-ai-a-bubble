@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-007",
+      "status": "completed",
+      "started_at": "2026-09-29",
+      "completed_at": "2026-09-29",
+      "report_path": "/p/is-ai-a-bubble/research/customer-dollar-and-renewal/",
+      "entrypoint": "research/customer-dollar-and-renewal/index.html",
+      "title": "Paid persistence is real; the division of the gain is not uniform",
+      "summary": "Company-wide paid persistence, Freshworks’ complete expense and cash bridges, and Meta’s provider-reported embedded-monetization experiment strengthen the favorable commercial case without establishing AI-only renewal or margins.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-006",
       "status": "completed",
       "started_at": "2026-09-27",

@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "customer-dollar-and-renewal",
+      "slug": "customer-dollar-and-renewal",
+      "title": "Paid persistence is real; the division of the gain is not uniform",
+      "research_run_number": 7,
+      "route": "/p/is-ai-a-bubble/research/customer-dollar-and-renewal/",
+      "file": "research/customer-dollar-and-renewal/index.html",
+      "csv_file": "assets/capture-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-29",
+      "published_at": "2026-09-29T09:27:15.878517+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "Company-wide paid persistence, Freshworks’ complete expense and cash bridges, and Meta’s provider-reported embedded-monetization experiment strengthen the favorable commercial case without establishing AI-only renewal or margins.",
+      "current_notice": "Retrieval-day cutoff, not an exact finish timestamp. Reported versus constant-currency retention, revenue versus cash, stock compensation, signed working capital and conditional sharing assumptions remain explicit. Earlier research and all downloads remain accessible."
+    },
+    {
       "id": "payer-cash-and-spending-flexibility",
       "slug": "payer-cash-and-spending-flexibility",
       "title": "Strong customers, less effortless funding",
