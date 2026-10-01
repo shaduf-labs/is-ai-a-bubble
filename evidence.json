@@ -800,6 +800,86 @@
       "accessed_at": "2026-09-19",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-74-0",
+      "source_url": "https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CRWV-US-CORRECTED-TRANSCRIPT-CoreWeave-Q2-2026-Earnings-Call-11August2026.pdf",
+      "claim": "Corrected Q2 2026 earnings call, August 11, 2026; pp.7–8. Corrected Q2 2026 earnings-call transcript, 11 August 2026, pp.7–8. Issuer-reported newly signed older-design contract and return narrative; the contract, serial-number age record, achieved price and lifetime cash were not supplied.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-75-0",
+      "source_url": "https://www.coreweave.com/pricing",
+      "claim": "North America on-demand eight-GPU instance table; inspected September 29, 2026. North American on-demand eight-GPU instance table as inspected on 29 September 2026. Posted tariffs and configurations, not executed renewal prices, capacity availability or equal-service performance measurements.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-76-0",
+      "source_url": "https://docs.coreweave.com/policies/terms-of-service/maintenance-policy",
+      "claim": "Published planned and unplanned maintenance policy; inspected September 29, 2026. Maintenance policy inspected on 29 September 2026. General planned/unplanned platform work; not the A100 contract or a measured cost, failure or uptime series.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-77-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828024009396/finalcorzcoreweaverelease0.htm",
+      "claim": "March 6, 2024 Austin hosting announcement. 6 March 2024 hosting announcement. Former Hewlett Packard facility, leased operation and CoreWeave relationship; not exact physical age, collected cash or completion of a second hosting term.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-78-0",
+      "source_url": "https://investors.corescientific.com/news-events/press-releases/detail/74/core-scientific-to-provide-approximately-200-mw-of-infrastructure-to-host-coreweaves-high-performance-computing-services-capturing-significant-ai-compute-opportunity",
+      "claim": "June 3, 2024 original approximately 200-MW conversion package. 3 June 2024 original approximately 200-MW owned-site conversion package. Twelve-year agreements, estimated funded infrastructure and fee credits; extension options are not exercised renewals and these terms are not imputed to every later project.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-79-0",
+      "source_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-26-013232/core-20241231.htm",
+      "claim": "2024 Form 10-K/A, filed March 2, 2026; Note 8 lease tables and Austin discussion. 2024 Form 10-K/A, filed 2 March 2026. Historical Austin headlease and remaining customer schedules, including issuer-rounded rent. Not current cash or a contemporaneously available March 2025 investment compilation.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-80-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026013286/core-20250331.htm",
+      "claim": "March 2025 Form 10-Q/A, filed March 2, 2026; Notes 5 and 12; Austin colocation discussion. March 2025 Form 10-Q/A, filed 2 March 2026; original quarter report filed 7 May 2025. Note 5, segment disclosure and Austin revenue/cost discussion. Matched single-site schedule and expense, not a full cash ledger.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-81-0",
+      "source_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001193125-26-134881/0001193125-26-134881.pdf",
+      "claim": "2025 Form 10-K including restated 2024; pp.56, 60, 79, 83–89 and 105. 2025 Form 10-K including restated 2024 comparisons. Pages 56, 60, restatement/asset notes and p.105 segment table. Relevant tables inspected in the research. Impairment and demolition concern mining-to-colocation assets, not an Austin or general GPU resale measurement.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-82-0",
+      "source_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000014/core-20260630.htm",
+      "claim": "June 2026 Form 10-Q, filed July 28, 2026; property, lease, debt, deferred-revenue and assignment notes. June 2026 Form 10-Q, filed 28 July 2026. Portfolio construction, license assignment, deferred-revenue and debt notes. Later pooled accounts and restricted finance, not a new Austin-only cash schedule or beneficial-holder register.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "continuation-public-paragraph-83-0",
+      "source_url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q3-fy25-results",
+      "claim": "May 14, 2025 release; March-quarter cloud results and May 5 ARR. 14 May 2025 results, March-quarter cloud revenue and May 5 operating ARR. Mixed, changing H100/H200 platform; not a fixed-vintage renewal cohort or annual collections.",
+      "accessed_at": "2026-09-29",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

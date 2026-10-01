@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-008",
+      "status": "completed",
+      "started_at": "2026-09-29",
+      "completed_at": "2026-09-29",
+      "report_path": "/p/is-ai-a-bubble/research/second-cycle-recovery/",
+      "entrypoint": "research/second-cycle-recovery/index.html",
+      "title": "Older capacity can earn again—but it does not become free",
+      "summary": "An older-design contract and reused facilities support selective continuation. A historically anchored Austin expense-budget test identifies conditional room for additional net costs; it is not a current appraisal, complete cash ledger or machine-age record.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-007",
       "status": "completed",
       "started_at": "2026-09-29",

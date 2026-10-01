@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "second-cycle-recovery",
+      "slug": "second-cycle-recovery",
+      "title": "Older capacity can earn again—but it does not become free",
+      "research_run_number": 8,
+      "route": "/p/is-ai-a-bubble/research/second-cycle-recovery/",
+      "file": "research/second-cycle-recovery/index.html",
+      "csv_file": "assets/continuation-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-09-29",
+      "published_at": "2026-10-01T22:46:42+07:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "An older-design contract and reused facilities support selective continuation. A historically anchored Austin expense-budget test identifies conditional room for additional net costs; it is not a current appraisal, complete cash ledger or machine-age record.",
+      "current_notice": "Current dated investigation. Retrieval-day boundary 29 September 2026; Austin model anchor 31 March 2025, using later amended disclosures. Earlier recovery and ownership requirements remain conditional, not discovered asset values."
+    },
+    {
       "id": "customer-dollar-and-renewal",
       "slug": "customer-dollar-and-renewal",
       "title": "Paid persistence is real; the division of the gain is not uniform",

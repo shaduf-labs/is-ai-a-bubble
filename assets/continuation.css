@@ -1,0 +1,6 @@
+/* New continuation figures only; the retained reader stylesheet is unchanged. */
+:is(.pool-center,.center-document) .reader-page .continuation-diagram svg{min-width:680px}
+:is(.pool-center,.center-document) .reader-page .continuation-plot img{display:block;width:100%;height:auto;min-width:900px}
+:is(.pool-center,.center-document) .reader-page .continuation-plot .scroll-hint{display:block}
+@container(max-width:720px){:is(.pool-center,.center-document) .reader-page .continuation-diagram .scroll-hint{display:block}}
+@media print{:is(.pool-center,.center-document) .reader-page :is(.continuation-diagram svg,.continuation-plot img){min-width:0}:is(.pool-center,.center-document) .reader-page :is(.continuation-diagram,.continuation-plot) .scroll-hint{display:none}}

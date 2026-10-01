@@ -1,0 +1,68 @@
+/* Current-programme content only. Loaded by the answer, foundation, record and demand chapter; no shared-shell or historical selectors. */
+.pool-center.demand .chapter-label {font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:750;margin-bottom:12px;}
+.pool-center.demand .demand-steps {list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;counter-reset:step;margin:25px 0;}
+.pool-center.demand .demand-steps li {counter-increment:step;border-top:3px solid var(--accent);padding:14px 0;}
+.pool-center.demand .demand-steps li:before {content:counter(step,decimal-leading-zero);display:block;font-variant-numeric:tabular-nums;color:var(--muted);font-size:.77rem;margin-bottom:8px;}
+.pool-center.demand .demand-steps strong,.pool-center.demand .demand-steps span {display:block;}
+.pool-center.demand .demand-steps span {font-size:.9rem;margin-top:9px;}
+.pool-center.demand .demand-result-pair,.pool-center.demand .demand-study-pair {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:24px 0;}
+.pool-center.demand .demand-result-pair>div,.pool-center.demand .demand-study-pair>section {padding:22px;background:#fff;border:1px solid var(--line);}
+.pool-center.demand .demand-study-pair>section {border-top:4px solid var(--accent);}
+.pool-center.demand .demand-study-pair>section:last-child {border-top-style:dashed;}
+.pool-center.demand .model-number {font-size:clamp(1.8rem,4vw,2.65rem);font-family:ui-serif,Georgia,serif;line-height:1.15;font-variant-numeric:tabular-nums;letter-spacing:-.025em;margin:14px 0;}
+.pool-center.demand .demand-result-pair p:last-child {margin-bottom:0;}
+.pool-center.demand .case-verdict {padding:19px 22px;border-left:3px solid var(--accent);background:var(--tint);margin-top:28px;}
+.pool-center.demand .formula {overflow-wrap:anywhere;}
+.pool-center.demand blockquote {margin:0;font-size:1.1rem;line-height:1.6;}
+.pool-center.demand .capture-key {display:flex;flex-wrap:wrap;gap:12px 20px;font-size:.8rem;margin:22px 0;}
+.pool-center.demand .capture-key>span:before {content:'';display:inline-block;width:14px;height:14px;margin-right:7px;vertical-align:-2px;border:1px solid var(--accent);}
+.pool-center.demand .key-variable:before,.pool-center.demand .cost-variable {background:#dce6d6;}
+.pool-center.demand .key-fixed:before,.pool-center.demand .cost-fixed {background:repeating-linear-gradient(135deg,#fff,#fff 4px,#8e9e83 4px,#8e9e83 6px);}
+.pool-center.demand .key-cash:before,.pool-center.demand .cash-kept {background:var(--accent);}
+.pool-center.demand .capture-row {margin:22px 0;}
+.pool-center.demand .capture-row p {font-size:.9rem;line-height:1.45;margin-bottom:8px;}
+.pool-center.demand .capture-row p>span {display:block;color:var(--muted);font-size:.83rem;margin-top:5px;font-variant-numeric:tabular-nums;}
+.pool-center.demand .capture-track {height:30px;display:flex;width:100%;background:#f1f3ed;border-left:1px solid var(--muted);}
+.pool-center.demand .capture-track>span {display:block;flex-shrink:0;height:100%;}
+.pool-center.demand .capture-track .cost-fixed {width:15%;}
+.pool-center.demand .demand-paths {display:grid;gap:18px;margin:25px 0;}
+.pool-center.demand .demand-paths>section {padding:19px 22px;border:1px solid var(--line);}
+.pool-center.demand .demand-paths p:last-child {margin:0;}
+.pool-center.demand .demand-source-notes {margin:20px 0 0;}
+.pool-center.demand .demand-source-notes>div {padding:15px 0;border-top:1px solid var(--line);}
+.pool-center.demand .demand-source-notes dt {font-weight:650;}
+.pool-center.demand .demand-source-notes dd {margin:7px 0 0;line-height:1.6;}
+.pool-center.demand table:not(.prose-table) th:first-child {text-align:left;width:48%;}
+.pool-center.demand table.cols-2 {min-width:0;}
+.pool-center.demand table.prose-table {min-width:660px;}
+@media(max-width:650px) {.pool-center.demand .demand-result-pair,.pool-center.demand .demand-study-pair {grid-template-columns:1fr;gap:14px;}.pool-center.demand .demand-result-pair>div,.pool-center.demand .demand-study-pair>section {padding:18px;}}
+@media(max-width:430px) {.pool-center.demand .demand-steps {grid-template-columns:1fr;gap:8px;}.pool-center.demand .capture-row p>span {font-size:.8rem;}.pool-center.demand .case-verdict {padding:16px;}}
+@media print {.pool-center.demand .capture-track {print-color-adjust:exact;}.pool-center.demand figure,.pool-center.demand .demand-study-pair {break-inside:avoid;}}
+.pool-center.demand .capture-0 .cost-variable {width:35%;}
+.pool-center.demand .capture-0 .cash-kept {width:50%;}
+.pool-center.demand .capture-1 .cost-variable {width:35%;}
+.pool-center.demand .capture-1 .cash-kept {width:30%;}
+.pool-center.demand .capture-2 .cost-variable {width:43.75%;}
+.pool-center.demand .capture-2 .cash-kept {width:41.25%;}
+.pool-center.demand .capture-3 .cost-variable {width:35%;}
+.pool-center.demand .capture-3 .cash-kept {width:50%;}
+.pool-center.demand .capture-4 .cost-variable {width:28%;}
+.pool-center.demand .capture-4 .cash-kept {width:37%;}
+
+/* Respond to the reading column inside the Shaduf shell, not only viewport width. */
+.pool-center.baseline {container-type:inline-size;padding:clamp(18px,3vw,32px);}
+@container (max-width:640px) {
+ .pool-center.baseline .evidence-pair,.pool-center.baseline .mechanism-grid,.pool-center.baseline .window-grid,.pool-center.baseline .scenario-grid,.pool-center.demand .demand-result-pair,.pool-center.demand .demand-study-pair {grid-template-columns:1fr;gap:16px;}
+ .pool-center.baseline .money-chain,.pool-center.baseline .test-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+ .pool-center.baseline .money-chain li:before {display:none;}
+ .pool-center.baseline .table-hint {display:block;font-size:.84rem;color:var(--muted);margin-bottom:6px;}
+ .pool-center.baseline .evidence-pair>section,.pool-center.baseline .mechanism-grid>section,.pool-center.baseline figure,.pool-center.baseline .scenario,.pool-center.baseline .boundary,.pool-center.demand .demand-result-pair>div,.pool-center.demand .demand-study-pair>section {padding:18px;}
+ .pool-center.baseline .scroll-table {padding-inline:8px;}
+}
+@container (max-width:430px) {
+ .pool-center.baseline .money-chain,.pool-center.baseline .test-grid,.pool-center.demand .demand-steps {grid-template-columns:1fr;}
+ .pool-center.baseline .stat {font-size:2.25rem;}
+ .pool-center.demand .model-number {font-size:2rem;}
+ .pool-center.demand .case-verdict {padding:16px;}
+}
+@media print {.pool-center.baseline {container-type:normal;padding:0;}}
