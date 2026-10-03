@@ -1,0 +1,7 @@
+/* Holder explanations only; existing reader and historical styles are retained. */
+:is(.pool-center,.center-document) .reader-page .holder-diagram svg{min-width:650px}
+:is(.pool-center,.center-document) .reader-page .holder-plot img{display:block;width:100%;min-width:720px;height:auto;max-width:none}
+:is(.pool-center,.center-document) .reader-page .holder-scroll-note{font-size:.82rem;color:var(--reader-muted);margin:0 0 10px}
+:is(.pool-center,.center-document) .reader-page .holder-source{padding:19px 0;border-top:1px solid var(--reader-line);scroll-margin-top:20px}
+:is(.pool-center,.center-document) .reader-page .holder-cite{font-size:.73em;white-space:normal;margin-left:3px}
+@media print{:is(.pool-center,.center-document) .reader-page .holder-diagram svg,:is(.pool-center,.center-document) .reader-page .holder-plot img{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .holder-scroll-note{display:none}}

@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-009",
+      "status": "completed",
+      "started_at": "2026-10-02",
+      "completed_at": "2026-10-02",
+      "report_path": "/p/is-ai-a-bubble/research/holder-exposure-and-loss-absorption/",
+      "entrypoint": "research/holder-exposure-and-loss-absorption/index.html",
+      "title": "Where an investment loss becomes a funding problem",
+      "summary": "GECC’s named June holdings, realized distributions and own creditors show both loss absorption and funding constraints before capital is exhausted. NVIDIA’s separately dated equity and conditional support distinguish investment marks from cash calls.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-008",
       "status": "completed",
       "started_at": "2026-09-29",

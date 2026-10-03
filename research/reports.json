@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "holder-exposure-and-loss-absorption",
+      "slug": "holder-exposure-and-loss-absorption",
+      "title": "Where an investment loss becomes a funding problem",
+      "research_run_number": 9,
+      "route": "/p/is-ai-a-bubble/research/holder-exposure-and-loss-absorption/",
+      "file": "research/holder-exposure-and-loss-absorption/index.html",
+      "csv_file": "assets/holder-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-10-02",
+      "published_at": "2026-10-02T17:04:09.893065+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "GECC’s named June holdings, realized distributions and own creditors show both loss absorption and funding constraints before capital is exhausted. NVIDIA’s separately dated equity and conditional support distinguish investment marks from cash calls.",
+      "current_notice": "Current dated investigation. October 2 retrieval-day boundary; June 30 GECC snapshot, January NVIDIA ownership and July resources remain separate. One net-assets covenant is not full compliance, borrowing permission or available cash; GECC is not the complete DDTL 4.0 lender register."
+    },
+    {
       "id": "second-cycle-recovery",
       "slug": "second-cycle-recovery",
       "title": "Older capacity can earn again—but it does not become free",

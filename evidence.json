@@ -880,6 +880,166 @@
       "accessed_at": "2026-09-29",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-118-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526335023/R7.htm",
+      "claim": "GECC, June 30, 2026 Form 10-Q, schedule of investments. SEC interactive investment schedule, June and December comparative rows for CoreWeave Compute Acquisition Co. II and IV, CoreWeave Financing DDTL V, CoreWeave notes, CW Opportunity 2 LP and the money-market investment. Reported amounts in thousands converted to USD millions. Security type, cost, face/units and fair value are different fields; the underlying complete LP portfolio and later trading were not obtained.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-120-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526335023/R2.htm",
+      "claim": "GECC, June 30, 2026 statement of assets and liabilities. Original SEC table, cash, investments, notes, revolver, payables and net assets, with December comparative. Debt carrying value is not note principal. The separate short-term investment category is included within total investments.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-122-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526335023/gecc-20260630.htm",
+      "claim": "GECC, Form 10-Q for June 30, 2026, filed August 5. Canonical SEC filing; accessible reproduction of the filed document. Notes on borrowings, commitments and related parties; cash-flow statement; liquidity and senior-securities tables. The original whole-page route exceeded the browser content limit; relevant reproduced text was checked against accessible original SEC tables and the release. The reported coverage ratio is not a supplied calculation certificate.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-122-1",
+      "source_url": "https://companiesmarketcap.com/great-elm-capital/sec-reports-10q/0001193125-26-335023/",
+      "claim": "GECC, Form 10-Q for June 30, 2026, filed August 5. Canonical SEC filing; accessible reproduction of the filed document. Notes on borrowings, commitments and related parties; cash-flow statement; liquidity and senior-securities tables. The original whole-page route exceeded the browser content limit; relevant reproduced text was checked against accessible original SEC tables and the release. The reported coverage ratio is not a supplied calculation certificate.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-124-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526335061/gecc-ex99_1.htm",
+      "claim": "GECC, second-quarter 2026 results, August 5, 2026. Issuer release filed as Exhibit 99.1, CoreWeave cash distributions, original investment, fee waiver, net assets and financing discussion. The $2.6m quarterly distribution is inside the $9.5m cumulative amount; it is not added again.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-126-0",
+      "source_url": "https://contracts.justia.com/companies/great-elm-capital-corp-5546/contract/1337015/",
+      "claim": "GECC / City National Bank, Fifth Amendment dated August 13, 2025, with amended and restated loan terms. Executed document reproduction, definitions including Net Assets and borrowing base; §2.2(c)(iv), deficiency repayment/deposit; account-control and valuation provisions; §6.7 financial covenants; restricted-payment/transfer and default provisions. Read with the later amendment, not as unchanged June terms. The host's generated summary is not used as contract evidence.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-128-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1675033/000119312526262002/gecc-ex10_1.htm",
+      "claim": "GECC / City National Bank, Sixth Amendment, June 8, 2026. Filed Exhibit 10.1; indexed reproduction of the original current report and exhibit; contract reproduction. Relevant indexed original clauses specify conditional maturity and the GECCI inclusion date in the bank coverage denominator. The $50m capacity was established by the earlier amendment, not newly raised in June. Repeated direct whole-page requests failed; no private compliance/borrowing-base certificate was obtained.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-128-1",
+      "source_url": "https://www.advfn.com/stock-market/NASDAQ/GECCI/stock-news/98697250/form-8-k-current-report",
+      "claim": "GECC / City National Bank, Sixth Amendment, June 8, 2026. Filed Exhibit 10.1; indexed reproduction of the original current report and exhibit; contract reproduction. Relevant indexed original clauses specify conditional maturity and the GECCI inclusion date in the bank coverage denominator. The $50m capacity was established by the earlier amendment, not newly raised in June. Repeated direct whole-page requests failed; no private compliance/borrowing-base certificate was obtained.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-128-2",
+      "source_url": "https://contracts.justia.com/companies/great-elm-capital-corp-5546/contract/1374818/",
+      "claim": "GECC / City National Bank, Sixth Amendment, June 8, 2026. Filed Exhibit 10.1; indexed reproduction of the original current report and exhibit; contract reproduction. Relevant indexed original clauses specify conditional maturity and the GECCI inclusion date in the bank coverage denominator. The $50m capacity was established by the earlier amendment, not newly raised in June. Repeated direct whole-page requests failed; no private compliance/borrowing-base certificate was obtained.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-130-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+      "claim": "CoreWeave, Form 10-K, year ended December 31, 2025. Original filing, debt note identifying DDTL 1.0 and DDTL 2.0/2.1 legal borrowers and parent guarantees. Loan identity is used to distinguish these investments from DDTL 4.0, not to claim their current balances equal year-end balances.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-132-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+      "claim": "CoreWeave, May 15, 2026 current report. Original filing, Item 1.01, DDTL 5.0 borrower, purpose, collateral, guarantees, pricing, final maturity and commencement of the coverage covenant. The holder's schedule differs by one day on final maturity; the report does not invent the missing cash calendar.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-134-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "claim": "CoreWeave, June 30, 2026 Form 10-Q. Original filing, Note 10: DDTL 5.0 expected amortization and the 9.625% July 2032 notes. Relevant original indexed note text was inspected; expected payments and legal final maturity are retained separately.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-136-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000008/xslSCHEDULE_13G_X01/primary_doc.xml",
+      "claim": "NVIDIA, Schedule 13G/A concerning CoreWeave, January 26, 2026; event date January 23. Original ownership filing, cover rows 5–11 and Item 4. The 47,213,353-share block and class percentage retain their January date. No same-count October holding is asserted.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-138-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+      "claim": "CoreWeave, January 23, 2026 current report. Original subscription/closing disclosure, NVIDIA's share purchase, completed issue and price. The calculated share-price product reconciles to the rounded $2bn amount; it is not the separate Energy Global forward.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-140-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/R4.htm",
+      "claim": "NVIDIA, July 26, 2026 Form 10-Q, balance sheet. SEC interactive table, cash, marketable debt and equity securities, nonmarketable securities, debt and stockholders' equity. Original indexed table values were inspected; repeat direct opening failed. Nonmarketable securities include equity-method investments and are not treated as freely available cash.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-142-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/R7.htm",
+      "claim": "NVIDIA, July 26, 2026 Form 10-Q, six-month cash flows. SEC interactive table, operating, investing, financing and opening/closing cash; issuance proceeds, repurchases and dividends. The indexed table's duplicate purchase label is not resolved by inventing an equity-purchase category. The aggregate cash bridge and the explicitly named financing lines carry the argument.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-144-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA, Form 10-Q, quarter ended July 26, 2026. Canonical filing, investments, debt, liquidity, repurchase discretion and commitments/contingencies, including subsequent support. Original SEC indexed text and statement tables were available; repeat full-body opening failed. These are July resources and dated subsequent commitments, not an October consolidated exposure roll-forward.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-146-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "claim": "NVIDIA, August 17, 2026 current report and the subsequent-event discussion in its July Form 10-Q. Current-report location. The phase-dependent ceiling and service timing are retained from the matched package inspected in R3 and checked against available original indexed subsequent-event disclosure. The current-report body did not reopen successfully in this investigation. R3's lease/residual-guarantee analysis, rather than a new supposed full contract audit, supplies the detailed legal continuity.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-148-0",
+      "source_url": "https://www.fsb.org/uploads/P060526.pdf",
+      "claim": "Financial Stability Board, Vulnerabilities in Private Credit, May 6, 2026. Original report, executive summary and bank/financing linkages discussion, including printed pp.2 and 13 visually inspected. General private-credit mechanisms, not an AI holdings dataset, a forecast for GECC or a loss probability.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a25-paragraph-150-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+      "claim": "CoreWeave, current report including September 22, 2026 note issuance. Original later closing filing. R5's verified later-event record supplies the continuity: face, net purchaser proceeds and capped calls are different quantities. No new unspent-cash estimate is inferred.",
+      "accessed_at": "2026-10-02",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
