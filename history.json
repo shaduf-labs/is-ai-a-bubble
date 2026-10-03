@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-010",
+      "status": "completed",
+      "started_at": "2026-10-03",
+      "completed_at": "2026-10-03",
+      "report_path": "/p/is-ai-a-bubble/research/joint-cash-consistency/",
+      "entrypoint": "research/joint-cash-consistency/index.html",
+      "title": "Can the cash claims all hold together?",
+      "summary": "A connected CoreWeave–Core Scientific cash test links tenant credits, project costs, executed debt, retained cash and parent distributions. A finite refinancing can work under stated cash and funding assumptions; the same residual cannot also retire debt after it is paid out.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-009",
       "status": "completed",
       "started_at": "2026-10-02",

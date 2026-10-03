@@ -1,0 +1,9 @@
+/* Connected-cash figures and source notes; existing report styles are retained. */
+:is(.pool-center,.center-document) .reader-page .joint-diagram svg{min-width:700px;max-width:none}
+:is(.pool-center,.center-document) .reader-page .joint-source-plot img{display:block;width:100%;min-width:1100px;max-width:none;height:auto}
+:is(.pool-center,.center-document) .reader-page .joint-scroll-note{font-size:.82rem;color:var(--reader-muted);margin:0 0 10px}
+:is(.pool-center,.center-document) .reader-page .joint-source{padding:18px 0;border-top:1px solid var(--reader-line);scroll-margin-top:20px;font-size:.91rem}
+:is(.pool-center,.center-document) .reader-page .joint-cite{font-size:.76em;white-space:nowrap;margin-left:3px}
+:is(.pool-center,.center-document) .reader-page .joint-status{padding:15px 18px;border-left:3px solid var(--reader-green);background:var(--reader-pale)}
+:is(.pool-center,.center-document) .reader-page .joint-number{text-align:right}
+@media print{:is(.pool-center,.center-document) .reader-page .joint-diagram svg,:is(.pool-center,.center-document) .reader-page .joint-source-plot img{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .joint-scroll-note{display:none}}

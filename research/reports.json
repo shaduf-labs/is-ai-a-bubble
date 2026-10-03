@@ -3,6 +3,24 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "joint-cash-consistency",
+      "slug": "joint-cash-consistency",
+      "title": "Can the cash claims all hold together?",
+      "research_run_number": 10,
+      "route": "/p/is-ai-a-bubble/research/joint-cash-consistency/",
+      "file": "research/joint-cash-consistency/index.html",
+      "csv_file": "assets/joint-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question_revision": 1,
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-10-03",
+      "published_at": "2026-10-03T09:37:39.343129+00:00",
+      "publication_status": "published",
+      "confirmed_model": "GPT-6 Pro",
+      "summary": "A connected CoreWeave–Core Scientific cash test links tenant credits, project costs, executed debt, retained cash and parent distributions. A finite refinancing can work under stated cash and funding assumptions; the same residual cannot also retire debt after it is paid out.",
+      "current_notice": "Current dated investigation. October 3 retrieval-day boundary; April21 operating illustration, May6 executed financing and June30 assumed amortization start are distinct. Required additional funding is not an approved facility or expected loss. Payer allocation, full costs, cash eligibility and holder identities remain bounded."
+    },
+    {
       "id": "holder-exposure-and-loss-absorption",
       "slug": "holder-exposure-and-loss-absorption",
       "title": "Where an investment loss becomes a funding problem",

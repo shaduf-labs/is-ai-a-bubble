@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "a27-20261003",
+      "changed_at": "2026-10-03T09:37:39.343129+00:00",
+      "summary": "A connected CoreWeave–Core Scientific cash test links tenant credits, project costs, executed debt, retained cash and parent distributions. A finite refinancing can work under stated cash and funding assumptions; the same residual cannot also retire debt after it is paid out.",
+      "path": "/p/is-ai-a-bubble/research/joint-cash-consistency/"
+    },
+    {
       "change_id": "a25-20261002",
       "changed_at": "2026-10-02T17:04:09.893065+00:00",
       "summary": "GECC’s named June holdings, realized distributions and own creditors show both loss absorption and funding constraints before capital is exhausted. NVIDIA’s separately dated equity and conditional support distinguish investment marks from cash calls.",

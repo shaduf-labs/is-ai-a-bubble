@@ -1040,6 +1040,54 @@
       "accessed_at": "2026-10-02",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-111-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019dex992.htm",
+      "claim": "1. Core Scientific, April 21, 2026 supplemental information. Portfolio, licensing terms and prospective financial table, including its footnotes. An issuer illustration, not reported project cash. The assumed 8.25% rate precedes the executed coupon; reserve movements and specified construction interest are excluded. The supplied research read the HTML table and extracted PDF text, but PDF screenshot retrieval failed; no successful visual PDF audit is claimed.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-112-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
+      "claim": "2. Core Scientific, current report covering the May 6, 2026 note closing. Items 1.01–1.02: issued face, price, estimated net proceeds, reserve funding, parent distribution and bridge repayment. The filing includes an earlier event date; it does not move the May closing to that earlier date. Estimated net proceeds are not a complete current usable-cash certificate.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-113-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435dex41.htm",
+      "claim": "3. Core Scientific Finance I LLC, May 6, 2026 indenture. Note form; first-installment and reserve definitions; payment, collateral, restricted-payment and guarantee provisions, including Article 14. Annual amortization is 11.5% of original face, paid in semiannual 5.75% installments after the applicable trigger. The parent completion undertaking does not become an unlimited ordinary-repayment guarantee. The public document is not an obtained current compliance certificate.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-114-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+      "claim": "4. Core Scientific, Form 10-Q for June 30, 2026. Consolidated cash/restricted-cash reconciliation, revenue and deferred-revenue notes, leases, debt, segment costs and reserve disclosure. The debt schedule assumes a November 2029 first installment; actual commencement remains contingent. Later portfolio accounts do not update the earlier Austin-only continuation model.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-115-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "claim": "5. CoreWeave, Form 10-Q for June 30, 2026. Consolidated cash flows, debt, leases, deferred revenue and supplementary cash information. The cash reconstruction retains the exact inherited June inputs and their prior source inspection rather than claiming a fresh complete audit of the original filing. Operating cash is not gross receipts available before paying the same operating suppliers again.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a27-paragraph-116-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+      "claim": "6. CoreWeave, filing establishing the September 22, 2026 notes issuance. Later closing evidence previously incorporated in the ownership investigation: $4.2bn face including the option, $4.137bn after purchaser discounts and $566.2m capped-call cost. The record establishes the event, not October unspent cash. It is a different issuer and instrument from the Core Scientific Finance I notes.",
+      "accessed_at": "2026-10-03",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
