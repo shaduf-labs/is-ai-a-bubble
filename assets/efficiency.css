@@ -1,0 +1,14 @@
+/* Document-work explanations. Existing research styles are retained. */
+:is(.pool-center,.center-document) .efficiency-figure .svg-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+:is(.pool-center,.center-document) .efficiency-figure .svg-scroll>svg{display:block;width:100%;min-width:680px;height:auto}
+:is(.pool-center,.center-document) .efficiency-plot .svg-scroll>img{display:block;width:100%;min-width:960px;height:auto;max-width:none}
+:is(.pool-center,.center-document) .efficiency-scroll-note{font-size:.82rem;line-height:1.55;color:#526460}
+:is(.pool-center,.center-document) .efficiency-cite{font-size:.74em;white-space:nowrap;margin-left:.14em}
+:is(.pool-center,.center-document) .efficiency-source-back{font-size:.82rem}
+:is(.pool-center,.center-document) .efficiency-first-answer{margin:20px 0 28px;padding:22px;border:1px solid #c7d3ce;border-left:4px solid #245b50;background:#f5f8f6}
+:is(.pool-center,.center-document) .efficiency-first-answer h2{font-size:1.45rem;margin-bottom:12px}
+:is(.pool-center,.center-document) .efficiency-first-answer p:last-child{margin-bottom:0}
+:is(.pool-center,.center-document) .efficiency-routes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:14px;margin:20px 0}
+:is(.pool-center,.center-document) .efficiency-routes a{display:block;padding:14px 16px;border:1px solid #c7d3ce;background:#fff;line-height:1.5;text-decoration:none}
+:is(.pool-center,.center-document) .efficiency-routes a span{display:block;font-size:.82rem;font-weight:400;margin-top:6px;color:#526460}
+:is(.pool-center,.center-document) .efficiency-equation{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.88rem;line-height:1.65}

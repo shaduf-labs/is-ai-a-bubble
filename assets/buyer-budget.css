@@ -1,0 +1,9 @@
+/* Buyer-budget diagrams and source notes; prior pages and styles remain intact. */
+:is(.pool-center,.center-document) .reader-page .buyer-figure svg{min-width:760px}
+:is(.pool-center,.center-document) .reader-page .buyer-scroll-hint{font-size:.82rem;line-height:1.6;color:var(--reader-muted);margin:0 0 12px}
+:is(.pool-center,.center-document) .reader-page .buyer-marketing-plot{display:block;width:100%;height:auto;min-width:840px;max-width:none}
+:is(.pool-center,.center-document) .reader-page .buyer-cite{font-size:.72em;vertical-align:super;line-height:0;margin-left:.12em}
+:is(.pool-center,.center-document) .reader-page .buyer-sources .source-note p{font-size:.91rem}
+:is(.pool-center,.center-document) .reader-page .buyer-source-back{font-size:.84rem}
+:is(.pool-center,.center-document) .reader-page .buyer-table table{min-width:720px}
+@media print{:is(.pool-center,.center-document) .reader-page .buyer-figure svg{min-width:0}:is(.pool-center,.center-document) .reader-page .buyer-marketing-plot{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .buyer-scroll-hint{display:none}}

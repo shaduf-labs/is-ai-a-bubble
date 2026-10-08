@@ -607,12 +607,17 @@
   const fundingButton = document.querySelector('[data-funding-intent]')
   fundingButton?.addEventListener('click', async () => {
     fundingButton.disabled = true
-    const response = await submitFundingIntent()
-    const responseBody = response.ok ? null : await response.clone().json().catch(() => null)
-    if (response.ok) showToast('Funding interest recorded — no payment was made')
-    else if (responseBody?.error?.code === 'turnstile_required') await openTurnstile(responseBody)
-    else showToast('Funding interest could not be recorded')
-    fundingButton.disabled = false
+    try {
+      const response = await submitFundingIntent()
+      const responseBody = response.ok ? null : await response.clone().json().catch(() => null)
+      if (response.ok) showToast('Funding interest recorded — no payment was made')
+      else if (responseBody?.error?.code === 'turnstile_required') await openTurnstile(responseBody)
+      else showToast(responseBody?.error?.message || 'Funding interest could not be recorded')
+    } catch {
+      showToast('Could not connect. Please try again.')
+    } finally {
+      fundingButton.disabled = false
+    }
   })
 
   async function submitFundingIntent(turnstile_token = '') {
@@ -637,9 +642,11 @@
       window.turnstile.render(dialog.querySelector('[data-turnstile-mount]'), {
         sitekey: config.turnstile_site_key,
         callback: async (token) => {
-          const retry = await submitFundingIntent(token)
-          if (retry.ok) { dialog.close(); showToast('Funding interest recorded — no payment was made') }
-          else showToast('Verification could not be completed')
+          try {
+            const retry = await submitFundingIntent(token)
+            if (retry.ok) { dialog.close(); showToast('Funding interest recorded — no payment was made') }
+            else showToast('Verification could not be completed')
+          } catch { showToast('Could not connect. Please try again.') }
         },
       })
     } catch { dialog.close(); showToast('Verification could not be loaded') }

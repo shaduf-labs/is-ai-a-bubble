@@ -2,6 +2,50 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "pro-v02-research-014",
+      "status": "completed",
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "report_path": "/p/is-ai-a-bubble/research/realized-investment-returns-and-claim-allocation/",
+      "entrypoint": "research/realized-investment-returns-and-claim-allocation/index.html",
+      "title": "Cash can reach investors before the business pays for itself",
+      "summary": "Completed primary funding, reported seller consideration, historical rights allocation and a repaid bridge strengthen genuine realization and productive capital recycling without validating the next ownership price.",
+      "answer_change": "meaningful_change"
+    },
+    {
+      "run_id": "pro-v02-research-013",
+      "status": "completed",
+      "started_at": "2026-10-06",
+      "completed_at": "2026-10-06",
+      "report_path": "/p/is-ai-a-bubble/research/efficiency-competition-and-full-cost-returns/",
+      "entrypoint": "research/efficiency-competition-and-full-cost-returns/index.html",
+      "title": "Cheap extraction is not the same as cheap accepted work",
+      "summary": "A documented extraction pipeline and managed-service prices make productive efficiency concrete. Buyer extra-work allowances, finite paid capacity and a conditional remaining-cost budget show why the user, operator and capital owner need not retain the same gain.",
+      "answer_change": "meaningful_change"
+    },
+    {
+      "run_id": "pro-v02-research-012",
+      "status": "completed",
+      "started_at": "2026-10-05",
+      "completed_at": "2026-10-05",
+      "report_path": "/p/is-ai-a-bubble/research/buyer-demand-and-budget-substitution/",
+      "entrypoint": "research/buyer-demand-and-budget-substitution/index.html",
+      "title": "Buyer demand and budget substitution",
+      "summary": "A signed council purchase and Klarna’s marketing-production substitution support economically motivated demand. Two benefit tests and complete-cost boundaries show why buyer gains need not become equivalent new supplier revenue.",
+      "answer_change": "meaningful_change"
+    },
+    {
+      "run_id": "pro-v02-research-011",
+      "status": "completed",
+      "started_at": "2026-10-04",
+      "completed_at": "2026-10-04",
+      "report_path": "/p/is-ai-a-bubble/research/completion-and-cash-before-stabilization/",
+      "entrypoint": "research/completion-and-cash-before-stabilization/index.html",
+      "title": "Completion and cash before stabilization",
+      "summary": "A matched construction account, payment-order bridge, completion-gated reserves and qualifying IREN pre-acceptance finance show how customer-backed builds can be funded—and where resources remain conditional or protected.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-010",
       "status": "completed",
       "started_at": "2026-10-03",

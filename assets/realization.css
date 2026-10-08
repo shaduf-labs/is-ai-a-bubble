@@ -1,0 +1,11 @@
+/* Transaction explanations; scoped to the pool Center. Existing styles are retained. */
+:is(.pool-center,.center-document) .reader-page .realization-figure svg{min-width:700px;max-width:none;font-family:ui-sans-serif,system-ui,-apple-system,sans-serif}
+:is(.pool-center,.center-document) .reader-page .realization-figure .scroll-hint{display:block}
+:is(.pool-center,.center-document) .reader-page .realization-ref{font-size:.82em;white-space:nowrap;margin-left:.2em;font-variant-numeric:tabular-nums}
+:is(.pool-center,.center-document) .reader-page .realization-status{padding:16px 20px;border-left:4px solid #8d6a34;background:#faf4e8;margin:24px 0}
+:is(.pool-center,.center-document) .reader-page .realization-routes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:26px 0}
+:is(.pool-center,.center-document) .reader-page .realization-routes a{display:block;padding-top:14px;border-top:2px solid #527362;text-decoration:none}
+:is(.pool-center,.center-document) .reader-page .realization-routes span{display:block;color:var(--reader-muted);font-size:.88rem;line-height:1.5;margin-top:8px}
+:is(.pool-center,.center-document) .reader-page .realization-numeric{text-align:right}
+@container(max-width:620px){:is(.pool-center,.center-document) .reader-page .realization-routes{grid-template-columns:1fr;gap:12px}}
+@media print{:is(.pool-center,.center-document) .reader-page .realization-figure svg{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .realization-figure .scroll-hint{display:none}}

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="777.6pt" height="439.2pt" viewBox="0 0 777.6 439.2" version="1.1" role="img" aria-labelledby="buyer-title buyer-desc" stroke-linejoin="round" stroke-linecap="butt">
+ <title id="buyer-title">Klarna marketing expense: 328 plus 28 plus 58 equals 414 million dollars</title><desc id="buyer-desc">2024 to 2025 rounded reported sales and marketing expense. Referral commissions increased 28 million and the remaining expense basket 58 million. Neither is an AI-only cash measure. The issuer separately prints an 87 million total change because values are rounded.</desc><defs>
+  </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 439.2  L 777.6 439.2  L 777.6 0  L 0 0  z " fill="#ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 77.76 320.616  L 762.048 320.616  L 762.048 65.88  L 77.76 65.88  z " fill="#ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 108.864 320.616  L 215.408088 320.616  L 215.408088 142.842791  L 108.864 142.842791  z " clip-path="url(#p8af0965432)" fill="#1f77b4"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 280.709304 142.842791  L 387.253392 142.842791  L 387.253392 127.66703  L 280.709304 127.66703  z " clip-path="url(#p8af0965432)" fill="#1f77b4"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 452.554608 127.66703  L 559.098696 127.66703  L 559.098696 96.231523  L 452.554608 96.231523  z " clip-path="url(#p8af0965432)" fill="#1f77b4"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 624.399912 320.616  L 730.944 320.616  L 730.944 96.231523  L 624.399912 96.231523  z " clip-path="url(#p8af0965432)" fill="#1f77b4"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m06a9260974" d="M 0 0  L 0 3.5  " stroke="#000000" stroke-width="0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m06a9260974" x="162.136044" y="320.616" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text x="162.136044" y="335.214437" transform="rotate(-0 162.136044 335.214437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">2024 total</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m06a9260974" x="333.981348" y="320.616" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text transform="translate(280.383692 335.214437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Referral commissions</text>
+      <text transform="translate(315.579786 346.41225)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">change</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m06a9260974" x="505.826652" y="320.616" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text transform="translate(456.638371 335.214437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Remaining expense</text>
+      <text transform="translate(487.425089 346.41225)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">change</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m06a9260974" x="677.671956" y="320.616" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text x="677.671956" y="335.214437" transform="rotate(-0 677.671956 335.214437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">2025 total</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m23ce9acc4c" d="M 0 0  L -3.5 0  " stroke="#000000" stroke-width="0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m23ce9acc4c" x="77.76" y="320.616" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text x="70.76" y="324.415219" transform="rotate(-0 70.76 324.415219)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m23ce9acc4c" x="77.76" y="266.416851" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text x="70.76" y="270.21607" transform="rotate(-0 70.76 270.21607)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">100</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m23ce9acc4c" x="77.76" y="212.217702" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text x="70.76" y="216.016921" transform="rotate(-0 70.76 216.016921)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">200</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m23ce9acc4c" x="77.76" y="158.018553" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text x="70.76" y="161.817772" transform="rotate(-0 70.76 161.817772)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">300</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m23ce9acc4c" x="77.76" y="103.819404" stroke="#000000" stroke-width="0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text x="70.76" y="107.618623" transform="rotate(-0 70.76 107.618623)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">400</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text x="45.592813" y="193.248" transform="rotate(-90 45.592813 193.248)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">USD millions; reported rounded expense</text>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 77.76 320.616  L 77.76 65.88  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 762.048 320.616  L 762.048 65.88  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 77.76 320.616  L 762.048 320.616  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 77.76 65.88  L 762.048 65.88  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </g>
+   <g id="text_11">
+    <text x="162.136044" y="137.964868" transform="rotate(-0 162.136044 137.964868)" font-size="12px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">328</text>
+   </g>
+   <g id="text_12">
+    <text x="333.981348" y="122.789106" transform="rotate(-0 333.981348 122.789106)" font-size="12px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">+28</text>
+   </g>
+   <g id="text_13">
+    <text x="505.826652" y="91.3536" transform="rotate(-0 505.826652 91.3536)" font-size="12px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">+58</text>
+   </g>
+   <g id="text_14">
+    <text x="677.671956" y="91.3536" transform="rotate(-0 677.671956 91.3536)" font-size="12px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">414</text>
+   </g>
+   <g id="text_15">
+    <text x="419.904" y="43.88" transform="rotate(-0 419.904 43.88)" font-size="12px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">Klarna: total marketing expense is not an AI-cost measure</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text transform="translate(77.76 377.319937)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Klarna: 328 + 28 + 58 = 414. The remaining basket is not AI spending or cash.</text>
+   <text transform="translate(77.76 387.397969)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">The issuer separately prints an 87 million increase; this bridge uses its rounded endpoints.</text>
+   <text transform="translate(77.76 397.476)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Source: 2025 Annual Report, income statement and Note 2; report §6 and data.csv.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8af0965432">
+   <rect x="77.76" y="65.88" width="684.288" height="254.736"/>
+  </clipPath>
+ </defs>
+</svg>

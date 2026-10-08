@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns4="http://www.w3.org/1999/xlink" width="828pt" height="468pt" viewBox="0 0 828 468" version="1.1" role="img" aria-labelledby="budget-title budget-desc" stroke-linejoin="round" stroke-linecap="butt">
+ <ns0:title id="budget-title">Conditional document operator: remaining annual cost budget</ns0:title><ns0:desc id="budget-desc">At 80 million input pages and $0.001 collected per page, continuous H100 rent and the limited priced refresh leave $53,415.70. Adding a hot spare leaves $27,223.30; extra review alone leaves $8,971.26; both leave minus $17,221.14. These are conditional budgets before other required costs, not observed margins.</ns0:desc><ns0:defs>
+  </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="patch_1">
+   <ns0:path d="M 0 468  L 828 468  L 828 0  L 0 0  z " fill="#ffffff"/>
+  </ns0:g>
+  <ns0:g id="axes_1">
+   <ns0:g id="patch_2">
+    <ns0:path d="M 240.12 341.64  L 803.16 341.64  L 803.16 88.92  L 240.12 88.92  z " fill="#ffffff"/>
+   </ns0:g>
+   <ns0:g id="patch_3">
+    <ns0:path d="M 408.451546 100.407273  L 718.504904 100.407273  L 718.504904 148.774737  L 408.451546 148.774737  z " clip-path="url(#p185c284a48)" fill="#1f77b4"/>
+   </ns0:g>
+   <ns0:g id="patch_4">
+    <ns0:path d="M 408.451546 160.866603  L 566.470174 160.866603  L 566.470174 209.234067  L 408.451546 209.234067  z " clip-path="url(#p185c284a48)" fill="#1f77b4"/>
+   </ns0:g>
+   <ns0:g id="patch_5">
+    <ns0:path d="M 408.451546 221.325933  L 460.525523 221.325933  L 460.525523 269.693397  L 408.451546 269.693397  z " clip-path="url(#p185c284a48)" fill="#1f77b4"/>
+   </ns0:g>
+   <ns0:g id="patch_6">
+    <ns0:path d="M 408.451546 281.785263  L 308.490792 281.785263  L 308.490792 330.152727  L 408.451546 330.152727  z " clip-path="url(#p185c284a48)" fill="#1f77b4"/>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_1">
+    <ns0:g id="xtick_1">
+     <ns0:g id="line2d_1">
+      <ns0:defs>
+       <ns0:path id="mc923c6ce08" d="M 0 0  L 0 3.5  " stroke="#000000" stroke-width="0.8"/>
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns4:href="#mc923c6ce08" x="292.360825" y="341.64" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_1">
+      <ns0:text x="292.360825" y="356.238437" transform="rotate(-0 292.360825 356.238437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">−20</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_2">
+     <ns0:g id="line2d_2">
+      <ns0:g>
+       <ns0:use ns4:href="#mc923c6ce08" x="408.451546" y="341.64" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_2">
+      <ns0:text x="408.451546" y="356.238437" transform="rotate(-0 408.451546 356.238437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">0</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_3">
+     <ns0:g id="line2d_3">
+      <ns0:g>
+       <ns0:use ns4:href="#mc923c6ce08" x="524.542268" y="341.64" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_3">
+      <ns0:text x="524.542268" y="356.238437" transform="rotate(-0 524.542268 356.238437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">20</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_4">
+     <ns0:g id="line2d_4">
+      <ns0:g>
+       <ns0:use ns4:href="#mc923c6ce08" x="640.63299" y="341.64" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_4">
+      <ns0:text x="640.63299" y="356.238437" transform="rotate(-0 640.63299 356.238437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">40</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_5">
+     <ns0:g id="line2d_5">
+      <ns0:g>
+       <ns0:use ns4:href="#mc923c6ce08" x="756.723711" y="341.64" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_5">
+      <ns0:text x="756.723711" y="356.238437" transform="rotate(-0 756.723711 356.238437)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">60</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="text_6">
+     <ns0:text x="521.64" y="369.916562" transform="rotate(-0 521.64 369.916562)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="middle">Annual amount left for all other costs and any surplus (USD thousands)</ns0:text>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_2">
+    <ns0:g id="ytick_1">
+     <ns0:g id="line2d_6">
+      <ns0:defs>
+       <ns0:path id="mdfc54d65a2" d="M 0 0  L -3.5 0  " stroke="#000000" stroke-width="0.8"/>
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns4:href="#mdfc54d65a2" x="240.12" y="124.591005" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_7">
+      <ns0:text x="233.12" y="128.390224" transform="rotate(-0 233.12 128.390224)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">One active GPU</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_2">
+     <ns0:g id="line2d_7">
+      <ns0:g>
+       <ns0:use ns4:href="#mdfc54d65a2" x="240.12" y="185.050335" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_8">
+      <ns0:text x="233.12" y="188.849554" transform="rotate(-0 233.12 188.849554)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">+ One passive hot spare</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_3">
+     <ns0:g id="line2d_8">
+      <ns0:g>
+       <ns0:use ns4:href="#mdfc54d65a2" x="240.12" y="245.509665" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_9">
+      <ns0:text x="233.12" y="249.308884" transform="rotate(-0 233.12 249.308884)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">+ Additional review only</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_4">
+     <ns0:g id="line2d_9">
+      <ns0:g>
+       <ns0:use ns4:href="#mdfc54d65a2" x="240.12" y="305.968995" stroke="#000000" stroke-width="0.8"/>
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_10">
+      <ns0:text x="233.12" y="309.768214" transform="rotate(-0 233.12 309.768214)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">+ Hot spare and review</ns0:text>
+     </ns0:g>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="line2d_10">
+    <ns0:path d="M 408.451546 341.64  L 408.451546 88.92  " clip-path="url(#p185c284a48)" fill="none" stroke="#1f77b4" stroke-width="0.8" stroke-linecap="square"/>
+   </ns0:g>
+   <ns0:g id="patch_7">
+    <ns0:path d="M 240.12 341.64  L 240.12 88.92  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </ns0:g>
+   <ns0:g id="patch_8">
+    <ns0:path d="M 803.16 341.64  L 803.16 88.92  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </ns0:g>
+   <ns0:g id="patch_9">
+    <ns0:path d="M 240.12 341.64  L 803.16 341.64  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </ns0:g>
+   <ns0:g id="patch_10">
+    <ns0:path d="M 240.12 88.92  L 803.16 88.92  " fill="none" stroke="#000000" stroke-width="0.8" stroke-linejoin="miter" stroke-linecap="square"/>
+   </ns0:g>
+   <ns0:g id="text_11">
+    <ns0:text x="724.30944" y="127.35038" transform="rotate(-0 724.30944 127.35038)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="start">53.4</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_12">
+    <ns0:text x="572.27471" y="187.80971" transform="rotate(-0 572.27471 187.80971)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="start">27.2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_13">
+    <ns0:text x="466.330059" y="248.26904" transform="rotate(-0 466.330059 248.26904)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="start">9.0</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_14">
+    <ns0:text x="302.686256" y="308.72837" transform="rotate(-0 302.686256 308.72837)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="end">-17.2</ns0:text>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="text_15">
+   <ns0:text x="24.84" y="20.757656" transform="rotate(-0 24.84 20.757656)" font-size="15px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="start">Cheap serving leaves a finite budget—not an observed profit</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_16">
+   <ns0:text x="24.84" y="51.48" transform="rotate(-0 24.84 51.48)" font-size="10px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" text-anchor="start">Conditional operator: 80 million submitted pages/year, $0.001/page collected, one active H100.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_17">
+   <ns0:text transform="translate(24.84 400.325906)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">All rows pay continuous GPU rent and a $392 priced development subset. Full development, support,</ns0:text>
+   <ns0:text transform="translate(24.84 410.403937)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">security, taxes and other costs remain to be paid. Review stress: 0.05 extra seconds/page at $40/hour.</ns0:text>
+   <ns0:text transform="translate(24.84 420.481969)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Historical timed batch + October 6, 2026 offers; 75% productive-time ceiling. No observed paid volume.</ns0:text>
+   <ns0:text transform="translate(24.84 430.56)" font-size="9px" font-family="'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif">Sources and equations: report §§4–7; data.csv; calculations.py.</ns0:text>
+  </ns0:g>
+ </ns0:g>
+ <ns0:defs>
+  <ns0:clipPath id="p185c284a48">
+   <ns0:rect x="240.12" y="88.92" width="563.04" height="252.72"/>
+  </ns0:clipPath>
+ </ns0:defs>
+</ns0:svg>

@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+A plugin packages reusable instructions, tool connections, or both.
+It does not add a new AI model.
+
+00:00:08.000 --> 00:00:20.000
+Directory: distribution. Host: skills and tools. Service: authorized data.
+A listing does not grant account access.
+
+00:00:20.000 --> 00:00:30.000
+Choose the smallest route: normal prompt, skill, or tool connection.
+Start with readable inputs and an output you can check.
+
+00:00:30.000 --> 00:00:40.000
+Check the host, account, permissions and costs.
+Access rules may differ between surfaces.
+
+00:00:40.000 --> 00:00:51.000
+Meeting Evidence 0.1.0: a manifest and a skill for supplied notes.
+Static checks passed; installation and behavior are untested.
+
+00:00:51.000 --> 00:01:00.000
+Static checks, behavior tests, submission and review, then Publish.
+A correct ZIP does not prove a working or published plugin.
+
+00:01:00.000 --> 00:01:05.000
+Start with the guide. Sources and full transcript are below the player.
+No plugin installation or invocation is shown.

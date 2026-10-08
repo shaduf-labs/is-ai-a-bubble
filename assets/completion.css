@@ -1,0 +1,8 @@
+/* Completion-specific figures and notes; prior chapter styles remain unchanged. */
+:is(.pool-center,.center-document) .reader-page .completion-diagram svg{min-width:720px;max-width:none}
+:is(.pool-center,.center-document) .reader-page .completion-source-plot img{display:block;width:100%;min-width:1120px;max-width:none;height:auto}
+:is(.pool-center,.center-document) .reader-page .completion-scroll-note{font-size:.82rem;color:var(--reader-muted);margin:0 0 10px}
+:is(.pool-center,.center-document) .reader-page .completion-source{padding:18px 0;border-top:1px solid var(--reader-line);font-size:.91rem;scroll-margin-top:20px}
+:is(.pool-center,.center-document) .reader-page .completion-cite{font-size:.74em;white-space:nowrap;margin-left:3px}
+:is(.pool-center,.center-document) .reader-page .completion-number{text-align:right;font-variant-numeric:tabular-nums}
+@media print{:is(.pool-center,.center-document) .reader-page .completion-diagram svg,:is(.pool-center,.center-document) .reader-page .completion-source-plot img{min-width:0;max-width:100%}:is(.pool-center,.center-document) .reader-page .completion-scroll-note{display:none}}

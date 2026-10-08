@@ -1088,6 +1088,414 @@
       "accessed_at": "2026-10-03",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-128-0",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/d9ab0488-f3b1-4252-9520-c523a279fb84.pdf",
+      "claim": "CoreWeave final IPO prospectus, dated March 27, 2025; Form 424(b)(4), accession 0001193125-25-067651, filed March 31. Issuer-hosted filed PDF. Cover: primary/secondary shares, price, underwriting and expected delivery. Printed pp. 89–94: uses, capitalization and dilution; pp. 191–194: Series C purchases, completed tenders and recipient/exercise footnotes; pp. 202–207: principal/selling holders and beneficial-count qualifications; pp. 217–224: common/preferred and put rights, especially pp. 223–224; pp. 228 onward and 241–243: transfer/lock-up and underwriting terms; p. 258: concurrent customer shares. PDF zero-based indices are generally printed page +17, including printed p. 224 at index 241. Key seller tables and the put terms were visually checked, not merely read from search snippets. Completed status is corroborated by the subsequent accounts where indicated. Published dollar consideration controls over rounded per-share multiplication; the identified October 2024 McVeety conflict is unresolved.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-129-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000014/crwv-20250331.htm",
+      "claim": "CoreWeave Form 10-Q, quarter ended March 31, 2025, original SEC filing. Condensed balance sheet, stockholders' equity and cash-flow statements; IPO and stockholders' equity notes; debt/escrow terms and subsequent repayment; customer-contract incentive and warrant/award treatment. Used for actual completion, issuer cash, recognized offering costs, restrictions, conversion quantities and noncash OpenAI consideration. Financial tables generally use thousands; those units are converted explicitly in the ledger. The cash, equity and dividend-note timing statements are not assumed automatically reconciled.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-130-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000041/crwv-20250630.htm",
+      "claim": "CoreWeave Form 10-Q, quarter ended June 30, 2025, original SEC filing. Cash-flow and equity statements; IPO/over-allotment and dividends notes; redeemable common and escrow-release discussion. Confirms 1.76 million actual option shares and reported $67.669 million incremental net amount, alongside the rounded narrative. June's non-probability assessment is distinguished from September's actual cancellation. The conflicting quarter allocation of preferred dividends is retained.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-131-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000062/crwv-20250930.htm",
+      "claim": "CoreWeave Form 10-Q, quarter ended September 30, 2025, original SEC filing. Redeemable Class A/common-stock note, approximately printed pp. 34–35: explicit September automatic put termination upon the specified VWAP condition and reclassification into equity. This is the controlling later event for that particular right; it is not used to refresh every IPO-era holding or infer a cash payment from the reclassification.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-132-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
+      "claim": "Core Scientific Form 8-K, May 6, 2026 closing, original SEC filing, Items 1.01–1.02. Executed Finance I note issue, approximate proceeds, reserves/distribution purpose, completion and security structure, and termination of the bridge. A purpose stated at closing is read alongside CSQ's later explicit actual-use statement; it does not independently establish the precise residual amount retained by the parent.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-133-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435dex41.htm",
+      "claim": "Core Scientific Finance I executed indenture, May 6, 2026, Exhibit 4.1. Particularly §4.05(b)(13), the one-time Issue Date distribution described in the Offering Memorandum, contrasted with §4.05(b)(3)/(10); §4.04's distinct debt permissions; §§4.21–4.23/account protections and Article 14 installment provisions. The indenture identifies Wilmington Savings Fund Society, FSB as trustee/collateral agent, not the complete beneficial lender register. Its distribution exception does not provide the missing final settlement-account schedule or a current compliance certificate.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-014-134-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+      "claim": "Core Scientific Form 10-Q, quarter ended June 30, 2026, original SEC filing. Cash-flow statements; Note 7, approximately pp. 17–19, on bridge retirement, 99.25 issue price, $42m issue costs, discount, remaining reserve, collateral and convertible notes; Note 8 on warrants; MD&A “Term Loan Facility” and “Senior Secured Notes,” approximately p. 40, explicitly states actual subsidiary distribution to the Company and May 6 repayment; deferred-revenue discussion preserves customer credits. The June reserve is a remaining stock, not the original closing deposit. Reported $5.4m debt-extinguishment loss is an accounting item, not an extra cash fee or a measured loss suffered by the old lender, and is not separately deducted in the calculation.",
+      "accessed_at": "2026-10-08",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-129-0",
+      "source_url": "https://aclanthology.org/2026.acl-demo.62.pdf",
+      "claim": "Jake Poznanski, Kyle Lo and Luca Soldaini, The OLMOCR Project: Building Fully Open OCR using VLMs, ACL 2026 System Demonstrations, July 2–7, 2026, pp626–635. Original paper. Key locators: §2.3 scoring; §3 development; Table1/§5 printed cost denominator; §6 retries; AppendixB training; AppendixE timing and historical prices. Tables on printed pp630 and635 were visually checked. Author-reported experiments, not independent production telemetry. The disagreement between the printed denominator and timed-cost calculation is preserved and explained in §4, not silently repaired.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-131-0",
+      "source_url": "https://arxiv.org/html/2502.18443v2",
+      "claim": "Poznanski and colleagues, olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models, version2, June18,2025. Versioned HTML. §2.3 training-run versus full experiment time; §4.2/Table5 downstream same-corpus comparison; AppendixB timed hardware and historical GPT-4o billing comparison. The old experiment is a separate model/workload vintage. HTML inspection succeeded; a complete visual PDF audit did not. Its API prices are not current offers.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-133-0",
+      "source_url": "https://allenai.org/blog/olmocr-2",
+      "claim": "Ai2, olmOCR 2: Unit test rewards for document OCR, October22,2025. Developer release. Deployment-cost statement and release/toolkit information. Developer-authored and a different release record from the later ACL paper; used to corroborate cost scale, not add another independent sample or update the exact timed run.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-135-0",
+      "source_url": "https://huggingface.co/allenai/olmOCR-2-7B-1025",
+      "claim": "Ai2, olmOCR-2-7B-1025 model card. Original developer model page. Released weights, license identification and surrounding toolkit requirements. The 1025 card is not a fresh timing test of the later paper's listed 1125 result. No model was downloaded or run.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-137-0",
+      "source_url": "https://www.runpod.io/pricing",
+      "claim": "RunPod, GPU Cloud Pricing, Pods GPU table and separate storage/cluster sections. Pricing page, inspected October6,2026; served page carries a July27,2026 update label. H100SXM80GB $2.99/hour; B200 $5.89/hour; L40S $0.99/hour. These are displayed Pod offers, not the different serverless or reserved-cluster terms, actual invoice costs or a guarantee of original-test reproducibility. No checkout or capacity reservation was attempted.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-139-0",
+      "source_url": "https://docs.mistral.ai/models/model-cards/ocr-3-25-12",
+      "claim": "Mistral, OCR 3, model card v25.12, December18,2025. Original documentation. Ordinary-page pricing, separately annotated-page pricing and continued availability for existing integrations. Inspected October6,2026. No claim of realized average pricing or equivalence to every newer service.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-141-0",
+      "source_url": "https://mistral.ai/news/ocr-4/",
+      "claim": "Mistral, Mistral OCR 4: SOTA OCR for Document Intelligence, June23,2026. Original release and service definition. Pricing/availability, extraction-versus-DocumentAI distinction, structural output, use boundaries and qualification of internal competitor reproductions. Provider claims were not independently replicated. The calculation uses the ordinary extraction offer, not an assumed all-inclusive annotation or decision service.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-143-0",
+      "source_url": "https://docs.mistral.ai/studio-api/batch-processing",
+      "claim": "Mistral, Batch Processing. Operative documentation, inspected October6,2026, undated page. The 50% price discount concerns asynchronous processing. No real customer discount, queue time, successful-job rate or low-latency service guarantee is inferred.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-145-0",
+      "source_url": "https://deepinfra.com/allenai/olmOCR-2-7B-1025",
+      "claim": "DeepInfra, allenai/olmOCR-2-7B-1025 model listing. Displayed listing, inspected October6,2026. Notice attributes deprecation to low usage and displays 05/7/2026 while saying requests still work; the served page is cached. This does not verify shutdown timing, present endpoint status, global demand or profitability. Its token offers are not used as matched page costs.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-147-0",
+      "source_url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "claim": "GitHub, Mario Rodriguez, GitHub Copilot is moving to usage-based billing, April27,2026. Original announcement. June1 transition, stated cost rationale, included features, code-review Actions-minute distinction and legacy annual-plan exceptions. The explanation of unsustainability is attributed to GitHub, not an audited margin finding. Later operative terms are sourced separately.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-013-149-0",
+      "source_url": "https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises",
+      "claim": "GitHub, Usage-based billing for organizations and enterprises. Operative documentation, inspected October6,2026. Billing-value conversion, standard monthly pooled allowances, September1 end of the promotional period, no rollover and budget/additional-usage treatment. These rules identify entitlement and payer exposure, not observed token costs or completed useful work. No user account, policy or budget was accessed or changed.",
+      "accessed_at": "2026-10-06",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-112-0",
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/053743-2025",
+      "claim": "UK Find a Tender, Magic Notes — 12 Month Contract Extension of Pilot, notice 053743-2025, published September 4, 2025. Scope, signed date, term, procedure, supplier and inconsistent VAT fields. Full notice read. It links the executed order below.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-114-0",
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-4800",
+      "claim": "NNC / Beam Up Ltd, signed Magic Notes subscription agreement, signatures September 2–3, 2025; effective September 8. Order form pp1–2; general terms §§9, 14 and relevant buyer/service provisions. Complete PDF text parsed; screenshot attempts failed. Terms are summarized for the economic comparison, not a legal opinion on enforceability or later variations.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-116-0",
+      "source_url": "https://northnorthants.moderngov.co.uk/mgAi.aspx?ID=16520",
+      "claim": "NNC Health and Wellbeing Board, Digital Innovation in Adult's Services, item HWB/52, June 23, 2026. Original indexed minutes inspected, including the therapy-only 14% statement, funding/capacity context and decision to note the work. Full page unavailable. No underlying study dataset obtained.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-118-0",
+      "source_url": "https://www.cqc.org.uk/care-services/local-authority-assessment-reports/northnorthamptonshire-0326/theme4/learning",
+      "claim": "Care Quality Commission, NNC assessment: Learning, improvement and innovation, March 4, 2026. Original indexed passage on staff accounts of Magic Notes inspected. Not an independent causal estimate or validation of the later board percentage; full page unavailable.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-120-0",
+      "source_url": "https://www.northnorthants.gov.uk/service-privacy-notices/adult-social-care-quality-assurance-and-safeguarding-service-team-privacy",
+      "claim": "NNC, Adult social care, quality assurance and safeguarding privacy notice, updated July 7, 2026 as served. §5: consent, manual route, copying/editing and storage/transfer periods. Full text read; describes policy, not measured compliance on individual cases.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-122-0",
+      "source_url": "https://www.northnorthants.gov.uk/finance/budget",
+      "claim": "NNC, Budget, updated March 2, 2026. 2025/26 highlights and 2026/27 approval reference. Public operating-budget context only; no Magic Notes appropriation or payment-source allocation supplied.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-124-0",
+      "source_url": "https://www.northnorthants.gov.uk/finance/expenditure",
+      "claim": "NNC, Expenditure, monthly spending-file index inspected October 5, 2026. The linked October 2025 CSV failed retrieval, including the container download. No original transaction row is claimed read.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-124-1",
+      "source_url": "https://cms.northnorthants.gov.uk/media/17218/download",
+      "claim": "NNC, Expenditure, monthly spending-file index inspected October 5, 2026. The linked October 2025 CSV failed retrieval, including the container download. No original transaction row is claimed read.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-126-0",
+      "source_url": "https://govfiles.co.uk/suppliers/beam-up-ltd?page=3",
+      "claim": "Govfiles, Beam Up Ltd supplier-spending records, page 3, indexed excerpt accessed October 5, 2026. NNC entry dated October 3, 2025: £57,600, NASS Management Team / Professional Fees and Hired Services. Secondary transcription; invoice linkage, tax basis, reversals and completeness not independently established.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-128-0",
+      "source_url": "https://www.tendersignal.co.uk/tender/56184767",
+      "claim": "TenderSignal record 56184767 and Tenderline procedure record, indexed records accessed October 5, 2026; both identify FTS 088675-2026, published September 18. Value, term and broader scope are attributed records. Original FTS notice and new executed terms were not successfully retrieved. Aggregators may share one underlying source; agreement is not independent confirmation.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-128-1",
+      "source_url": "https://tenderline.uk/tenders/beam-talk-notes-intrepret-ocds-h6vhtk-0593b0",
+      "claim": "TenderSignal record 56184767 and Tenderline procedure record, indexed records accessed October 5, 2026; both identify FTS 088675-2026, published September 18. Value, term and broader scope are attributed records. Original FTS notice and new executed terms were not successfully retrieved. Aggregators may share one underlying source; agreement is not independent confirmation.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-128-2",
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/088675-2026",
+      "claim": "TenderSignal record 56184767 and Tenderline procedure record, indexed records accessed October 5, 2026; both identify FTS 088675-2026, published September 18. Value, term and broader scope are attributed records. Original FTS notice and new executed terms were not successfully retrieved. Aggregators may share one underlying source; agreement is not independent confirmation.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-130-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm",
+      "claim": "Klarna Group plc, final prospectus, Form 424B4, 2025 offering. Indexed original sections “Flexible and Low-Cost Base” and annual results of operations inspected: agency spending, centralization/AI interpretation, and 2023–2024 marketing expense. These describe earlier periods, not October 2026 spending.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-132-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm",
+      "claim": "Klarna Group plc, Form 20-F, year ended December 31, 2025, 2026 filing. Indexed original Business Overview, “Generative AI Enhances Our Productivity and Drives Increasing Efficiency,” including the $7m reduction, 37% attribution and $10m annual estimate. Full body exceeded the retrieval limit; no private underlying attribution work inspected.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-134-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2003292/000162828026038366/annualreport2025.htm",
+      "claim": "Klarna Group plc, 2025 Annual Report, SEC Exhibit 99.3, year ended December 31, 2025. Readable HTML text; income statement, management expense comparison and Note 2 pp92–95 used for commissions and cost definitions. Cash/funding sections provide context, not allocation of an AI invoice. Embedded page-image requests failed. Rounded disclosed values are preserved rather than silently forcing them to match separately rounded changes.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-136-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2003292/000162828026057573/q22026earningsrelease.htm",
+      "claim": "Klarna, Q2 2026 earnings release, filed SEC exhibit, August 18, 2026. Indexed original printed p17 expense/adjustment and operating-result reconciliations, with the publisher's rounding warning. Unaudited, company-wide; full-page and PDF retrieval failed. This is a new marketing use of the dated quarter, not rediscovery of the earlier demand investigation’s support expense.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-138-0",
+      "source_url": "https://investors.klarna.com/News--Events/news/news-details/2026/Klarna-Reports-Second-Quarter-2026-Results/default.aspx",
+      "claim": "Klarna, Second-quarter 2026 results, August 18, 2026. Original release's prospective third-quarter launch/marketing explanation, inspected in indexed text. Guidance is not an observed third-quarter expense or procurement result.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-140-0",
+      "source_url": "https://www.klarna.com/international/press/ai-helps-klarna-cut-marketing-agency-spend-by-25-and-run-more-campaigns/",
+      "claim": "Klarna's newsroom original May 28, 2024 marketing announcement was located through its index but its body required verification. Financial IT's June 4, 2024 reproduction was read for the workflow, cycle, quality/legal checks and annualized-versus-quarterly claims. Attributed company communication, not independent validation; not added to later filing estimates.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-140-1",
+      "source_url": "https://financialit.net/news/artificial-intelligence/ai-helps-klarna-cut-marketing-agency-spend-25-and-run-more-campaigns",
+      "claim": "Klarna's newsroom original May 28, 2024 marketing announcement was located through its index but its body required verification. Financial IT's June 4, 2024 reproduction was read for the workflow, cycle, quality/legal checks and annualized-versus-quarterly claims. Attributed company communication, not independent validation; not added to later filing estimates.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-012-142-0",
+      "source_url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/using-llms-to-manage-product-catalogs.html",
+      "claim": "Walmart Global Tech, Using LLMs to manage product catalogs, May 20, 2025. Original technical account inspected as a selection lead. It did not provide the matched procurement/renewal budget needed for the principal buyer case in this investigation. No catalog count or notional staffing multiple is used as a financial input.",
+      "accessed_at": "2026-10-05",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-109-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+      "claim": "Open the source. Cash flows and supplements; Notes 3–7 and 10; liquidity/investing discussion. The research inspected HTML and reconciled the relevant tables and narrative. Note 5 supplies the receivable/obligation match and collect-before-pay description; Note 10 supplies the commitment and acquisition boundaries. Consolidated accounts are not a Finance I completion certificate.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-110-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019dex992.htm",
+      "claim": "Open the source. Exhibit 99.2: portfolio, restructuring, sites, licensing, contributions/title/credits, remaining-site delay terms, completion support and table footnotes. Available HTML inspected by the research. Footnote 5 is the assumed 8.25% coupon; estimates and proposed terms do not establish later execution or current performance.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-111-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
+      "claim": "Open the source. Items 1.01–1.02: completed notes, proceeds, completion support and bridge repayment. The full separate completion-guarantee instrument and current claim/release records were not obtained. Completion support must not become a general guarantee of the notes.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-112-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435dex41.htm",
+      "claim": "Open the source. Exhibit 4.1. Section 1.01 definitions of Construction Period, Final Commencement, First Installment, Full Budgeted Cost, Debt Service Reserve Required Amount and Required Top-Up; sections 4.04–4.05 and 4.22–4.23; Article 14 and note form. Contractual design, not a current compliance certificate. The printed reserve expression is retained with its unclosed reconciliation.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-113-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000023/core-20260910.htm",
+      "claim": "Open the source. Form 8-K Item 7.01. The research inspected indexed original text; a direct full-page request failed. This is a furnished issuer account of Denton’s classification, not independently obtained utility consent, final interconnection certification or customer acceptance.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-114-0",
+      "source_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026028247",
+      "claim": "Open the source. Architectural Barriers Project Details: Core Scientific DTO – Building A Fit-out, registered August 19, 2026. Official indexed record read; direct opening failed. Planned dates, estimate and review status retain that status. Discovery pages did not establish actual commencement, completion or financed-phase allocation.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-115-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+      "claim": "Open the source. Original Form 10-K: liquidity, balance sheet, cash flow, GPU financing and Note 23. Specific indexed primary passages were inspected; full-page opening failed. June funded/unfunded amounts, restrictions and advance effects are not October cash or the financing borrower’s unrestricted resources.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-116-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm",
+      "claim": "Open the source. Form 8-K Item 1.01. Original HTML inspected. The dated supplier-payment summary must be read with the underlying agreement and amendments; it is not a later payment receipt.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-117-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000015/exhibit103-partnerstatem.htm",
+      "claim": "Open the source. Filed Exhibit 10.3: delivery/acceptance, section 3.2 fees, advances and end-date protection, remedies and Exhibit F. Available text inspected. Redacted quantities and periods are not filled with assumptions. Generic purchase-order termination does not override Exhibit F.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-118-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000015/exhibit104-purchaseagree.htm",
+      "claim": "Open the source. Filed Exhibit 10.4: delivery/title, invoicing/payment and amendment hierarchy. HTML inspected. Product delivery is not acceptance of the complete GPU service. Later referenced schedules that were not obtained are not reconstructed from boilerplate.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-119-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/a1037commontermsagreemen.htm",
+      "claim": "Open the source. Exhibit 10.37: sections 3.3(o)–(r), 5.21(c), 5.26, 7.1(p), 9.11 and definitions of Upfront Amount Utilization Conditions and Unencumbered Liquid Assets. Substantial indexed original passages inspected; full-page retrieval failed. The liquidity clause and definition were also checked in an identified filing reproduction. No current credit-event certificate, waiver, complete private model or additional cash source is inferred.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-120-0",
+      "source_url": "https://cdn.yahoofinance.com/prod/sec-filings/0001878848/000187884826000052/a1037commontermsagreemen.htm",
+      "claim": "Identified filing reproduction used for the liquidity clause and definition.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a37-pro-v02-research-011-121-0",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/a1036notepurchaseagreeme.htm",
+      "claim": "Open the source. Exhibit 10.36: escrow/release definitions, maturity and Schedule 3 escrow section 1(d). Indexed original passages inspected. Fee-letter illustrations do not supply a current SOFR rate or actual funded balance.",
+      "accessed_at": "2026-10-04",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
