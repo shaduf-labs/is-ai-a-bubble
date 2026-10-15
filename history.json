@@ -2,6 +2,28 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "customer-funding-and-repeat-investment-demand",
+      "status": "completed",
+      "started_at": "2026-10-15",
+      "completed_at": "2026-10-15",
+      "report_path": "/p/is-ai-a-bubble/research/customer-funding-and-repeat-investment-demand/",
+      "entrypoint": "research/customer-funding-and-repeat-investment-demand/index.html",
+      "title": "Who funds the next purchase?",
+      "summary": "Cash is arriving and the current build was funded. NVIDIA’s customer-account bridge, Meta’s matched quarterly uses and CoreWeave’s financing and working-capital account show what another purchase would need.",
+      "answer_change": "meaningful_change"
+    },
+    {
+      "run_id": "ownership-prices-and-accumulated-economics",
+      "status": "completed",
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "report_path": "/p/is-ai-a-bubble/research/ownership-prices-and-accumulated-economics/",
+      "entrypoint": "research/ownership-prices-and-accumulated-economics/index.html",
+      "title": "Profitable businesses can support demanding prices—but not cost-free growth",
+      "summary": "NVIDIA’s scale and duration requirements contrast with Freshworks’ cost-conversion task. Dated claims, paid renewal and future compensation produce plausible paths without establishing either selected security as a bubble.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "pro-v02-research-014",
       "status": "completed",
       "started_at": "2026-10-08",

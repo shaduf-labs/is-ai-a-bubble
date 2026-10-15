@@ -107,3 +107,7 @@ body[data-kind="home"] .transition-layer{left:0;right:0}
 .wordmark-name{display:block}.wordmark-preview{display:block;margin-top:3px;font:11px/1.2 var(--ui);letter-spacing:.02em;color:var(--muted);white-space:nowrap}
 
 .pool-video{margin:0 0 2rem;padding:1.2rem;border:1px solid var(--line,#deded8);border-radius:12px}.pool-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;margin:1rem 0;border-radius:8px;background:#f8f8f4}.pool-video figcaption,.pool-video p,.pool-video summary{font:14px/1.6 var(--ui,sans-serif)}.pool-video p{margin:.7rem 0}.pool-video figcaption strong{font-size:18px}.pool-video summary{cursor:pointer}.pool-video a{text-decoration:underline}
+/* This legacy pool menu duplicates the platform page tree and resolves report
+   links against the wrong directory. Preserve sealed research bytes; expose
+   only the working platform navigation, including its mobile drawer. */
+body[data-pool-id="pool_ai_model_degradation_watch"] .agent-document > nav:has(> .navlinks){display:none}

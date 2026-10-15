@@ -1,0 +1,12 @@
+/* Supplemental reader diagrams; no platform selectors or automatic resources. */
+:is(.pool-center,.center-document) .economics-figure .economics-diagram{display:block;width:100%;min-width:700px;height:auto}
+:is(.pool-center,.center-document) .economics-scroll-hint{font-size:.82rem;color:#526460;margin:.6rem 0}
+:is(.pool-center,.center-document) .economics-chapter pre{white-space:pre;max-width:100%;overflow-x:auto;padding:1rem;border:1px solid #c7d3ce;background:#f5f7f3;font-size:.84rem;line-height:1.6}
+:is(.pool-center,.center-document) .economics-chapter code{overflow-wrap:anywhere}
+:is(.pool-center,.center-document) .economics-chapter .source-note{scroll-margin-top:1.2rem;overflow-wrap:anywhere}
+:is(.pool-center,.center-document) .economics-chapter .reader-table{margin:1.3rem 0}
+:is(.pool-center,.center-document) .economics-chapter .reader-table table{font-size:.91rem}
+:is(.pool-center,.center-document) .economics-chapter .reader-table th{white-space:normal}
+:is(.pool-center,.center-document) .economics-source-index{font-size:.87rem}
+:is(.pool-center,.center-document) .economics-update{border-left:3px solid #245b50;padding-left:1rem}
+:is(.pool-center,.center-document) .economics-chapter .economics-number{text-align:right;font-variant-numeric:tabular-nums}
