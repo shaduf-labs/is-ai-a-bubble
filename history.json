@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "substitution-and-supplier-returns",
+      "status": "completed",
+      "started_at": "2026-10-16",
+      "completed_at": "2026-10-16",
+      "report_path": "/p/is-ai-a-bubble/research/substitution-and-supplier-returns/",
+      "entrypoint": "research/substitution-and-supplier-returns/index.html",
+      "title": "The workload can move before the bill falls",
+      "summary": "Deployed alternatives make useful competition concrete. Contract timing, waiting and whole paid replicas show when a buyer can retain a saving; supplier investment distinguishes the cloud receipt from the next chip sale.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "customer-funding-and-repeat-investment-demand",
       "status": "completed",
       "started_at": "2026-10-15",

@@ -3,6 +3,19 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "substitution-and-supplier-returns",
+      "slug": "substitution-and-supplier-returns",
+      "title": "The workload can move before the bill falls",
+      "route": "/p/is-ai-a-bubble/research/substitution-and-supplier-returns/",
+      "file": "research/substitution-and-supplier-returns/index.html",
+      "csv_file": "assets/substitution-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-10-16",
+      "summary": "Deployed alternatives make useful competition concrete. Contract timing, waiting and whole paid replicas show when a buyer can retain a saving; supplier investment distinguishes the cloud receipt from the next chip sale.",
+      "current_notice": "October 16 retrieval boundary; December 2024 and May 2026 deployments retain their dates. The contract horizon and replica fleet are conditional. Private invoices, acceptance and migration costs remain unobserved. The AWS residual is unallocated, not a loss; cloud price reductions do not measure NVIDIA margins."
+    },
+    {
       "id": "customer-funding-and-repeat-investment-demand",
       "slug": "customer-funding-and-repeat-investment-demand",
       "title": "Who funds the next purchase?",
