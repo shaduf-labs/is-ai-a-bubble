@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "recurring-business-and-owner-cash",
+      "status": "completed",
+      "started_at": "2026-10-17",
+      "completed_at": "2026-10-17",
+      "report_path": "/p/is-ai-a-bubble/research/recurring-business-and-owner-cash/",
+      "entrypoint": "research/recurring-business-and-owner-cash/index.html",
+      "title": "Recurring customers can finance better owner conversion—but not every buyback",
+      "summary": "Annual operating progress, paid selling and renewal, and actual ownership contraction strengthen a recurring-franchise case. The joined cash and gross-claim account shows why the latest half-year does not establish a sustainable continuing-owner result.",
+      "answer_change": "meaningful_change"
+    },
+    {
       "run_id": "substitution-and-supplier-returns",
       "status": "completed",
       "started_at": "2026-10-16",

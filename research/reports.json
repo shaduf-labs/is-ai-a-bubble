@@ -3,6 +3,19 @@
   "collection_id": "research-record",
   "reports": [
     {
+      "id": "recurring-business-and-owner-cash",
+      "slug": "recurring-business-and-owner-cash",
+      "title": "Recurring customers can finance better owner conversion—but not every buyback",
+      "route": "/p/is-ai-a-bubble/research/recurring-business-and-owner-cash/",
+      "file": "research/recurring-business-and-owner-cash/index.html",
+      "csv_file": "assets/owner-cash-data.csv",
+      "topic": "Is AI a Bubble?",
+      "question": "Is AI a Bubble?",
+      "evidence_checked_on": "2026-10-17",
+      "summary": "Annual operating progress, paid selling and renewal, and actual ownership contraction strengthen a recurring-franchise case. The joined cash and gross-claim account shows why the latest half-year does not establish a sustainable continuing-owner result.",
+      "current_notice": "October 17 retrieval boundary; Freshworks annual and matched half-year windows remain distinct. Gross units are not fair-valued fully diluted capitalization. Cash requirements use historical prices and explicit acquisition, portfolio-interest, tax and reserve boundaries. Three Salesforce interim observations are indexed-only, not the annual main contrast or a full current account."
+    },
+    {
       "id": "substitution-and-supplier-returns",
       "slug": "substitution-and-supplier-returns",
       "title": "The workload can move before the bill falls",
